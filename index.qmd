@@ -3,3 +3,5 @@ title: "PROJ_ecod_website.github.io"
 ---
 
 This will be for ecod seminar
+
+So what hppends i make typo
