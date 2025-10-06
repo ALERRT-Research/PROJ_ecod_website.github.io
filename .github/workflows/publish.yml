@@ -34,6 +34,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-          - name: Install R packages
+      - name: Install R packages
   run: |
     install.packages(c("yaml", "rmarkdown", "knitr"), repos = "https://cran.rstudio.com/")
