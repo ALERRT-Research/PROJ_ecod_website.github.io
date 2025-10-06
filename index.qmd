@@ -1,5 +1,5 @@
 ---
-title: "PROJ_ecod_website.github.io"
+title: "Ecological Dynamics Seminar HUB"
 ---
 
-This will be for ecod seminar
+This site will serve as the main resource hub for past, current, and future ecological dynamics seminars hosted by the ALERRT Center in San Marcos, Texas.
