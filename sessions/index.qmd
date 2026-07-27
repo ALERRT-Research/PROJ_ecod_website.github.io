@@ -9,7 +9,7 @@ listing:
   fields: [title, description, author, categories]
 ---
 
-[2026 lineup / Single track / Dec 4-5]{.eyebrow}
+[2026 lineup / Dec 4-5]{.eyebrow}
 
 The 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.
 

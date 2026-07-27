@@ -5,7 +5,7 @@ description: "About the Training Design Workshop and the ALERRT Center at Texas 
 
 ## The workshop
 
-The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.
+The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions.
 
 The workshop grew out of the ALERRT Center's ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there.
 

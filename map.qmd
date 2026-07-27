@@ -95,8 +95,14 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
           var city = (r[idx.city] || "").trim();
           var state = (r[idx.state] || "").trim();
           var key = city + "|" + state + "|" + lat.toFixed(2) + "," + lng.toFixed(2);
-          if (!groups[key]) groups[key] = { lat: lat, lng: lng, city: city, state: state, roles: {} };
+          if (!groups[key]) groups[key] = { lat: lat, lng: lng, city: city, state: state, roles: {}, presenters: [] };
           groups[key].roles[role] = (groups[key].roles[role] || 0) + 1;
+          if (role === "presenter") {
+            groups[key].presenters.push({
+              name: idx.name !== undefined ? (r[idx.name] || "").trim() : "",
+              affiliation: idx.affiliation !== undefined ? (r[idx.affiliation] || "").trim() : ""
+            });
+          }
           total++;
           if (state) states[state.toUpperCase()] = true;
         });
@@ -108,10 +114,33 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
           var count = Object.values(g.roles).reduce(function (a, b) { return a + b; }, 0);
           var topRole = Object.keys(g.roles).sort(function (a, b) { return ROLE_RANK[a] - ROLE_RANK[b]; })[0];
           var place = g.city ? g.city + (g.state ? ", " + g.state : "") : "Location";
+
+          // Presenters are named; attendees and staff stay anonymous counts
+          var named = g.presenters.filter(function (p) { return p.name; });
           var lines = Object.keys(g.roles).map(function (role) {
             var n = g.roles[role];
+            if (role === "presenter") {
+              n -= named.length;
+              if (n <= 0) return null;
+            }
             return n + " " + role + (n > 1 ? "s" : "");
-          });
+          }).filter(Boolean);
+
+          var tip, popup = "<strong>" + esc(place) + "</strong>";
+          if (named.length) {
+            var names = named.map(function (p) { return p.name; }).join(", ");
+            var others = count - named.length;
+            tip = esc(names) + " · " + esc(place) + (others > 0 ? " · +" + others : "");
+            named.forEach(function (p) {
+              popup += "<br>" + esc(p.name) +
+                (p.affiliation ? " (" + esc(p.affiliation) + ")" : "") + ", presenter";
+            });
+            if (lines.length) popup += "<br>" + esc(lines.join(", "));
+          } else {
+            tip = esc(place) + " · " + count;
+            popup += "<br>" + esc(lines.join(", "));
+          }
+
           L.circleMarker([g.lat, g.lng], {
             radius: 7 + 2.5 * Math.sqrt(count - 1),
             color: "#ffffff",
@@ -119,8 +148,8 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
             fillColor: COLORS[topRole],
             fillOpacity: 0.9
           }).addTo(map)
-            .bindTooltip(esc(place) + " · " + count)
-            .bindPopup("<strong>" + esc(place) + "</strong><br>" + esc(lines.join(", ")));
+            .bindTooltip(tip)
+            .bindPopup(popup);
           bounds.push([g.lat, g.lng]);
         });
 
@@ -151,5 +180,5 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
 ```
 
 ::: {.note-panel}
-**For the workshop team:** the map reads from `data/attendees.csv` in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Names and affiliations are optional and appear nowhere on the map unless you want them to.
+**For the workshop team:** the map reads from `data/attendees.csv` in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. **Presenters are named on the map** (hover over their dot), so fill in the name and affiliation columns for presenter rows. Attendee and staff names are never shown; those dots display counts only.
 :::

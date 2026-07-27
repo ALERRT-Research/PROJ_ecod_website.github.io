@@ -61,10 +61,12 @@ h2::after {
 
 .navbar {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
 }
+
+.navbar .nav-link { white-space: nowrap; }
 
 .navbar-title {
   font-weight: 700;

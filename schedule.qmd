@@ -4,7 +4,7 @@ description: "Day-by-day outline for the 2026 Training Design Workshop, December
 toc: false
 ---
 
-[03-06 Dec 2026 / Single track / All sessions at TBarM]{.eyebrow}
+[03-06 Dec 2026 / All sessions at TBarM]{.eyebrow}
 
 The full session lineup will be posted on the [sessions page](sessions/index.qmd) once the 2026 program is finalized. The shape of the week is already set.
 
@@ -21,7 +21,7 @@ Check in at TBarM through the afternoon. The workshop opens with dinner, introdu
 
 ### Session day one
 
-A full day of 50-minute sessions, single track. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.
+A full day of 50-minute sessions. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.
 :::
 
 ::: {.day-block}

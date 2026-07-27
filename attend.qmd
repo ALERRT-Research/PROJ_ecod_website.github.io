@@ -33,4 +33,4 @@ A few practical notes:
 
 ## The rhythm of the week
 
-Arrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, single track, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the [schedule](schedule.qmd) for the day-by-day outline.
+Arrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the [schedule](schedule.qmd) for the day-by-day outline.

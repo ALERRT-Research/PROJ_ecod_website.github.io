@@ -17,7 +17,7 @@ Slots are limited, and selection is worth the effort: selected presenters have t
 
 ## The session format
 
-Every session is 50 minutes, single track, in front of the whole room:
+Every session is 50 minutes, in front of the whole room:
 
 1. **Hands-on demonstration (~25 min).** Run your method live. Attendees participate or observe up close.
 2. **What and why (~15 min).** Explain the method, the reasoning behind it, and the evidence or experience it rests on.

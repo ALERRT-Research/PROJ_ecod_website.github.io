@@ -24,12 +24,12 @@ website:
         href: map.qmd
       - text: "FAQ"
         href: faq.qmd
+      - text: "Resources"
+        href: resources/index.qmd
       - text: "Archive"
         menu:
           - text: "Photos"
             href: photos.qmd
-          - text: "Resources"
-            href: resources/index.qmd
           - text: "Past Workshops"
             href: past/index.qmd
       - text: "About"
