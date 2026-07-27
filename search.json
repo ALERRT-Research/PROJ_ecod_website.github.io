@@ -1,16 +1,233 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Who’s Coming",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Updated as registrations come in\nSixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year’s presenters and attendees are traveling from. It grows as registrations come in, so check back.\n\nLoading registrations…\n\n\n\n\n\nPresenter Attendee Staff TBarM Resort (venue)\n\n\n\nFor the workshop team: the map reads from data/attendees.csv in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Names and affiliations are optional and appear nowhere on the map unless you want them to."
+  },
+  {
+    "objectID": "past/index.html",
+    "href": "past/index.html",
+    "title": "Past Workshops",
+    "section": "",
+    "text": "The archive grows by one room per year\nEach year of the workshop, and the ecological dynamics seminars that preceded it, gets an archive page here: a short recap, photos, and the materials that came out of it. We are assembling the archive now; past years will appear as they are compiled.\nIf you attended a past seminar and have photos or materials worth keeping, send them to sd33@txstate.edu.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ecological Dynamics Seminar HUB",
+    "title": "\nThe Training DesignWorkshop 2026\n",
     "section": "",
-    "text": "This site will serve as the main resource hub for past, current, and future ecological dynamics seminars hosted by the ALERRT Center in San Marcos, Texas."
+    "text": "ALERRT Center / Texas State University\n\n\nA small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.\n\n\n\nDates03-06 Dec 2026\n\n\nLocationTBarM Resort, New Braunfels TX\n\n\nSeats~60\n\n\nFormatSingle track\n\n\n\nPlan your attendance See who’s coming"
+  },
+  {
+    "objectID": "index.html#not-a-lecture-hall",
+    "href": "index.html#not-a-lecture-hall",
+    "title": "\nThe Training DesignWorkshop 2026\n",
+    "section": "Not a lecture hall",
+    "text": "Not a lecture hall\nThe audience is a mix of working trainers, tactical practitioners, and training-science researchers. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.\n\n\nWatch\nEvery session opens with a hands-on demonstration. Presenters run their method live, with attendees on the mat or close enough to see the details.\n\n\nAsk\nHard questions are the point. Presenters explain what they do and why, then the room pushes on the evidence, the trade-offs, and the edge cases.\n\n\nTake home\nThe goal for every attendee is the same: leave with something you can use in your next training cycle."
+  },
+  {
+    "objectID": "index.html#how-a-session-runs",
+    "href": "index.html#how-a-session-runs",
+    "title": "\nThe Training DesignWorkshop 2026\n",
+    "section": "How a session runs",
+    "text": "How a session runs\nEvery session is 50 minutes, and the clock favors the mat.\n\n\n25 min Hands-on demonstration\n\n\n15 min What and why\n\n\n10 min Audience input\n\n\nOne 50-minute block, single track, no live fire. Sims, scenarios, and mat work."
+  },
+  {
+    "objectID": "index.html#key-dates",
+    "href": "index.html#key-dates",
+    "title": "\nThe Training DesignWorkshop 2026\n",
+    "section": "Key dates",
+    "text": "Key dates\n\n\n05 Jun 2026Presentation proposals dueClosed\n\n\n~12 Jun 2026Presenter notifications sentDone\n\n\nNowRegistration open, $695 room and boardOpen\n\n\n03 Dec 2026Arrival and dinner at TBarMUpcoming\n\n\n04-05 Dec 2026Full session daysUpcoming\n\n\n06 Dec 2026Breakfast, wrap-up, checkoutUpcoming"
+  },
+  {
+    "objectID": "index.html#around-the-workshop",
+    "href": "index.html#around-the-workshop",
+    "title": "\nThe Training DesignWorkshop 2026\n",
+    "section": "Around the workshop",
+    "text": "Around the workshop\n\nWho's comingA live map of where this year's presenters and attendees are traveling from.\nResourcesWhite papers, slides, and readings shared by presenters, past and present.\nPhotosScenes from the mat, the scenarios, and the debriefs."
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Materials from the workshop and its presenters\nThe workshop exists so people go home with something useful. This page is where the useful things live: white papers and publications that come out of the workshop, presenters’ slides and handouts, and readings that presenters want the room to have.\nPresenters: to share materials here, email them (or a link) to sd33@txstate.edu.\n\n\n\n\n\n\n\n\n\nWhat lives on this page\n\n\n\nAnnouncement\n\n\n\nHow workshop materials get posted, and what to expect here.\n\n\n\n\n\nJul 24, 2026\n\n\nWorkshop team\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "attend.html",
+    "href": "attend.html",
+    "title": "Attend",
+    "section": "",
+    "text": "03-06 Dec 2026 / TBarM Resort, New Braunfels TX\nThe workshop is capped at roughly 60 people: working trainers, tactical practitioners, and training-science researchers. If you train law enforcement or tactical professionals, or study how that training works, this room is for you."
+  },
+  {
+    "objectID": "attend.html#what-it-costs",
+    "href": "attend.html#what-it-costs",
+    "title": "Attend",
+    "section": "What it costs",
+    "text": "What it costs\nAttending costs $695, which covers your room and board at TBarM Resort for three nights (December 3, 4, and 5) plus all meals from dinner on December 3 through breakfast on December 6. Travel to and from New Braunfels is on you.\nSelected presenters attend at no cost: conference fee waived, room and board covered, and travel arranged and paid by the workshop. One presenter per session is covered; co-presenters are welcome at their own cost."
+  },
+  {
+    "objectID": "attend.html#how-to-register",
+    "href": "attend.html#how-to-register",
+    "title": "Attend",
+    "section": "How to register",
+    "text": "How to register\nTo register, email Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information.\n\nSeats are limited and the room fills with a mix of roles on purpose, so register early."
+  },
+  {
+    "objectID": "attend.html#the-venue",
+    "href": "attend.html#the-venue",
+    "title": "Attend",
+    "section": "The venue",
+    "text": "The venue\nTBarM Resort sits on the Guadalupe River in New Braunfels, Texas, between San Antonio and Austin in the Hill Country. Sessions, meals, and lodging are all on site, which is part of the design: the conversations that start on the mat keep going at dinner.\nA few practical notes:\n\nNo live-fire range. Demonstrations use sims, scenarios, and mat work.\nAirports. San Antonio International (SAT) and Austin-Bergstrom (AUS) are both within about an hour’s drive. Rental car or rideshare from either works.\nWeather. Early December in the Hill Country is usually mild, roughly 40s to 60s Fahrenheit, but pack a layer for cool mornings."
+  },
+  {
+    "objectID": "attend.html#the-rhythm-of-the-week",
+    "href": "attend.html#the-rhythm-of-the-week",
+    "title": "Attend",
+    "section": "The rhythm of the week",
+    "text": "The rhythm of the week\nArrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, single track, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the schedule for the day-by-day outline."
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Answers to the questions we get most"
+  },
+  {
+    "objectID": "faq.html#attending",
+    "href": "faq.html#attending",
+    "title": "FAQ",
+    "section": "Attending",
+    "text": "Attending\n\nWho is the workshop for?\nPeople who train law enforcement and tactical professionals, and people who study that training. The room is a deliberate mix: working trainers, tactical practitioners, and training-science researchers, about 60 in total. You do not need to be sworn law enforcement to attend.\n\n\nHow much does it cost, and what does that include?\nAttending costs $695, which covers your room at TBarM Resort for three nights (December 3, 4, and 5) and all meals from dinner Thursday through breakfast Sunday. Travel is on you. Selected presenters attend at no cost, with travel covered.\n\n\nHow do I register?\nEmail Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information. Seats are limited, so register early. Details are on the attend page.\n\n\nHow do I get to TBarM?\nTBarM Resort is in New Braunfels, Texas, between San Antonio and Austin. San Antonio International (SAT) and Austin-Bergstrom (AUS) are both within about an hour’s drive; rent a car or use rideshare from either. Everything during the workshop, including sessions, meals, and lodging, is on site, so you will not need a car once you arrive.\n\n\nWhat should I bring?\nSessions are hands-on, and most include an active participant role. Bring clothes you can move in. Early December in the Hill Country is usually mild, but pack a layer for cool mornings.\n\n\nIs there live fire?\nNo. TBarM has no live-fire range. Demonstrations use sims, scenarios, and mat work."
+  },
+  {
+    "objectID": "faq.html#presenting",
+    "href": "faq.html#presenting",
+    "title": "FAQ",
+    "section": "Presenting",
+    "text": "Presenting\n\nHow do I get a presentation slot?\nThrough the annual call for presentations, usually posted in the spring with proposals due in early June. The present page has the full requirements and a copy of the most recent call. Selected presenters have their conference fee, room, board, and travel covered.\n\n\nCan I bring a co-presenter?\nYes. One presenter per session is covered by the workshop; co-presenters are welcome at their own cost.\n\n\nDo I have to subscribe to a particular training philosophy?\nNo. No particular theoretical school is required. What matters is that you can show your method live and explain why you do it that way."
+  },
+  {
+    "objectID": "faq.html#materials",
+    "href": "faq.html#materials",
+    "title": "FAQ",
+    "section": "Materials",
+    "text": "Materials\n\nWhere do slides, white papers, and readings live?\nOn the resources page. Presenters who want the room to keep their materials email them to sd33@txstate.edu and they get posted there.\n\n\nWill photos from the workshop be available?\nYes, on the photos page after the workshop. If you have shots from past years, send them in."
+  },
+  {
+    "objectID": "faq.html#something-else",
+    "href": "faq.html#something-else",
+    "title": "FAQ",
+    "section": "Something else?",
+    "text": "Something else?\nEmail sd33@txstate.edu. Every question about the workshop goes to the same place."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+  },
+  {
+    "objectID": "about.html#the-workshop",
+    "href": "about.html#the-workshop",
+    "title": "About",
+    "section": "",
+    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+  },
+  {
+    "objectID": "about.html#the-host",
+    "href": "about.html#the-host",
+    "title": "About",
+    "section": "The host",
+    "text": "The host\nThe workshop is hosted by the ALERRT Center (Advanced Law Enforcement Rapid Response Training) at Texas State University in San Marcos, Texas. ALERRT was created in 2002 and serves as the national standard in active shooter response training, alongside an active research program on law enforcement training and performance."
+  },
+  {
+    "objectID": "about.html#the-venue",
+    "href": "about.html#the-venue",
+    "title": "About",
+    "section": "The venue",
+    "text": "The venue\nThe workshop is held at TBarM Resort in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the attend page for cost and travel details."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nQuestions about the workshop, registration, proposals, or materials all go to Sarah E. Drennan at sd33@txstate.edu."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "03-06 Dec 2026 / Single track / All sessions at TBarM\nThe full session lineup will be posted on the sessions page once the 2026 program is finalized. The shape of the week is already set.\n\nThursday, 03 Dec\n\nArrival\nCheck in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.\n\n\n\nFriday, 04 Dec\n\nSession day one\nA full day of 50-minute sessions, single track. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.\n\n\n\nSaturday, 05 Dec\n\nSession day two\nA second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.\n\n\n\nSunday, 06 Dec\n\nWrap-up\nBreakfast, an informal wrap-up of what the room is taking home, and checkout.\n\n\n\nPresenting this year? Send your session title, a short description, and any materials you want attendees to have to sd33@txstate.edu. Materials get posted to the resources page, and your session will be listed here."
+  },
+  {
+    "objectID": "resources/posts/welcome/index.html",
+    "href": "resources/posts/welcome/index.html",
+    "title": "What lives on this page",
+    "section": "",
+    "text": "As the 2026 workshop comes together, this page will fill with three kinds of material:\n\nWhite papers and publications that come out of the workshop or the ALERRT Center’s related research.\nSession materials: slides, handouts, drill sheets, and scenario templates from presenters who want the room to keep them.\nReadings that presenters recommend before or after their sessions.\n\nEverything posted here is meant to be used. Take it back to your agency, adapt it, and tell us how it went.\nPresenters: email your materials or links to sd33@txstate.edu and we will post them with your session."
+  },
+  {
+    "objectID": "sessions/index.html",
+    "href": "sessions/index.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "2026 lineup / Single track / Dec 4-5\nThe 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.\nUntil then, the schedule has the shape of the week, and the call for presentations explains how sessions are selected.\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "call-for-presentations.html",
+    "href": "call-for-presentations.html",
+    "title": "Call for Presentations",
+    "section": "",
+    "text": "2026 submission window closed 05 Jun 2026"
+  },
+  {
+    "objectID": "call-for-presentations.html#what-we-look-for",
+    "href": "call-for-presentations.html#what-we-look-for",
+    "title": "Call for Presentations",
+    "section": "What we look for",
+    "text": "What we look for\nAny aspect of law enforcement or tactical training methodology: scenario design, decision-making under stress, integrated response, use of force, debrief and feedback, fitness and readiness, skill transfer, instructor development, or anything else interesting you are doing. No particular theoretical school is required. What matters is that you can show the method and explain why you do it that way.\nSlots are limited, and selection is worth the effort: selected presenters have their conference fee, room, board, and travel covered."
+  },
+  {
+    "objectID": "call-for-presentations.html#the-session-format",
+    "href": "call-for-presentations.html#the-session-format",
+    "title": "Call for Presentations",
+    "section": "The session format",
+    "text": "The session format\nEvery session is 50 minutes, single track, in front of the whole room:\n\nHands-on demonstration (~25 min). Run your method live. Attendees participate or observe up close.\nWhat and why (~15 min). Explain the method, the reasoning behind it, and the evidence or experience it rests on.\nAudience input and Q&A (~10 min). The room pushes back, asks questions, and offers alternatives.\n\nTBarM has no live-fire range. Sims, scenarios, and mat work are all fine."
+  },
+  {
+    "objectID": "call-for-presentations.html#what-a-proposal-includes",
+    "href": "call-for-presentations.html#what-a-proposal-includes",
+    "title": "Call for Presentations",
+    "section": "What a proposal includes",
+    "text": "What a proposal includes\nProposals are a single Word or PDF document with:\n\nSession title\nLead presenter: name, agency or affiliation, email, phone, and a 100-word bio\nCo-presenter(s), if any, with the same fields\nAbstract (400 words or fewer): what you will demonstrate, what you will explain, and what attendees take away\nDemonstration plan (300 words or fewer): what the demo looks like, the active vs. observer split, equipment and space needs, and safety\nRationale (300 words or fewer): why this method, plus your experience, evidence, and the trade-offs\nLogistical needs, itemized: equipment, props, AV, space, and setup time\nPrior delivery: have you taught this before, and where?"
+  },
+  {
+    "objectID": "call-for-presentations.html#if-selected",
+    "href": "call-for-presentations.html#if-selected",
+    "title": "Call for Presentations",
+    "section": "If selected",
+    "text": "If selected\nYour conference fee is waived, your room and board at TBarM are covered for three nights (December 3, 4, and 5), and your travel is arranged and paid by the workshop. One presenter per session is covered; co-presenters are welcome at their own cost. If not selected, attending costs $695 plus travel, like everyone else."
+  },
+  {
+    "objectID": "call-for-presentations.html#how-to-submit",
+    "href": "call-for-presentations.html#how-to-submit",
+    "title": "Call for Presentations",
+    "section": "How to submit",
+    "text": "How to submit\nEmail your document to Sarah E. Drennan at sd33@txstate.edu with the subject line Training Design Workshop RFP - [Lead Presenter Last Name]. Questions go to the same address."
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photos",
+    "section": "",
+    "text": "From the mat, the scenarios, and the debriefs\nPhotos from the workshop will be posted here. Check back after December, or send us your shots from past years at sd33@txstate.edu.\n\nFor the workshop team: drop image files into images/gallery/ in the site repository and commit. The grid above rebuilds itself automatically, no editing required."
   }
 ]

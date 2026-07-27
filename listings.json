@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/past/index.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/index.html",
+    "items": [
+      "/resources/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/sessions/index.html",
+    "items": []
+  }
+]
