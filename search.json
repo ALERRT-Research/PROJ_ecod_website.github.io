@@ -4,7 +4,7 @@
     "href": "map.html",
     "title": "Who’s Coming",
     "section": "",
-    "text": "Updated as registrations come in\nSixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year’s presenters and attendees are traveling from. It grows as registrations come in, so check back.\n\nLoading registrations…\n\n\n\n\n\nPresenter Attendee Staff TBarM Resort (venue)\n\n\n\nFor the workshop team: the map reads from data/attendees.csv in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Names and affiliations are optional and appear nowhere on the map unless you want them to."
+    "text": "Updated as registrations come in\nSixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year’s presenters and attendees are traveling from. It grows as registrations come in, so check back.\n\nLoading registrations…\n\n\n\n\n\nPresenter Attendee Staff TBarM Resort (venue)\n\n\n\nFor the workshop team: the map reads from data/attendees.csv in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Presenters are named on the map (hover over their dot), so fill in the name and affiliation columns for presenter rows. Attendee and staff names are never shown; those dots display counts only."
   },
   {
     "objectID": "past/index.html",
@@ -88,7 +88,7 @@
     "href": "attend.html#the-rhythm-of-the-week",
     "title": "Attend",
     "section": "The rhythm of the week",
-    "text": "The rhythm of the week\nArrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, single track, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the schedule for the day-by-day outline."
+    "text": "The rhythm of the week\nArrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the schedule for the day-by-day outline."
   },
   {
     "objectID": "faq.html",
@@ -130,14 +130,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
   },
   {
     "objectID": "about.html#the-workshop",
     "href": "about.html#the-workshop",
     "title": "About",
     "section": "",
-    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
   },
   {
     "objectID": "about.html#the-host",
@@ -165,7 +165,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "03-06 Dec 2026 / Single track / All sessions at TBarM\nThe full session lineup will be posted on the sessions page once the 2026 program is finalized. The shape of the week is already set.\n\nThursday, 03 Dec\n\nArrival\nCheck in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.\n\n\n\nFriday, 04 Dec\n\nSession day one\nA full day of 50-minute sessions, single track. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.\n\n\n\nSaturday, 05 Dec\n\nSession day two\nA second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.\n\n\n\nSunday, 06 Dec\n\nWrap-up\nBreakfast, an informal wrap-up of what the room is taking home, and checkout.\n\n\n\nPresenting this year? Send your session title, a short description, and any materials you want attendees to have to sd33@txstate.edu. Materials get posted to the resources page, and your session will be listed here."
+    "text": "03-06 Dec 2026 / All sessions at TBarM\nThe full session lineup will be posted on the sessions page once the 2026 program is finalized. The shape of the week is already set.\n\nThursday, 03 Dec\n\nArrival\nCheck in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.\n\n\n\nFriday, 04 Dec\n\nSession day one\nA full day of 50-minute sessions. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.\n\n\n\nSaturday, 05 Dec\n\nSession day two\nA second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.\n\n\n\nSunday, 06 Dec\n\nWrap-up\nBreakfast, an informal wrap-up of what the room is taking home, and checkout.\n\n\n\nPresenting this year? Send your session title, a short description, and any materials you want attendees to have to sd33@txstate.edu. Materials get posted to the resources page, and your session will be listed here."
   },
   {
     "objectID": "resources/posts/welcome/index.html",
@@ -179,7 +179,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "2026 lineup / Single track / Dec 4-5\nThe 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.\nUntil then, the schedule has the shape of the week, and the call for presentations explains how sessions are selected.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "2026 lineup / Dec 4-5\nThe 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.\nUntil then, the schedule has the shape of the week, and the call for presentations explains how sessions are selected.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "call-for-presentations.html",
@@ -200,7 +200,7 @@
     "href": "call-for-presentations.html#the-session-format",
     "title": "Call for Presentations",
     "section": "The session format",
-    "text": "The session format\nEvery session is 50 minutes, single track, in front of the whole room:\n\nHands-on demonstration (~25 min). Run your method live. Attendees participate or observe up close.\nWhat and why (~15 min). Explain the method, the reasoning behind it, and the evidence or experience it rests on.\nAudience input and Q&A (~10 min). The room pushes back, asks questions, and offers alternatives.\n\nTBarM has no live-fire range. Sims, scenarios, and mat work are all fine."
+    "text": "The session format\nEvery session is 50 minutes, in front of the whole room:\n\nHands-on demonstration (~25 min). Run your method live. Attendees participate or observe up close.\nWhat and why (~15 min). Explain the method, the reasoning behind it, and the evidence or experience it rests on.\nAudience input and Q&A (~10 min). The room pushes back, asks questions, and offers alternatives.\n\nTBarM has no live-fire range. Sims, scenarios, and mat work are all fine."
   },
   {
     "objectID": "call-for-presentations.html#what-a-proposal-includes",
