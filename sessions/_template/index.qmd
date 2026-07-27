@@ -1,0 +1,28 @@
+---
+# TEMPLATE: copy this folder to sessions/posts/<short-session-name>/ and fill it in.
+# Folders starting with _ are not rendered, so this template never appears on the site.
+title: "Session title here"
+description: "One sentence: what this session demonstrates."
+author: "Presenter Name, Agency or Affiliation"
+date: 2026-12-04
+categories: [Scenario design]
+---
+
+[Friday 04 Dec / Session N]{.eyebrow}
+
+## What you'll see
+
+Two or three sentences describing the hands-on demonstration: what happens on the mat, and what the active vs. observer split looks like.
+
+## Why this method
+
+A short version of the presenter's rationale: the experience or evidence behind the method, and the trade-offs they will discuss.
+
+## About the presenter
+
+The presenter's 100-word bio from their proposal.
+
+## Materials
+
+- [Slides (PDF)](#) <!-- put files in this folder and link them here -->
+- [Handout (PDF)](#)

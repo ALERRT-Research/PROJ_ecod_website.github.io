@@ -1,0 +1,16 @@
+---
+title: "Past Workshops"
+description: "Archives from previous years: recaps, photos, and materials."
+toc: false
+listing:
+  contents: "20*/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [title, description, date]
+---
+
+[The archive grows by one room per year]{.eyebrow}
+
+Each year of the workshop, and the ecological dynamics seminars that preceded it, gets an archive page here: a short recap, photos, and the materials that came out of it. We are assembling the archive now; past years will appear as they are compiled.
+
+If you attended a past seminar and have photos or materials worth keeping, send them to [sd33@txstate.edu](mailto:sd33@txstate.edu).

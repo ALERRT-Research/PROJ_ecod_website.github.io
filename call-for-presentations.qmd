@@ -1,0 +1,47 @@
+---
+title: "Call for Presentations"
+description: "How presenting at the Training Design Workshop works, and what a proposal includes."
+---
+
+[2026 submission window closed 05 Jun 2026]{.eyebrow}
+
+::: {.note-panel}
+The submission window for the 2026 workshop closed on **June 5, 2026**, and notifications went out in mid-June. This page stays up so future presenters know what a proposal looks like. The 2027 call will be posted here when it opens. You can also download the original call: [2026 RFP (PDF)](assets/2026-RFP.pdf).
+:::
+
+## What we look for
+
+Any aspect of law enforcement or tactical training methodology: scenario design, decision-making under stress, integrated response, use of force, debrief and feedback, fitness and readiness, skill transfer, instructor development, or anything else interesting you are doing. No particular theoretical school is required. What matters is that you can **show the method** and **explain why you do it that way**.
+
+Slots are limited, and selection is worth the effort: selected presenters have their conference fee, room, board, and travel covered.
+
+## The session format
+
+Every session is 50 minutes, single track, in front of the whole room:
+
+1. **Hands-on demonstration (~25 min).** Run your method live. Attendees participate or observe up close.
+2. **What and why (~15 min).** Explain the method, the reasoning behind it, and the evidence or experience it rests on.
+3. **Audience input and Q&A (~10 min).** The room pushes back, asks questions, and offers alternatives.
+
+TBarM has no live-fire range. Sims, scenarios, and mat work are all fine.
+
+## What a proposal includes
+
+Proposals are a single Word or PDF document with:
+
+1. **Session title**
+2. **Lead presenter**: name, agency or affiliation, email, phone, and a 100-word bio
+3. **Co-presenter(s)**, if any, with the same fields
+4. **Abstract** (400 words or fewer): what you will demonstrate, what you will explain, and what attendees take away
+5. **Demonstration plan** (300 words or fewer): what the demo looks like, the active vs. observer split, equipment and space needs, and safety
+6. **Rationale** (300 words or fewer): why this method, plus your experience, evidence, and the trade-offs
+7. **Logistical needs**, itemized: equipment, props, AV, space, and setup time
+8. **Prior delivery**: have you taught this before, and where?
+
+## If selected
+
+Your conference fee is waived, your room and board at TBarM are covered for three nights (December 3, 4, and 5), and your travel is arranged and paid by the workshop. One presenter per session is covered; co-presenters are welcome at their own cost. If not selected, attending costs $695 plus travel, like everyone else.
+
+## How to submit
+
+Email your document to **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu) with the subject line `Training Design Workshop RFP - [Lead Presenter Last Name]`. Questions go to the same address.

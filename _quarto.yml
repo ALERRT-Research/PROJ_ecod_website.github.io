@@ -1,22 +1,49 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - data/
+    - assets/
 
 website:
-  title: "PROJ_ecod_website.github.io"
+  title: "Training Design Workshop"
+  description: "A small, working conference for people who train law enforcement and tactical professionals. Hosted by the ALERRT Center at Texas State University."
+  site-url: https://alerrt-research.github.io/PROJ_ecod_website.github.io/
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Attend"
+        href: attend.qmd
+      - text: "Present"
+        href: call-for-presentations.qmd
+      - text: "Schedule"
+        href: schedule.qmd
+      - text: "Sessions"
+        href: sessions/index.qmd
+      - text: "Who's Coming"
+        href: map.qmd
+      - text: "FAQ"
+        href: faq.qmd
+      - text: "Archive"
+        menu:
+          - text: "Photos"
+            href: photos.qmd
+          - text: "Resources"
+            href: resources/index.qmd
+          - text: "Past Workshops"
+            href: past/index.qmd
+      - text: "About"
+        href: about.qmd
+  page-footer:
+    left: "Hosted by the [ALERRT Center](https://alerrt.org) at Texas State University"
+    right: "Questions: [sd33@txstate.edu](mailto:sd33@txstate.edu)"
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
+      - theme.scss
     toc: true
+    link-external-newwindow: true
 
-editor: visual
-
+editor: source

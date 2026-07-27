@@ -1,0 +1,17 @@
+---
+title: "What lives on this page"
+description: "How workshop materials get posted, and what to expect here."
+author: "Workshop team"
+date: 2026-07-24
+categories: [Announcement]
+---
+
+As the 2026 workshop comes together, this page will fill with three kinds of material:
+
+- **White papers and publications** that come out of the workshop or the ALERRT Center's related research.
+- **Session materials**: slides, handouts, drill sheets, and scenario templates from presenters who want the room to keep them.
+- **Readings** that presenters recommend before or after their sessions.
+
+Everything posted here is meant to be used. Take it back to your agency, adapt it, and tell us how it went.
+
+**Presenters:** email your materials or links to [sd33@txstate.edu](mailto:sd33@txstate.edu) and we will post them with your session.

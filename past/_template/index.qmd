@@ -1,0 +1,29 @@
+---
+# TEMPLATE: copy this folder to past/<year>/ (e.g. past/2026/) and fill it in.
+# Folders starting with _ are not rendered, so this template never appears on the site.
+title: "2026"
+description: "One line summarizing the year: theme, venue, headline sessions."
+date: 2026-12-06
+toc: false
+---
+
+[03-06 Dec 2026 / TBarM Resort, New Braunfels TX]{.eyebrow}
+
+## The year in short
+
+A paragraph or two: who was in the room, what the standout sessions were, what arguments carried into dinner.
+
+## Sessions
+
+- Session title, Presenter Name (Agency)
+- Session title, Presenter Name (Agency)
+
+## Materials
+
+Link the white papers, slides, and readings from this year, or point to the [resources page](../../resources/index.qmd) entries.
+
+## Photos
+
+Put this year's photos in a folder inside this one (e.g. `photos/`) and embed a few favorites here:
+
+<!-- ![](photos/example.jpg){group="2026"} -->

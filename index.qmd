@@ -1,5 +1,104 @@
 ---
-title: "Ecological Dynamics Seminar HUB"
+pagetitle: "Training Design Workshop 2026"
+toc: false
 ---
 
-This site will serve as the main resource hub for past, current, and future ecological dynamics seminars hosted by the ALERRT Center in San Marcos, Texas.
+::: {.column-screen .hero}
+::: {.hero-inner}
+[ALERRT Center / Texas State University]{.eyebrow}
+
+<h1>The Training Design<br>Workshop [2026]{.year}</h1>
+
+::: {.lede}
+A small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.
+:::
+
+::: {.data-strip}
+<div><span class="k">Dates</span><span class="v">03-06 Dec 2026</span></div>
+<div><span class="k">Location</span><span class="v">TBarM Resort, New Braunfels TX</span></div>
+<div><span class="k">Seats</span><span class="v">~60</span></div>
+<div><span class="k">Format</span><span class="v">Single track</span></div>
+:::
+
+::: {.hero-ctas}
+<a class="btn btn-blue" href="attend.html">Plan your attendance</a>
+<a class="btn btn-ghost" href="map.html">See who's coming</a>
+:::
+:::
+:::
+
+## Not a lecture hall
+
+The audience is a mix of working trainers, tactical practitioners, and training-science researchers. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.
+
+::: {.triad}
+::: {}
+### Watch
+Every session opens with a hands-on demonstration. Presenters run their method live, with attendees on the mat or close enough to see the details.
+:::
+::: {}
+### Ask
+Hard questions are the point. Presenters explain what they do and why, then the room pushes on the evidence, the trade-offs, and the edge cases.
+:::
+::: {}
+### Take home
+The goal for every attendee is the same: leave with something you can use in your next training cycle.
+:::
+:::
+
+## How a session runs
+
+Every session is 50 minutes, and the clock favors the mat.
+
+::: {.format-bar}
+::: {.seg-demo}
+[25 min]{.seg-min} [Hands-on demonstration]{.seg-label}
+:::
+::: {.seg-why}
+[15 min]{.seg-min} [What and why]{.seg-label}
+:::
+::: {.seg-qa}
+[10 min]{.seg-min} [Audience input]{.seg-label}
+:::
+:::
+
+[One 50-minute block, single track, no live fire. Sims, scenarios, and mat work.]{.format-caption}
+
+## Key dates
+
+<ul class="datelist">
+<li class="done"><span class="d">05 Jun 2026</span><span class="what">Presentation proposals due</span><span class="status-chip">Closed</span></li>
+<li class="done"><span class="d">~12 Jun 2026</span><span class="what">Presenter notifications sent</span><span class="status-chip">Done</span></li>
+<li class="now"><span class="d">Now</span><span class="what">Registration open, $695 room and board</span><span class="status-chip">Open</span></li>
+<li><span class="d">03 Dec 2026</span><span class="what">Arrival and dinner at TBarM</span><span class="status-chip">Upcoming</span></li>
+<li><span class="d">04-05 Dec 2026</span><span class="what">Full session days</span><span class="status-chip">Upcoming</span></li>
+<li><span class="d">06 Dec 2026</span><span class="what">Breakfast, wrap-up, checkout</span><span class="status-chip">Upcoming</span></li>
+</ul>
+
+```{r}
+#| echo: false
+#| results: asis
+# "What attendees say" renders only when data/quotes.csv has rows.
+# Add one row per quote: quote,attribution  (e.g. "Best two days of training all year","Firearms instructor, 2026")
+q <- tryCatch(read.csv("data/quotes.csv", stringsAsFactors = FALSE),
+              error = function(e) NULL)
+if (!is.null(q) && nrow(q) > 0) {
+  cat("## What attendees say\n\n")
+  cat("::: {.quote-row}\n\n")
+  for (i in seq_len(nrow(q))) {
+    cat(sprintf("::: {.quote-card}\n%s\n\n[%s]{.quote-attr}\n:::\n\n",
+                q$quote[i], q$attribution[i]))
+  }
+  cat(":::\n\n")
+}
+```
+
+## Around the workshop
+
+```{=html}
+<div class="card-row">
+<a class="qcard" href="map.html"><h3>Who's coming</h3><p>A live map of where this year's presenters and attendees are traveling from.</p></a>
+<a class="qcard" href="resources/index.html"><h3>Resources</h3><p>White papers, slides, and readings shared by presenters, past and present.</p></a>
+<a class="qcard" href="photos.html"><h3>Photos</h3><p>Scenes from the mat, the scenarios, and the debriefs.</p></a>
+</div>
+```

@@ -1,0 +1,17 @@
+---
+title: "Resources"
+description: "White papers, slides, readings, and other materials from the Training Design Workshop."
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories, author]
+---
+
+[Materials from the workshop and its presenters]{.eyebrow}
+
+The workshop exists so people go home with something useful. This page is where the useful things live: white papers and publications that come out of the workshop, presenters' slides and handouts, and readings that presenters want the room to have.
+
+**Presenters:** to share materials here, email them (or a link) to [sd33@txstate.edu](mailto:sd33@txstate.edu).

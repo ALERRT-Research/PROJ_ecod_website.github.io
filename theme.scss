@@ -1,0 +1,485 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+// Palette
+// Ink: near-black with a cool cast, for text and the hero field
+// Paper: warm gray-white, quieter than pure white
+// Training blue: cobalt, the color of designated training gear; the single accent
+// Field tan: muted khaki for secondary labels and rules
+$ink:        #20262B;
+$ink-deep:   #171C20;
+$paper:      #FAFAF7;
+$panel:      #EFEEE9;
+$tan:        #8C7F63;
+$tan-light:  #C9C2B2;
+$blue:       #2456C4;
+$blue-deep:  #16337A;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $blue;
+$primary: $blue;
+
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, monospace;
+$headings-font-family: "Barlow Condensed", "Source Sans 3", sans-serif;
+$headings-font-weight: 600;
+
+$navbar-bg: $ink-deep;
+$navbar-fg: #E9E7E0;
+$navbar-hl: #FFFFFF;
+
+$footer-bg: $ink-deep;
+$footer-fg: #B8B4A9;
+
+$code-block-bg: $panel;
+
+/*-- scss:rules --*/
+
+// ---------- Base type ----------
+
+h1, h2, h3 {
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  border-bottom: none;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  margin-top: 2.5rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 3px;
+  background: $blue;
+  margin-top: 0.35rem;
+}
+
+.navbar {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.nav-footer {
+  font-size: 0.9rem;
+  a { color: $tan-light; }
+}
+
+// Mono eyebrow label used across pages
+.eyebrow {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $tan;
+}
+
+// ---------- Hero ----------
+
+.hero {
+  background: $ink-deep;
+  color: #F2F0EA;
+  padding: 4.5rem 1.5rem 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero .eyebrow {
+  color: $tan-light;
+}
+
+.hero h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.hero h1 .year {
+  color: $blue;
+  -webkit-text-stroke: 0;
+}
+
+.hero .lede {
+  font-size: 1.25rem;
+  max-width: 42rem;
+  color: #CFCCC2;
+  margin: 1rem 0 2rem;
+}
+
+// The range-card data strip: mono facts in ruled cells
+.data-strip {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #3A424A;
+  font-family: $font-family-monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.data-strip > div {
+  flex: 1 1 auto;
+  padding: 0.7rem 1rem;
+  border-right: 1px solid #3A424A;
+  white-space: nowrap;
+}
+
+.data-strip > div:last-child { border-right: none; }
+
+.data-strip .k {
+  display: block;
+  color: $tan-light;
+  font-size: 0.68rem;
+  margin-bottom: 0.15rem;
+}
+
+.data-strip .v { color: #FFFFFF; }
+
+.hero-ctas .btn {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.1rem;
+  padding: 0.55rem 1.4rem;
+  border-radius: 2px;
+  margin-right: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn-blue {
+  background: $blue;
+  border: 1px solid $blue;
+  color: #fff;
+  &:hover { background: $blue-deep; border-color: $blue-deep; color: #fff; }
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #5A636C;
+  color: #E9E7E0;
+  &:hover { border-color: #fff; color: #fff; background: transparent; }
+}
+
+// ---------- Session format bar ----------
+
+.format-bar {
+  display: flex;
+  width: 100%;
+  height: 4.25rem;
+  margin: 1.25rem 0 0.5rem;
+  font-family: $font-family-monospace;
+  border: 1px solid $ink;
+}
+
+.format-bar > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.9rem;
+  border-right: 1px solid $paper;
+  overflow: hidden;
+}
+
+.format-bar > div:last-child { border-right: none; }
+
+.format-bar .seg-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.format-bar .seg-min {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.seg-demo    { flex: 0 0 50%; background: $blue; color: #fff; }
+.seg-why     { flex: 0 0 30%; background: $ink; color: #fff; }
+.seg-qa      { flex: 0 0 20%; background: $panel; color: $ink; }
+
+@media (max-width: 600px) {
+  .format-bar {
+    flex-direction: column;
+    height: auto;
+  }
+  .format-bar > div {
+    flex: 1 1 auto;
+    padding: 0.7rem 0.9rem;
+    border-right: none;
+    border-bottom: 1px solid $paper;
+  }
+  .format-bar > div:last-child { border-bottom: none; }
+  // Keep the proportions readable as relative heights
+  .seg-demo { padding-top: 1.4rem; padding-bottom: 1.4rem; }
+}
+
+.format-caption {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: $tan;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+// ---------- Triad (watch / ask / take home) ----------
+
+.triad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.triad > div {
+  border-top: 3px solid $ink;
+  padding-top: 0.75rem;
+}
+
+.triad h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  margin: 0 0 0.35rem;
+}
+
+@media (max-width: 720px) {
+  .triad { grid-template-columns: 1fr; }
+  .data-strip > div { flex-basis: 50%; white-space: normal; }
+}
+
+// ---------- Key dates ----------
+
+.datelist {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0;
+  border-top: 1px solid $tan-light;
+}
+
+.datelist li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid $tan-light;
+}
+
+.datelist .d {
+  font-family: $font-family-monospace;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  flex: 0 0 11rem;
+  color: $ink;
+}
+
+.datelist .done .d,
+.datelist .done .what { color: $tan; }
+
+.datelist .now .d { color: $blue; font-weight: 500; }
+
+.status-chip {
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid $tan-light;
+  color: $tan;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.datelist .now .status-chip {
+  border-color: $blue;
+  color: $blue;
+}
+
+@media (max-width: 600px) {
+  .datelist li { flex-wrap: wrap; row-gap: 0.2rem; }
+  .datelist .d { flex: 0 0 auto; }
+  .datelist .what { order: 3; flex: 1 1 100%; }
+}
+
+// ---------- Schedule ----------
+
+.day-block {
+  border-left: 3px solid $ink;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  margin: 1.75rem 0;
+}
+
+.day-block .day-date {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $tan;
+}
+
+.day-block h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin: 0.15rem 0 0.5rem;
+}
+
+// ---------- Photo gallery ----------
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+}
+
+.photo-grid p { margin: 0; }
+
+.photo-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  filter: saturate(0.95);
+  transition: filter 0.15s ease;
+}
+
+.photo-grid img:hover { filter: saturate(1.1); }
+
+// ---------- Map page ----------
+
+#attendee-map {
+  height: 560px;
+  width: 100%;
+  border: 1px solid $ink;
+  background: $panel;
+}
+
+.map-summary {
+  font-family: $font-family-monospace;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+.map-legend {
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.6rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.map-legend .dot {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  vertical-align: baseline;
+}
+
+// ---------- Attendee quotes ----------
+
+.quote-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.quote-card {
+  border-left: 3px solid $blue;
+  background: #fff;
+  padding: 1.1rem 1.3rem;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+.quote-card p { margin-bottom: 0.6rem; }
+
+.quote-attr {
+  display: block;
+  font-family: $font-family-monospace;
+  font-style: normal;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $tan;
+}
+
+// ---------- Quick-link cards ----------
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.card-row a.qcard {
+  display: block;
+  border: 1px solid $tan-light;
+  background: #fff;
+  padding: 1.1rem 1.2rem;
+  text-decoration: none;
+  color: $ink;
+  transition: border-color 0.15s ease;
+}
+
+.card-row a.qcard:hover { border-color: $blue; }
+
+.card-row a.qcard h3 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 0 0 0.3rem;
+  color: $blue;
+}
+
+.card-row a.qcard p { margin: 0; font-size: 0.95rem; }
+
+@media (max-width: 720px) {
+  .card-row { grid-template-columns: 1fr; }
+}
+
+// ---------- Misc ----------
+
+.note-panel {
+  background: $panel;
+  border-left: 3px solid $tan;
+  padding: 0.9rem 1.2rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

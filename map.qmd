@@ -1,0 +1,155 @@
+---
+title: "Who's Coming"
+description: "Where this year's presenters and attendees are traveling from."
+toc: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+---
+
+[Updated as registrations come in]{.eyebrow}
+
+Sixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year's presenters and attendees are traveling from. It grows as registrations come in, so check back.
+
+<div class="map-summary" id="map-summary">Loading registrations...</div>
+
+<div id="attendee-map"></div>
+
+<div class="map-legend">
+<span><span class="dot" style="background:#2456C4"></span>Presenter</span>
+<span><span class="dot" style="background:#C05621"></span>Attendee</span>
+<span><span class="dot" style="background:#009186"></span>Staff</span>
+<span><span class="dot" style="background:#20262B; border-radius:0"></span>TBarM Resort (venue)</span>
+</div>
+
+```{=html}
+<script>
+(function () {
+  var COLORS = { presenter: "#2456C4", attendee: "#C05621", staff: "#009186" };
+  var ROLE_RANK = { presenter: 0, staff: 1, attendee: 2 };
+  var VENUE = { lat: 29.72, lng: -98.13, label: "TBarM Resort, New Braunfels TX" };
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  // Minimal CSV parser with quoted-field support
+  function parseCSV(text) {
+    var rows = [], row = [], field = "", inQuotes = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (inQuotes) {
+        if (c === '"') {
+          if (text[i + 1] === '"') { field += '"'; i++; } else { inQuotes = false; }
+        } else { field += c; }
+      } else if (c === '"') { inQuotes = true; }
+      else if (c === ",") { row.push(field); field = ""; }
+      else if (c === "\n" || c === "\r") {
+        if (c === "\r" && text[i + 1] === "\n") i++;
+        row.push(field); field = "";
+        if (row.length > 1 || row[0] !== "") rows.push(row);
+        row = [];
+      } else { field += c; }
+    }
+    row.push(field);
+    if (row.length > 1 || row[0] !== "") rows.push(row);
+    return rows;
+  }
+
+  function init() {
+    var map = L.map("attendee-map", { scrollWheelZoom: false }).setView([38.5, -96.5], 4);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 18
+    }).addTo(map);
+
+    // Venue marker: a square, so it never reads as a registration
+    L.marker([VENUE.lat, VENUE.lng], {
+      icon: L.divIcon({
+        className: "",
+        html: '<div style="width:12px;height:12px;background:#20262B;border:2px solid #fff;box-shadow:0 0 0 1px #20262B;"></div>',
+        iconSize: [12, 12],
+        iconAnchor: [6, 6]
+      })
+    }).addTo(map).bindPopup("<strong>" + esc(VENUE.label) + "</strong><br>Workshop venue, Dec 3-6");
+
+    fetch("data/attendees.csv")
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+      .then(function (text) {
+        var rows = parseCSV(text.trim());
+        var header = rows.shift().map(function (h) { return h.trim().toLowerCase(); });
+        var idx = {};
+        header.forEach(function (h, i) { idx[h] = i; });
+
+        var groups = {}, total = 0, states = {};
+        rows.forEach(function (r) {
+          var lat = parseFloat(r[idx.lat]), lng = parseFloat(r[idx.lng]);
+          if (isNaN(lat) || isNaN(lng)) return;
+          var role = (r[idx.role] || "attendee").trim().toLowerCase();
+          if (!(role in COLORS)) role = "attendee";
+          var city = (r[idx.city] || "").trim();
+          var state = (r[idx.state] || "").trim();
+          var key = city + "|" + state + "|" + lat.toFixed(2) + "," + lng.toFixed(2);
+          if (!groups[key]) groups[key] = { lat: lat, lng: lng, city: city, state: state, roles: {} };
+          groups[key].roles[role] = (groups[key].roles[role] || 0) + 1;
+          total++;
+          if (state) states[state.toUpperCase()] = true;
+        });
+
+        var keys = Object.keys(groups);
+        var bounds = [];
+        keys.forEach(function (k) {
+          var g = groups[k];
+          var count = Object.values(g.roles).reduce(function (a, b) { return a + b; }, 0);
+          var topRole = Object.keys(g.roles).sort(function (a, b) { return ROLE_RANK[a] - ROLE_RANK[b]; })[0];
+          var place = g.city ? g.city + (g.state ? ", " + g.state : "") : "Location";
+          var lines = Object.keys(g.roles).map(function (role) {
+            var n = g.roles[role];
+            return n + " " + role + (n > 1 ? "s" : "");
+          });
+          L.circleMarker([g.lat, g.lng], {
+            radius: 7 + 2.5 * Math.sqrt(count - 1),
+            color: "#ffffff",
+            weight: 2,
+            fillColor: COLORS[topRole],
+            fillOpacity: 0.9
+          }).addTo(map)
+            .bindTooltip(esc(place) + " · " + count)
+            .bindPopup("<strong>" + esc(place) + "</strong><br>" + esc(lines.join(", ")));
+          bounds.push([g.lat, g.lng]);
+        });
+
+        var summary = document.getElementById("map-summary");
+        if (total === 0) {
+          summary.textContent = "Registrations open. The map fills in as people sign up.";
+        } else {
+          var nStates = Object.keys(states).length;
+          summary.textContent = total + " registered · " + keys.length +
+            (keys.length === 1 ? " location" : " locations") +
+            (nStates ? " · " + nStates + (nStates === 1 ? " state" : " states") : "");
+        }
+
+        bounds.push([VENUE.lat, VENUE.lng]);
+        if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 6 });
+      })
+      .catch(function () {
+        document.getElementById("map-summary").textContent =
+          "Registrations open. The map fills in as people sign up.";
+      });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else { init(); }
+})();
+</script>
+```
+
+::: {.note-panel}
+**For the workshop team:** the map reads from `data/attendees.csv` in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Names and affiliations are optional and appear nowhere on the map unless you want them to.
+:::

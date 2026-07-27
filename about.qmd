@@ -1,9 +1,22 @@
 ---
 title: "About"
+description: "About the Training Design Workshop and the ALERRT Center at Texas State University."
 ---
 
-About this site
+## The workshop
 
-```{r}
-1 + 1
-```
+The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room, single track, for two full days of hands-on sessions.
+
+The workshop grew out of the ALERRT Center's ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there.
+
+## The host
+
+The workshop is hosted by the [ALERRT Center](https://alerrt.org) (Advanced Law Enforcement Rapid Response Training) at Texas State University in San Marcos, Texas. ALERRT was created in 2002 and serves as the national standard in active shooter response training, alongside an active research program on law enforcement training and performance.
+
+## The venue
+
+The workshop is held at [TBarM Resort](https://www.tbarm.com) in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the [attend page](attend.qmd) for cost and travel details.
+
+## Contact
+
+Questions about the workshop, registration, proposals, or materials all go to **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu).

@@ -1,0 +1,45 @@
+---
+title: "Schedule"
+description: "Day-by-day outline for the 2026 Training Design Workshop, December 3-6 at TBarM Resort."
+toc: false
+---
+
+[03-06 Dec 2026 / Single track / All sessions at TBarM]{.eyebrow}
+
+The full session lineup will be posted on the [sessions page](sessions/index.qmd) once the 2026 program is finalized. The shape of the week is already set.
+
+::: {.day-block}
+[Thursday, 03 Dec]{.day-date}
+
+### Arrival
+
+Check in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.
+:::
+
+::: {.day-block}
+[Friday, 04 Dec]{.day-date}
+
+### Session day one
+
+A full day of 50-minute sessions, single track. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.
+:::
+
+::: {.day-block}
+[Saturday, 05 Dec]{.day-date}
+
+### Session day two
+
+A second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.
+:::
+
+::: {.day-block}
+[Sunday, 06 Dec]{.day-date}
+
+### Wrap-up
+
+Breakfast, an informal wrap-up of what the room is taking home, and checkout.
+:::
+
+::: {.note-panel}
+**Presenting this year?** Send your session title, a short description, and any materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu). Materials get posted to the [resources page](resources/index.qmd), and your session will be listed here.
+:::

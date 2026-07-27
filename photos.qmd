@@ -1,0 +1,33 @@
+---
+title: "Photos"
+description: "Scenes from the Training Design Workshop."
+toc: false
+lightbox: true
+---
+
+[From the mat, the scenarios, and the debriefs]{.eyebrow}
+
+```{r}
+#| echo: false
+#| results: asis
+imgs <- list.files("images/gallery",
+                   pattern = "\\.(jpe?g|png|webp|JPE?G|PNG|WEBP)$",
+                   full.names = TRUE)
+
+if (length(imgs) == 0) {
+  cat("Photos from the workshop will be posted here. Check back after December,",
+      "or send us your shots from past years at",
+      "[sd33@txstate.edu](mailto:sd33@txstate.edu).")
+} else {
+  cat("Click any photo to view it full size.\n\n")
+  cat("::: {.photo-grid}\n")
+  for (p in imgs) {
+    cat(sprintf("![](%s){group=\"workshop\"}\n\n", p))
+  }
+  cat(":::\n")
+}
+```
+
+::: {.note-panel}
+**For the workshop team:** drop image files into `images/gallery/` in the site repository and commit. The grid above rebuilds itself automatically, no editing required.
+:::
