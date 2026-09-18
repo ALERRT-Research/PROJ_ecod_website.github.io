@@ -135,6 +135,26 @@ The attendee list was re-read after Pete's 2026-09-18 update: still 16 ALERRT
 staff, so the map count is unchanged. Scott Seivewright and David Gilbert are
 still off the map pending locations.
 
+## 2026-09-18 (later still): basemap swapped off CARTO
+
+The map came up covered in an "API KEY REQUIRED" watermark. CARTO now watermarks
+its positron basemap tiles for keyless callers; the endpoint still returns HTTP 200
+with a normal PNG, so nothing errors, the watermark is just baked into the image.
+
+Swapped to Esri's light gray canvas, which needs no key and is a close visual match:
+
+- Base: `Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`
+- Labels: `Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}`
+
+Note the `{z}/{y}/{x}` order, which is the reverse of the usual `{z}/{x}/{y}`, and
+`maxZoom: 16` rather than 18, which is where these services stop. Base and labels
+are two separate tile layers, both in the tile pane, so the markers still sit on
+top. Attribution is on the base layer only.
+
+If the exact old look is ever wanted back, CARTO has a free API key tier; the
+alternative with no account at all is plain OpenStreetMap tiles, which are busier
+and make the role colors harder to read.
+
 ## Open items
 
 - Add attendee rows to `data/attendees.csv` as registrations come in (presenters and staff are in)

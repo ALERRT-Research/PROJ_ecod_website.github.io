@@ -65,9 +65,16 @@ Hover a blue dot to see who is presenting from there, or open the [sessions page
 
   function init() {
     var map = L.map("attendee-map", { scrollWheelZoom: false }).setView([38.5, -96.5], 4);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      maxZoom: 18
+    // Esri's light gray canvas: keyless, and quiet enough that the markers
+    // carry the page. CARTO's positron tiles now watermark without an API key.
+    // Base and labels are separate services; both sit under the marker pane.
+    var ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
+    L.tileLayer(ESRI + "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+      attribution: 'Tiles &copy; <a href="https://www.esri.com">Esri</a>, DeLorme, NAVTEQ',
+      maxZoom: 16
+    }).addTo(map);
+    L.tileLayer(ESRI + "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 16
     }).addTo(map);
 
     // Venue marker: a square, so it never reads as a registration
