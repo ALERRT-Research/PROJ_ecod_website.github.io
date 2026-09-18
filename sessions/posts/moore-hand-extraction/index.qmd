@@ -1,0 +1,22 @@
+---
+title: "Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance"
+description: "Grappling-based methods for the prone subject who tucks his hands and will not give them up."
+author: "William Moore, Austin Police Department"
+date: "2026-12-04T14:00:00"
+categories: [Control tactics]
+---
+
+[Friday 04 Dec / 2:00 PM / Austin Police Department]{.eyebrow}
+
+## The session
+
+A mat session, mostly demonstration, on the prone subject who tucks his hands under his torso and will not give them up. It opens by recreating the scenario and showing why direct pulling fails and how some officer actions strengthen the subject's defensive structure. It then works positional dominance, leverage, and structural manipulation to weaken resistance before attempting extraction, reducing the need to escalate with strikes or tools.
+
+Co-presenting with **Adam Kaufman** (Austin Police Department), a Senior Police Officer, FTO, Mental Health Officer, and Special Response Team member who supports Austin Police Jiu-Jitsu through curriculum development and program evaluation, and previously worked with the National Policing Institute.
+
+## About the presenter
+
+William Moore, M.S., is a Senior Police Officer and Adjunct Training Instructor with APD, with 19 years of service and 29 years of instructional experience. He co-founded the Austin Police Jiu-Jitsu program and the Austin Police Marksmanship Team, and has helped redesign APD's firearms and defensive tactics training.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

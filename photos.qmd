@@ -27,7 +27,3 @@ if (length(imgs) == 0) {
   cat(":::\n")
 }
 ```
-
-::: {.note-panel}
-**For the workshop team:** drop image files into `images/gallery/` in the site repository and commit. The grid above rebuilds itself automatically, no editing required.
-:::

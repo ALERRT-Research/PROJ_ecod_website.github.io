@@ -1,0 +1,20 @@
+---
+title: "Scenario First: Training Adaptable Responders for Uncertain Environments"
+description: "Hemorrhage control is the working example; scenario design is the subject."
+author: "Alex Odintsov, Abbotsford Police Department / Wolf Training Systems"
+date: "2026-12-05T13:00:00"
+categories: [Scenario design, Tactical medicine]
+---
+
+[Saturday 05 Dec / 1:00 PM / Abbotsford Police Department / Wolf Training Systems]{.eyebrow}
+
+## The session
+
+Massive hemorrhage control is the working example; scenario design is the subject. Two officers respond to a shots-fired scene with an officer down and bleeding out. Rather than teaching every intervention first, the session starts with the problem and shapes performance with short pauses, focused teaching, Socratic questioning, and immediate rewinds. Complexity builds one layer at a time, from extremity bleeding through tourniquet transition, junctional bleeding, wound packing, and neck bleeding, while the learner stays inside a meaningful tactical problem. Attendees leave with a repeatable structure that transfers to use of force, de-escalation, arrest and control, vehicle stops, and room clearing.
+
+## About the presenter
+
+Alex is a Training Officer with the Abbotsford Police Department, where he designs and delivers training in use of force, police tactics, firearms, simulation, tactical medicine, de-escalation, vehicle stops, and rapid deployment. He is founder of Wolf Training Systems and Chief Operating Officer and Lead Instructor for the Joint Tactical Medical Program, which delivers tactical medical training to agencies across Canada.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

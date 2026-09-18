@@ -1,0 +1,20 @@
+---
+title: "From Dead Drills to Alive Problems: Designing and Scaling Scenarios"
+description: "Turning a familiar TASER drill into an alive problem, and scaling it across experience levels."
+author: "Jesse Campion, Lieutenant, Director of Training, Denver Police Department"
+date: "2026-12-05T15:00:00"
+categories: [Scenario design]
+---
+
+[Saturday 05 Dec / 3:00 PM / Lieutenant, Director of Training, Denver Police Department]{.eyebrow}
+
+## The session
+
+How to move away from dead drills and build alive problems. The session works from a basic Axon TASER scenario that most attendees will already know and shows how Denver scales it for learners at different experience levels: bringing the drill to life, manipulating constraints, and applying the feedback models the department uses with both trainers and trainees.
+
+## About the presenter
+
+Jesse is a Lieutenant with the Denver Police Department and serves as its Director of Training. Scenario design was among the first places Denver applied ecological dynamics, and the department has built the constraints-led approach and representative learning design into its academy scenarios.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

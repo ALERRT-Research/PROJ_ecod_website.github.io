@@ -1,16 +1,22 @@
 ---
 title: "Sessions"
-description: "The session lineup for the 2026 Training Design Workshop."
+description: "The session lineup for the 2026 Advanced Training Design Workshop."
 toc: false
 listing:
   contents: posts
   sort: "date asc"
   type: default
-  fields: [title, description, author, categories]
+  categories: true
+  date-format: "dddd D MMM, h:mm A"
+  fields: [date, title, description, author, categories]
 ---
 
-[2026 lineup / Dec 4-5]{.eyebrow}
+[2026 lineup / Dec 4-5 / Sixteen sessions]{.eyebrow}
 
-The 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.
+Sixteen sessions across two days, all in the same room. Every one of them runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what and why, and 10 minutes of the room pushing back.
 
-Until then, the [schedule](../schedule.qmd) has the shape of the week, and the [call for presentations](../call-for-presentations.qmd) explains how sessions are selected.
+Filter by category below, or see the running order on the [schedule](../schedule.qmd).
+
+::: {.note-panel}
+A few details are still being confirmed with presenters, and the Saturday 4:00 slot is an ALERRT Center session with the topic to come. Presenters: send materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu) and they will be linked from your session page.
+:::

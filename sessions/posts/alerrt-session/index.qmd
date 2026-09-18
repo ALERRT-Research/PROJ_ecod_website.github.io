@@ -1,0 +1,15 @@
+---
+title: "To be announced"
+description: "Session topic and presenter to be confirmed."
+author: "ALERRT Center"
+date: "2026-12-05T16:00:00"
+---
+
+[Saturday 05 Dec / 4:00 PM / ALERRT Center]{.eyebrow}
+
+## The session
+
+The final slot of the workshop goes to the ALERRT Center's own training staff. Topic and presenter are being confirmed and will be posted here.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

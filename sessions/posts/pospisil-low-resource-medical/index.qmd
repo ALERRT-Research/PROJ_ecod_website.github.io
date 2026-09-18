@@ -1,0 +1,20 @@
+---
+title: "Training Medical Care in Low-Resource Environments"
+description: "What to teach, what to cut, and how to train it when the equipment and the evacuation are not there."
+author: "Michal Pospíšil, Masaryk University Faculty of Medicine, Brno, Czech Republic"
+date: "2026-12-05T14:00:00"
+categories: [Tactical medicine]
+---
+
+[Saturday 05 Dec / 2:00 PM / Masaryk University Faculty of Medicine, Brno, Czech Republic]{.eyebrow}
+
+## The session
+
+Medical training designed for the case where the equipment, the personnel, and the evacuation are not there: what to teach, what to cut, and how to train it.
+
+## About the presenter
+
+Michal is an Assistant Professor in the Department of Health Sciences at Masaryk University and sits on the paramedic program board. He came up as an ICU nurse at University Hospital Brno and has worked in the field with Médecins Sans Frontières France.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

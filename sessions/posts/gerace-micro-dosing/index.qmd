@@ -1,0 +1,20 @@
+---
+title: "Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence"
+description: "Colonie PD's 13-week roll-call micro-dosing program, run live, with the evaluation findings."
+author: "Jay Gerace, Chief of Police, Town of Colonie, New York"
+date: "2026-12-04T16:00:00"
+categories: [Instructor development, Decision-making]
+---
+
+[Friday 04 Dec / 4:00 PM / Chief of Police, Town of Colonie, New York]{.eyebrow}
+
+## The session
+
+In September 2025, the Colonie Police Department replaced conventional roll call with a 13-week micro-dosing program: 15-to-20-minute training modules delivered inside daily patrol briefings. Chief Gerace runs the room through a live micro-dose exactly as delivered at roll call, including a rapid tactical decision game with volunteers in the hot seat. He then presents the Finn Institute's evaluation findings: measured gains in knowledge retention, movement from needs-improvement to mastery in life-saving procedures, and increased decision-making confidence among less-experienced officers. Attendees leave with the program schedule and implementation suggestions.
+
+## About the presenter
+
+Chief Gerace leads the Town of Colonie Police Department with over 27 years in law enforcement. An FBI National Academy graduate, he holds a gubernatorial appointment to the New York State Municipal Police Training Council and has spoken before the National Academy of Sciences on behavioral health emergencies and modern restraint. His work appears in the FBI Law Enforcement Bulletin, Police Chief Magazine, Police1, and Translational Criminology.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

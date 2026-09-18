@@ -1,0 +1,20 @@
+---
+title: "Empowering Feedback: Enhancing Student Learning Through Socratic Feedback"
+description: "Feedback types, what each one does to motivation and attention, and hands-on practice running a Socratic debrief."
+author: "Chris Butler, Raptor Public Safety Coaching"
+date: "2026-12-04T09:00:00"
+categories: [Instructor development]
+---
+
+[Friday 04 Dec / 9:00 AM / Raptor Public Safety Coaching]{.eyebrow}
+
+## The session
+
+A classroom session on feedback: the types available to a coach, what each type does to student motivation and focus of attention, how to avoid building students who depend on the coach for every answer, and the use of video as a feedback tool. Attendees pair up and practice Socratic feedback, first on everyday problems and then on common law enforcement problems.
+
+## About the presenter
+
+Chris has over 42 years across technical high-angle mountain search and rescue and law enforcement, working with human performance researchers, coaches, and practitioners. He developed the Advanced Methods of Instruction course and was inducted into the National Law Enforcement Officer Hall of Fame in 2025 as Trainer of the Year.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

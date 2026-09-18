@@ -1,5 +1,5 @@
 ---
-pagetitle: "Training Design Workshop 2026"
+pagetitle: "The Advanced Training Design Workshop 2026"
 toc: false
 ---
 
@@ -7,7 +7,9 @@ toc: false
 ::: {.hero-inner}
 [ALERRT Center / Texas State University]{.eyebrow}
 
-<h1>The Training Design<br>Workshop [2026]{.year}</h1>
+<h1>The Advanced Training<br>Design Workshop [2026]{.year}</h1>
+
+[Designing Training That Transfers]{.tagline}
 
 ::: {.lede}
 A small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.
@@ -17,12 +19,12 @@ A small, working conference for people who train law enforcement and tactical pr
 <div><span class="k">Dates</span><span class="v">03-06 Dec 2026</span></div>
 <div><span class="k">Location</span><span class="v">TBarM Resort, New Braunfels TX</span></div>
 <div><span class="k">Seats</span><span class="v">~60</span></div>
-<div><span class="k">Format</span><span class="v">Single track</span></div>
+<div><span class="k">Sessions</span><span class="v">16</span></div>
 :::
 
 ::: {.hero-ctas}
-<a class="btn btn-blue" href="attend.html">Plan your attendance</a>
-<a class="btn btn-ghost" href="map.html">See who's coming</a>
+<a class="btn btn-blue" href="schedule.html">See the 2026 program</a>
+<a class="btn btn-ghost" href="attend.html">Plan your attendance</a>
 :::
 :::
 :::
@@ -44,6 +46,39 @@ Hard questions are the point. Presenters explain what they do and why, then the 
 ### Take home
 The goal for every attendee is the same: leave with something you can use in your next training cycle.
 :::
+:::
+
+## The 2026 program
+
+Sixteen sessions across Friday and Saturday, from trainers who are putting these ideas to work on the mat, in the scenario, and in the academy.
+
+::: {.featured}
+[Opening keynote / Friday 8:00 AM]{.eyebrow}
+
+### Rob Gray
+
+Author of *How We Learn to Move* and host of the Perception & Action Podcast, Dr. Gray (Arizona State University) is the leading voice on ecological approaches to skill acquisition. He opens the workshop with **The What, Why, and How of Educating Attention**.
+:::
+
+Sessions include:
+
+::: {.theme-list}
+- **Active attacker tactics**: constraints-led room entry and hallway movement
+- **Scenario design**: turning dead drills into live problems
+- **Use-of-force decisions**: coupling threat recognition with weapon access
+- **Control tactics**: prone restraint and hand extraction under real resistance
+- **Weapons-based grappling**: edged-weapon defense in the clinch
+- **Micro-dosed training**: 15-minute roll-call modules with measured retention gains
+- **Tactical medicine**: scenario-first hemorrhage control and limited-resource care
+- **Instructor development**: Socratic feedback, scaffolding, and humor that sticks
+:::
+
+[Full descriptions on the [sessions page](sessions/index.qmd), running order on the [schedule](schedule.qmd).]{.format-caption}
+
+### Presenting agencies
+
+::: {.agency-strip}
+ALERRT Center at Texas State University · Arizona State University · Austin PD · Boise PD · Cary PD (NC) · Cobb County PD · Denver PD · Town of Colonie PD (NY) · Jefferson Parish SO (LA) · Winnebago County SO (IL) · Walworth County SO (WI) · Abbotsford PD (BC) · Royal Canadian Mounted Police · SBG Athens · Raptor Public Safety Coaching · Masaryk University (Czech Republic)
 :::
 
 ## How a session runs
@@ -69,7 +104,8 @@ Every session is 50 minutes, and the clock favors the mat.
 <ul class="datelist">
 <li class="done"><span class="d">05 Jun 2026</span><span class="what">Presentation proposals due</span><span class="status-chip">Closed</span></li>
 <li class="done"><span class="d">~12 Jun 2026</span><span class="what">Presenter notifications sent</span><span class="status-chip">Done</span></li>
-<li class="now"><span class="d">Now</span><span class="what">Registration open, $695 room and board</span><span class="status-chip">Open</span></li>
+<li class="done"><span class="d">Sep 2026</span><span class="what">Draft program posted, 16 sessions</span><span class="status-chip">Done</span></li>
+<li class="now"><span class="d">Now</span><span class="what">Registration open, $695 room and board, most seats taken</span><span class="status-chip">Filling</span></li>
 <li><span class="d">03 Dec 2026</span><span class="what">Arrival and dinner at TBarM</span><span class="status-chip">Upcoming</span></li>
 <li><span class="d">04-05 Dec 2026</span><span class="what">Full session days</span><span class="status-chip">Upcoming</span></li>
 <li><span class="d">06 Dec 2026</span><span class="what">Breakfast, wrap-up, checkout</span><span class="status-chip">Upcoming</span></li>
@@ -97,8 +133,8 @@ if (!is.null(q) && nrow(q) > 0) {
 
 ```{=html}
 <div class="card-row">
+<a class="qcard" href="sessions/"><h3>Sessions</h3><p>All sixteen sessions, with what each one demonstrates and who is running it.</p></a>
 <a class="qcard" href="map.html"><h3>Who's coming</h3><p>A live map of where this year's presenters and attendees are traveling from.</p></a>
 <a class="qcard" href="resources/index.html"><h3>Resources</h3><p>White papers, slides, and readings shared by presenters, past and present.</p></a>
-<a class="qcard" href="photos.html"><h3>Photos</h3><p>Scenes from the mat, the scenarios, and the debriefs.</p></a>
 </div>
 ```

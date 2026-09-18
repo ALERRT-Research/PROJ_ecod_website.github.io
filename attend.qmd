@@ -7,6 +7,10 @@ description: "Registration, cost, and travel for the 2026 Training Design Worksh
 
 The workshop is capped at roughly 60 people: working trainers, tactical practitioners, and training-science researchers. If you train law enforcement or tactical professionals, or study how that training works, this room is for you.
 
+::: {.note-panel}
+**Seats are going.** The 2026 room is most of the way full. The [schedule](schedule.qmd) and [sessions](sessions/index.qmd) pages have the full program if you are deciding.
+:::
+
 ## What it costs
 
 Attending costs **$695**, which covers your room and board at TBarM Resort for three nights (December 3, 4, and 5) plus all meals from dinner on December 3 through breakfast on December 6. Travel to and from New Braunfels is on you.
@@ -19,7 +23,7 @@ To register, email **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstat
 
 <!-- When an online registration form exists, replace the paragraph above with a button linking to it. -->
 
-Seats are limited and the room fills with a mix of roles on purpose, so register early.
+Seats are limited and the room fills with a mix of roles on purpose, so register early. Most of the 2026 seats are already spoken for.
 
 ## The venue
 

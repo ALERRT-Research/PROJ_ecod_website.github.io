@@ -12,7 +12,9 @@ format:
 
 [Updated as registrations come in]{.eyebrow}
 
-Sixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year's presenters and attendees are traveling from. It grows as registrations come in, so check back.
+Sixty seats, one room, and people converging on the Texas Hill Country from all over. The fifteen presenters on the 2026 program are travelling in from ten states, two Canadian provinces, and the Czech Republic. The map below grows as the rest of the registrations come in, so check back.
+
+Hover a blue dot to see who is presenting from there, or open the [sessions page](sessions/index.qmd) for the full lineup.
 
 <div class="map-summary" id="map-summary">Loading registrations...</div>
 
@@ -86,16 +88,22 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
         var idx = {};
         header.forEach(function (h, i) { idx[h] = i; });
 
-        var groups = {}, total = 0, states = {};
+        var groups = {}, total = 0, mapped = 0, states = {}, countries = {};
         rows.forEach(function (r) {
-          var lat = parseFloat(r[idx.lat]), lng = parseFloat(r[idx.lng]);
-          if (isNaN(lat) || isNaN(lng)) return;
           var role = (r[idx.role] || "attendee").trim().toLowerCase();
           if (!(role in COLORS)) role = "attendee";
+          total++;
+
+          // Rows without coordinates still count toward the headline number,
+          // but there is nowhere to draw them until a city is filled in.
+          var lat = parseFloat(r[idx.lat]), lng = parseFloat(r[idx.lng]);
+          if (isNaN(lat) || isNaN(lng)) return;
+
           var city = (r[idx.city] || "").trim();
           var state = (r[idx.state] || "").trim();
-          var key = city + "|" + state + "|" + lat.toFixed(2) + "," + lng.toFixed(2);
-          if (!groups[key]) groups[key] = { lat: lat, lng: lng, city: city, state: state, roles: {}, presenters: [] };
+          var country = (idx.country !== undefined ? (r[idx.country] || "") : "").trim();
+          var key = city + "|" + state + "|" + country + "|" + lat.toFixed(2) + "," + lng.toFixed(2);
+          if (!groups[key]) groups[key] = { lat: lat, lng: lng, city: city, state: state, country: country, roles: {}, presenters: [] };
           groups[key].roles[role] = (groups[key].roles[role] || 0) + 1;
           if (role === "presenter") {
             groups[key].presenters.push({
@@ -103,17 +111,18 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
               affiliation: idx.affiliation !== undefined ? (r[idx.affiliation] || "").trim() : ""
             });
           }
-          total++;
-          if (state) states[state.toUpperCase()] = true;
+          mapped++;
+          countries[country || "United States"] = true;
+          if (state && !country) states[state.toUpperCase()] = true;
         });
 
         var keys = Object.keys(groups);
-        var bounds = [];
+        var bounds = [], farAfield = [];
         keys.forEach(function (k) {
           var g = groups[k];
           var count = Object.values(g.roles).reduce(function (a, b) { return a + b; }, 0);
           var topRole = Object.keys(g.roles).sort(function (a, b) { return ROLE_RANK[a] - ROLE_RANK[b]; })[0];
-          var place = g.city ? g.city + (g.state ? ", " + g.state : "") : "Location";
+          var place = [g.city, g.state, g.country].filter(Boolean).join(", ") || "Location";
 
           // Presenters are named; attendees and staff stay anonymous counts
           var named = g.presenters.filter(function (p) { return p.name; });
@@ -150,7 +159,10 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
           }).addTo(map)
             .bindTooltip(tip)
             .bindPopup(popup);
-          bounds.push([g.lat, g.lng]);
+          // The opening view frames the Americas. Overseas dots stay on the map
+          // (zoom out to reach them) but they do not shrink everyone else.
+          if (g.lng < -30) bounds.push([g.lat, g.lng]);
+          else farAfield.push(place);
         });
 
         var summary = document.getElementById("map-summary");
@@ -158,9 +170,18 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
           summary.textContent = "Registrations open. The map fills in as people sign up.";
         } else {
           var nStates = Object.keys(states).length;
-          summary.textContent = total + " registered · " + keys.length +
+          var nCountries = Object.keys(countries).length;
+          summary.textContent = total + " confirmed · " + keys.length +
             (keys.length === 1 ? " location" : " locations") +
             (nStates ? " · " + nStates + (nStates === 1 ? " state" : " states") : "");
+          if (nCountries > 1) summary.textContent += " \u00B7 " + nCountries + " countries";
+          if (total > mapped) summary.textContent += " \u00B7 " + (total - mapped) + " not yet placed";
+          if (farAfield.length) {
+            var note = document.createElement("div");
+            note.className = "map-summary-note";
+            note.textContent = "Also travelling in: " + farAfield.join(", ") + ". Zoom out to see them.";
+            summary.appendChild(note);
+          }
         }
 
         bounds.push([VENUE.lat, VENUE.lng]);
@@ -178,7 +199,3 @@ Sixty seats, one room, and people converging on the Texas Hill Country from all 
 })();
 </script>
 ```
-
-::: {.note-panel}
-**For the workshop team:** the map reads from `data/attendees.csv` in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. **Presenters are named on the map** (hover over their dot), so fill in the name and affiliation columns for presenter rows. Attendee and staff names are never shown; those dots display counts only.
-:::

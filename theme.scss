@@ -388,6 +388,70 @@ h2::after {
   margin-bottom: 0.75rem;
 }
 
+.map-summary-note {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.8rem;
+  color: $tan;
+  margin-top: 0.2rem;
+}
+
+// ---------- Schedule grid ----------
+
+table.sched {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 0.25rem;
+  font-size: 0.95rem;
+}
+
+table.sched th {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $tan;
+  font-weight: 400;
+  text-align: left;
+  border-bottom: 1px solid $tan-light;
+  padding: 0 0.6rem 0.35rem 0;
+}
+
+table.sched td {
+  border-bottom: 1px solid $panel;
+  padding: 0.55rem 0.6rem 0.55rem 0;
+  vertical-align: top;
+}
+
+table.sched td:first-child {
+  font-family: $font-family-monospace;
+  font-size: 0.85rem;
+  color: $ink;
+  white-space: nowrap;
+  width: 4.5rem;
+}
+
+table.sched td.who {
+  white-space: nowrap;
+  color: $tan;
+  font-size: 0.9rem;
+}
+
+table.sched tr.break td {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $tan;
+}
+
+table.sched tr.keynote td:nth-child(2) { font-weight: 600; }
+
+@media (max-width: 600px) {
+  table.sched td.who { white-space: normal; }
+  table.sched { font-size: 0.9rem; }
+}
+
 .map-legend {
   font-family: $font-family-monospace;
   font-size: 0.78rem;
@@ -484,4 +548,64 @@ h2::after {
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
+}
+
+// ---------- Home: tagline, featured presenter, themes, agencies ----------
+
+.hero .tagline {
+  display: block;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: $tan-light;
+  margin-top: 0.35rem;
+}
+
+.featured {
+  border-left: 3px solid $blue;
+  background: $panel;
+  padding: 1.1rem 1.35rem;
+  margin: 1.5rem 0;
+
+  h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 0.15rem 0 0.5rem;
+  }
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.theme-list ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.75rem 0 0.5rem;
+  columns: 2;
+  column-gap: 2.5rem;
+}
+
+.theme-list li {
+  break-inside: avoid;
+  padding-left: 1rem;
+  margin-bottom: 0.55rem;
+  border-left: 2px solid $tan-light;
+  font-size: 0.97rem;
+}
+
+@media (max-width: 700px) {
+  .theme-list ul { columns: 1; }
+}
+
+.agency-strip {
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  line-height: 1.9;
+  color: $tan;
+  border-top: 1px solid $tan-light;
+  border-bottom: 1px solid $tan-light;
+  padding: 0.75rem 0;
+  margin: 0.5rem 0 1.5rem;
 }

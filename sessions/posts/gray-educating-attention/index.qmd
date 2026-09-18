@@ -1,0 +1,20 @@
+---
+title: "The What, Why, and How of Educating Attention"
+description: "Opening keynote. Full session description to come."
+author: "Rob Gray, Arizona State University"
+date: "2026-12-04T08:00:00"
+categories: [Keynote, Skill acquisition]
+---
+
+[Friday 04 Dec / 8:00 AM / Arizona State University]{.eyebrow}
+
+## The session
+
+Opening keynote. Rob's full session description will be posted here as soon as it lands.
+
+## About the presenter
+
+Author of *How We Learn to Move* and host of the Perception & Action Podcast, Dr. Gray is the leading voice on ecological approaches to skill acquisition. He teaches in Human Systems Engineering at Arizona State University.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

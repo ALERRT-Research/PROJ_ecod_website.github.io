@@ -1,0 +1,20 @@
+---
+title: "The Problem-First Approach to Control Tactics Training"
+description: "Control tactics organised around problem spaces rather than technique progressions, using the 3Ms model."
+author: "Bob Duffey, Walworth County Sheriff's Office / C4C Police Jiu-Jitsu"
+date: "2026-12-04T10:00:00"
+categories: [Control tactics]
+---
+
+[Friday 04 Dec / 10:00 AM / Walworth County Sheriff's Office / C4C Police Jiu-Jitsu]{.eyebrow}
+
+## The session
+
+A mat session that organizes control tactics training around problem spaces rather than prescribed technique progressions, using the 3Ms model: maintaining control, modifying control, and making control. Participants work in groups of four (two officers, one subject, one safety officer) through three rounds, one per problem space. Each round runs the same cycle: minimum instruction, hands-on exposure with no directed solutions, discussion of what broke down and why, then re-engagement.
+
+## About the presenter
+
+Bob is a Wisconsin Certified Law Enforcement Instructor, Corrections Superintendent, Brazilian Jiu-Jitsu black belt, and co-owner of three BJJ academies, with over 20 years in law enforcement and defensive tactics instruction. He has implemented modernized training approaches across multiple agencies and within the Wisconsin statewide curriculum.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

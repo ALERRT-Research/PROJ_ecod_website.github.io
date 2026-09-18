@@ -1,0 +1,20 @@
+---
+title: "Training the Decision, Not Just the Skill: Improving Threat Recognition and Response"
+description: "Threat perception and firearm access trained together, with suspect movement as the stimulus."
+author: "Kevin Giesler, Lieutenant, Cobb County Police Department, Marietta, Georgia"
+date: "2026-12-05T08:00:00"
+categories: [Weapons, Decision-making]
+---
+
+[Saturday 05 Dec / 8:00 AM / Lieutenant, Cobb County Police Department, Marietta, Georgia]{.eyebrow}
+
+## The session
+
+Pre-assault indicators are usually taught in a classroom as isolated cues, and weapon presentation is trained statically off an audible stimulus, so officers never learn to couple the two. Using blank-firing simulation pistols, this session trains threat perception and firearm access together, treating suspect movement as actionable rather than descriptive. The approach draws on *Left of Bang* and recognition-primed decision making, and scaffolds out to cover, team movement, and crossfire considerations.
+
+## About the presenter
+
+Lt. Giesler has served with Cobb County PD since 2007 across patrol, the violent street crimes unit, and a narcotics task force, and served as Range Master at the county Public Safety Training Center. He reviews departmental use of force incidents and teaches use of force to all recruits. He is a Force Science Advanced Specialist, a Georgia POST use of force and defensive tactics instructor, and a Master PepperBall Instructor.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

@@ -1,0 +1,20 @@
+---
+title: "You've Got To Be Joking! A Humor Workshop for Trainers"
+description: "Why humor buys attention, how jokes are built, and writing and delivering your own material."
+author: "Dan Fraser, Royal Canadian Mounted Police / Fraser Training Solutions"
+date: "2026-12-05T11:00:00"
+categories: [Instructor development]
+---
+
+[Saturday 05 Dec / 11:00 AM / Royal Canadian Mounted Police / Fraser Training Solutions]{.eyebrow}
+
+## The session
+
+Before students can retain anything, the trainer has to win their attention, and humor is a reliable way to get it. This classroom session covers why humor makes training engaging and memorable, basic joke structure and joke-writing technique, and how to add humor to a slide deck with images. Participants run improv exercises to build the mindset, then write and immediately deliver their own material.
+
+## About the presenter
+
+Dan is a police officer from Alberta with over 25 years building and delivering presentations in government and the private sector. He has trained thousands of officers and now speaks and coaches internationally as an instructor development specialist, drawing on his experience as a standup comedian. He is the author of *Kickass Presentations*.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

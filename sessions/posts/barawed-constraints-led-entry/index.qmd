@@ -1,0 +1,20 @@
+---
+title: "Constraints-Led Instruction for Room Entry and Hallway Movement"
+description: "A constraints-led build of active attacker tactics, run in hallway and room space."
+author: "Chris Barawed, Boise Police Department"
+date: "2026-12-04T13:00:00"
+categories: [Active attacker]
+---
+
+[Friday 04 Dec / 1:00 PM / Boise Police Department]{.eyebrow}
+
+## The session
+
+A constraints-led build of active attacker tactics, run in hallway and room space. Role players wearing colored pennies (suspect, officer, innocent, unknown) stage at varying depths in rooms off a hallway while solo officers work the hall. Early repetitions hold officers close to or far from doorways so they feel distance and angle; the restrictions then come off, and officers self-organize toward the serpentine pattern. Room entries run under spacing constraints rather than scripted assignments. The trade: less explicit instruction, more active engagement per training hour.
+
+## About the presenter
+
+Chris is the Lead Defensive Tactics and Use of Force Instructor for the Boise Police Department, responsible for all DT content at the academy and in-service levels. He is the lead Taser instructor, an Idaho Master Instructor for Defensive Tactics, and a BJJ black belt, with prior service as a SWAT operator, FTO, detective, and supervisor across 22 years in law enforcement.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

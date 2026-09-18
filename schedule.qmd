@@ -1,19 +1,19 @@
 ---
 title: "Schedule"
-description: "Day-by-day outline for the 2026 Training Design Workshop, December 3-6 at TBarM Resort."
+description: "The day-by-day program for the 2026 Advanced Training Design Workshop, December 3-6 at TBarM Resort."
 toc: false
 ---
 
 [03-06 Dec 2026 / All sessions at TBarM]{.eyebrow}
 
-The full session lineup will be posted on the [sessions page](sessions/index.qmd) once the 2026 program is finalized. The shape of the week is already set.
+Sixteen hour-long slots across two days, everyone in the same room. Sessions run 50 minutes (about 25 minutes of hands-on demonstration, 15 of what-and-why, and 10 of audience input) with a 10-minute turnover. Click any session for the full description and the presenter's bio, or browse them all on the [sessions page](sessions/index.qmd).
 
 ::: {.day-block}
 [Thursday, 03 Dec]{.day-date}
 
 ### Arrival
 
-Check in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.
+Check in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an informal meet-and-greet afterward.
 :::
 
 ::: {.day-block}
@@ -21,7 +21,25 @@ Check in at TBarM through the afternoon. The workshop opens with dinner, introdu
 
 ### Session day one
 
-A full day of 50-minute sessions. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.
+Foundations and control tactics.
+
+```{=html}
+<table class="sched">
+<thead><tr><th>Time</th><th>Session</th><th>Presenter</th></tr></thead>
+<tbody>
+<tr class="keynote"><td>8:00</td><td><a href="sessions/posts/gray-educating-attention/">The What, Why, and How of Educating Attention</a> <em>(opening keynote)</em></td><td class="who">Rob Gray</td></tr>
+<tr><td>9:00</td><td><a href="sessions/posts/butler-socratic-feedback/">Empowering Feedback: Enhancing Student Learning Through Socratic Feedback</a></td><td class="who">Chris Butler</td></tr>
+<tr><td>10:00</td><td><a href="sessions/posts/duffey-problem-first/">The Problem-First Approach to Control Tactics Training</a></td><td class="who">Bob Duffey</td></tr>
+<tr><td>11:00</td><td><a href="sessions/posts/franck-prone-restraint/">Prone Restraint Through a Constraints-Led Approach</a></td><td class="who">Bryce Franck</td></tr>
+<tr class="break"><td>12:00</td><td colspan="2">Lunch</td></tr>
+<tr><td>1:00</td><td><a href="sessions/posts/barawed-constraints-led-entry/">Constraints-Led Instruction for Room Entry and Hallway Movement</a></td><td class="who">Chris Barawed</td></tr>
+<tr><td>2:00</td><td><a href="sessions/posts/moore-hand-extraction/">Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance</a></td><td class="who">William Moore</td></tr>
+<tr><td>3:00</td><td><a href="sessions/posts/murray-tri-axial-scaffolding/">The Tri-Axial Scaffolding Framework for Task Learning</a></td><td class="who">Collin Murray</td></tr>
+<tr><td>4:00</td><td><a href="sessions/posts/gerace-micro-dosing/">Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence</a></td><td class="who">Jay Gerace</td></tr>
+<tr class="break"><td>5:00</td><td colspan="2">Adjourn, then dinner</td></tr>
+</tbody>
+</table>
+```
 :::
 
 ::: {.day-block}
@@ -29,7 +47,25 @@ A full day of 50-minute sessions. Each session runs the same way: about 25 minut
 
 ### Session day two
 
-A second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.
+Weapons, scenario design, and delivery.
+
+```{=html}
+<table class="sched">
+<thead><tr><th>Time</th><th>Session</th><th>Presenter</th></tr></thead>
+<tbody>
+<tr><td>8:00</td><td><a href="sessions/posts/giesler-threat-recognition/">Training the Decision, Not Just the Skill: Improving Threat Recognition and Response</a></td><td class="who">Kevin Giesler</td></tr>
+<tr><td>9:00</td><td><a href="sessions/posts/wark-weapons-based-dt/">From Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics</a></td><td class="who">Randy Wark</td></tr>
+<tr><td>10:00</td><td><a href="sessions/posts/singer-edged-weapons/">When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters</a></td><td class="who">Adam Singer</td></tr>
+<tr><td>11:00</td><td><a href="sessions/posts/fraser-humor-workshop/">You've Got To Be Joking! A Humor Workshop for Trainers</a></td><td class="who">Dan Fraser</td></tr>
+<tr class="break"><td>12:00</td><td colspan="2">Lunch</td></tr>
+<tr><td>1:00</td><td><a href="sessions/posts/odintsov-scenario-first/">Scenario First: Training Adaptable Responders for Uncertain Environments</a></td><td class="who">Alex Odintsov</td></tr>
+<tr><td>2:00</td><td><a href="sessions/posts/pospisil-low-resource-medical/">Training Medical Care in Low-Resource Environments</a></td><td class="who">Michal Pospíšil</td></tr>
+<tr><td>3:00</td><td><a href="sessions/posts/campion-alive-problems/">From Dead Drills to Alive Problems: Designing and Scaling Scenarios</a></td><td class="who">Jesse Campion</td></tr>
+<tr><td>4:00</td><td><a href="sessions/posts/alerrt-session/">To be announced</a></td><td class="who">ALERRT staff</td></tr>
+<tr class="break"><td>5:00</td><td colspan="2">Adjourn, then dinner</td></tr>
+</tbody>
+</table>
+```
 :::
 
 ::: {.day-block}
@@ -41,5 +77,9 @@ Breakfast, an informal wrap-up of what the room is taking home, and checkout.
 :::
 
 ::: {.note-panel}
-**Presenting this year?** Send your session title, a short description, and any materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu). Materials get posted to the [resources page](resources/index.qmd), and your session will be listed here.
+**This schedule is a working draft.** Times and running order are set, but a few details are still being confirmed with presenters, and the Saturday 4:00 slot is an ALERRT Center session with the topic still to come. Questions or corrections go to [sd33@txstate.edu](mailto:sd33@txstate.edu).
+:::
+
+::: {.note-panel}
+**Presenting this year?** Send any materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu). They get posted to the [resources page](resources/index.qmd) and linked from your session page.
 :::

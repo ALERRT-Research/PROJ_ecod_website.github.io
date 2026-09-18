@@ -1,0 +1,20 @@
+---
+title: "From Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics"
+description: "Small-sided games and designed constraints across handfighting, clinch, grounded, and transitional ranges."
+author: "Randy Wark, Cary Police Department, North Carolina"
+date: "2026-12-05T09:00:00"
+categories: [Weapons, Control tactics]
+---
+
+[Saturday 05 Dec / 9:00 AM / Cary Police Department, North Carolina]{.eyebrow}
+
+## The session
+
+A practical introduction to weapons-based defensive tactics on the mats with training weapons, aimed at developing officers who perceive opportunities and act rather than officers who apply prescribed solutions to predetermined problems. Small-sided games and designed constraints work across the operational ranges: handfighting, clinch and wall-pin, grounded encounters, and the transitions between them. Covers representative learning design, implementation inside an existing defensive tactics program, and the common misconceptions and lessons learned along the way.
+
+## About the presenter
+
+Randy serves with the Cary Police Department.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

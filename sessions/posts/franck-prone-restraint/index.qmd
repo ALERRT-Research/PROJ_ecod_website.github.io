@@ -1,0 +1,20 @@
+---
+title: "Prone Restraint Through a Constraints-Led Approach"
+description: "Prone control taught as constraint manipulation, working backward from the controlled end state."
+author: "Bryce Franck, Winnebago County Sheriff's Office, Rockford, Illinois"
+date: "2026-12-04T11:00:00"
+categories: [Control tactics]
+---
+
+[Friday 04 Dec / 11:00 AM / Winnebago County Sheriff's Office, Rockford, Illinois]{.eyebrow}
+
+## The session
+
+A mat session that teaches prone control as constraint manipulation rather than memorized technique, built on three control intentions: maximizing the subject's body-to-ground contact, separating the knees and elbows to deny a base, and clear officer-to-officer communication. Instruction begins at the end state, a subject already controlled prone, and works backward through representative tasks at varying levels of resistance, team configuration, and environment.
+
+## About the presenter
+
+Bryce has served with the Winnebago County Sheriff's Office for over 27 years and has supervised the Training Division for 12. He holds instructor certifications in firearms, defensive tactics, less-lethal weapons, active shooter response, de-escalation, and tactical medicine, has authored several state-certified curricula, and is a former world-ranked professional fighter.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

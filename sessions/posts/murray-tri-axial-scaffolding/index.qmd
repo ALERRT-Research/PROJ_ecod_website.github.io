@@ -1,0 +1,22 @@
+---
+title: "The Tri-Axial Scaffolding Framework for Task Learning"
+description: "Where to put a scaffold: a framework keyed to learner expertise, task complexity, and environmental dependence."
+author: "Collin Murray, Jefferson Parish Sheriff's Office / Clemson University"
+date: "2026-12-04T15:00:00"
+categories: [Instructor development, Skill acquisition]
+---
+
+[Friday 04 Dec / 3:00 PM / Jefferson Parish Sheriff's Office / Clemson University]{.eyebrow}
+
+## The session
+
+Scaffolding, any assistance that lets a student perform beyond current unassisted capability, is among the best-supported concepts in the learning sciences. The open question is where to put it. The tri-axial framework specifies whether a scaffold should be located, faded, or embedded based on learner expertise, task complexity, and environmental dependence. Three demonstrations run in one session (a threshold evaluation, hand control on the mats, and a criminal statute in the classroom) with the presenters explaining what is being scaffolded, how, and why as each unfolds.
+
+Co-presenting with **David Dalton** and **David Short**.
+
+## About the presenter
+
+Collin is a Sergeant at the Jefferson Parish Sheriff's Office Training Academy and a Learning Sciences Ph.D. student at Clemson. His work develops pedagogies for physical skills that must be deployed under stress, drawing on cognitive load theory, dual-process theory, and ecological dynamics. He has an extensive combat sports coaching background with athletes successful at national and international level.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

@@ -6,10 +6,11 @@ project:
     - assets/
 
 website:
-  title: "Training Design Workshop"
-  description: "A small, working conference for people who train law enforcement and tactical professionals. Hosted by the ALERRT Center at Texas State University."
+  title: "The Advanced Training Design Workshop"
+  description: "Designing Training That Transfers. A small, working conference for people who train law enforcement and tactical professionals. Hosted by the ALERRT Center at Texas State University."
   site-url: https://alerrt-research.github.io/PROJ_ecod_website.github.io/
   navbar:
+    title: "Training Design Workshop"
     pinned: true
     left:
       - text: "Attend"

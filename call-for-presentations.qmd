@@ -6,7 +6,7 @@ description: "How presenting at the Training Design Workshop works, and what a p
 [2026 submission window closed 05 Jun 2026]{.eyebrow}
 
 ::: {.note-panel}
-The submission window for the 2026 workshop closed on **June 5, 2026**, and notifications went out in mid-June. This page stays up so future presenters know what a proposal looks like. The 2027 call will be posted here when it opens. You can also download the original call: [2026 RFP (PDF)](assets/2026-RFP.pdf).
+The submission window for the 2026 workshop closed on **June 5, 2026**, and notifications went out in mid-June. The selected lineup is on the [sessions page](sessions/index.qmd). This page stays up so future presenters know what a proposal looks like; the 2027 call will be posted here when it opens. You can also download the original call: [2026 RFP (PDF)](assets/2026-RFP.pdf).
 :::
 
 ## What we look for

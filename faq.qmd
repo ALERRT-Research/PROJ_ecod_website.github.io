@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-description: "Common questions about attending and presenting at the Training Design Workshop."
+description: "Common questions about attending and presenting at the Advanced Training Design Workshop."
 ---
 
 [Answers to the questions we get most]{.eyebrow}
@@ -17,7 +17,7 @@ Attending costs **$695**, which covers your room at TBarM Resort for three night
 
 ### How do I register?
 
-Email **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu) with your name, agency or affiliation, and contact information. Seats are limited, so register early. Details are on the [attend page](attend.qmd).
+Email **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu) with your name, agency or affiliation, and contact information. Seats are limited and most of the 2026 room is already spoken for, so register early. Details are on the [attend page](attend.qmd).
 
 ### How do I get to TBarM?
 
@@ -44,6 +44,10 @@ Yes. One presenter per session is covered by the workshop; co-presenters are wel
 ### Do I have to subscribe to a particular training philosophy?
 
 No. No particular theoretical school is required. What matters is that you can show your method live and explain why you do it that way.
+
+### What is on the program this year?
+
+Sixteen sessions across Friday and Saturday, opening with a keynote from Rob Gray. The [sessions page](sessions/index.qmd) has a page per session with the full description and the presenter's bio; the [schedule](schedule.qmd) has the running order.
 
 ## Materials
 

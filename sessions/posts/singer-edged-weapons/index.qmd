@@ -1,0 +1,20 @@
+---
+title: "When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters"
+description: "Edged-weapon defense built into standing grappling rather than taught as a separate system."
+author: "Adam Singer, Head Coach, SBG Athens"
+date: "2026-12-05T10:00:00"
+categories: [Weapons, Control tactics]
+---
+
+[Saturday 05 Dec / 10:00 AM / Head Coach, SBG Athens]{.eyebrow}
+
+## The session
+
+Most counter-edged-weapon systems teach scripted slash-and-block sequences and choreographed disarms that collapse under live pressure. This mat session, with the whole room working in pairs, integrates weapon management into existing standing grappling and hand-fighting frameworks instead of isolating it. A live, unscripted knife enters the clinch, and the defender manages control, weapon suppression, and the transition to cuffing at once, under a strict safety commitment. Attendees leave with a scalable framework for introducing live decision-making and variable complexity into an agency defensive tactics program.
+
+## About the presenter
+
+Adam is Head Coach at SBG Athens and a 4th-degree Brazilian Jiu-Jitsu black belt who has trained multiple MMA world champions and consults for professional, collegiate, law enforcement, and military programs. He is co-author of "Applying an ecological dynamics framework to mixed martial arts training."
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->
