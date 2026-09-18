@@ -1,16 +1,33 @@
 [
   {
-    "listing": "/past/index.html",
-    "items": []
-  },
-  {
     "listing": "/resources/index.html",
     "items": [
       "/resources/posts/welcome/index.html"
     ]
   },
   {
-    "listing": "/sessions/index.html",
+    "listing": "/past/index.html",
     "items": []
+  },
+  {
+    "listing": "/sessions/index.html",
+    "items": [
+      "/sessions/posts/gray-educating-attention/index.html",
+      "/sessions/posts/butler-socratic-feedback/index.html",
+      "/sessions/posts/duffey-problem-first/index.html",
+      "/sessions/posts/franck-prone-restraint/index.html",
+      "/sessions/posts/barawed-constraints-led-entry/index.html",
+      "/sessions/posts/moore-hand-extraction/index.html",
+      "/sessions/posts/murray-tri-axial-scaffolding/index.html",
+      "/sessions/posts/gerace-micro-dosing/index.html",
+      "/sessions/posts/giesler-threat-recognition/index.html",
+      "/sessions/posts/wark-weapons-based-dt/index.html",
+      "/sessions/posts/singer-edged-weapons/index.html",
+      "/sessions/posts/fraser-humor-workshop/index.html",
+      "/sessions/posts/odintsov-scenario-first/index.html",
+      "/sessions/posts/pospisil-low-resource-medical/index.html",
+      "/sessions/posts/campion-alive-problems/index.html",
+      "/sessions/posts/alerrt-session/index.html"
+    ]
   }
 ]

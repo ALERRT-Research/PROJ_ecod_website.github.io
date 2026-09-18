@@ -1,5 +1,32 @@
-name,role,affiliation,city,state,lat,lng
-,staff,ALERRT Center,San Marcos,TX,29.8833,-97.9414
-Example Presenter (delete me),presenter,Example Agency,Columbus,OH,39.9612,-82.9988
-Example Attendee (delete me),attendee,Example PD,Phoenix,AZ,33.4484,-112.0740
-Example Attendee (delete me),attendee,Example Sheriff's Office,Spokane,WA,47.6588,-117.4260
+name,role,affiliation,city,state,country,lat,lng
+Rob Gray,presenter,Arizona State University,Tempe,AZ,,33.4242,-111.9281
+Chris Butler,presenter,Raptor Public Safety Coaching,Calgary,AB,Canada,51.0447,-114.0719
+Bob Duffey,presenter,Walworth County Sheriff's Office,Elkhorn,WI,,42.6720,-88.5445
+Bryce Franck,presenter,Winnebago County Sheriff's Office,Rockford,IL,,42.2711,-89.0940
+Chris Barawed,presenter,Boise Police Department,Boise,ID,,43.6150,-116.2023
+William Moore,presenter,Austin Police Department,Austin,TX,,30.2672,-97.7431
+Collin Murray,presenter,Jefferson Parish Sheriff's Office,Harvey,LA,,29.9038,-90.0773
+Jay Gerace,presenter,Town of Colonie Police Department,Colonie,NY,,42.7148,-73.8029
+Kevin Giesler,presenter,Cobb County Police Department,Marietta,GA,,33.9526,-84.5499
+Randy Wark,presenter,Cary Police Department,Cary,NC,,35.7915,-78.7811
+Adam Singer,presenter,SBG Athens,Athens,GA,,33.9519,-83.3576
+Dan Fraser,presenter,Royal Canadian Mounted Police,Calgary,AB,Canada,51.0447,-114.0719
+Alex Odintsov,presenter,Abbotsford Police Department,Abbotsford,BC,Canada,49.0504,-122.3045
+Michal Pospíšil,presenter,Masaryk University,Brno,,Czech Republic,49.1951,16.6068
+Jesse Campion,presenter,Denver Police Department,Denver,CO,,39.7392,-104.9903
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414
+,staff,ALERRT Center,San Marcos,TX,,29.8833,-97.9414

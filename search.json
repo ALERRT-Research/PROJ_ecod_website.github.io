@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "map.html",
-    "href": "map.html",
-    "title": "Who’s Coming",
-    "section": "",
-    "text": "Updated as registrations come in\nSixty seats, one room, and people converging on the Texas Hill Country from all over. The map below shows where this year’s presenters and attendees are traveling from. It grows as registrations come in, so check back.\n\nLoading registrations…\n\n\n\n\n\nPresenter Attendee Staff TBarM Resort (venue)\n\n\n\nFor the workshop team: the map reads from data/attendees.csv in the site repository. Add one row per registrant with their role (presenter, attendee, or staff), city, state, and coordinates, then commit. To get coordinates for a city, right-click the spot in Google Maps and copy the numbers, or ask us to batch-add them. Presenters are named on the map (hover over their dot), so fill in the name and affiliation columns for presenter rows. Attendee and staff names are never shown; those dots display counts only."
-  },
-  {
-    "objectID": "past/index.html",
-    "href": "past/index.html",
-    "title": "Past Workshops",
-    "section": "",
-    "text": "The archive grows by one room per year\nEach year of the workshop, and the ecological dynamics seminars that preceded it, gets an archive page here: a short recap, photos, and the materials that came out of it. We are assembling the archive now; past years will appear as they are compiled.\nIf you attended a past seminar and have photos or materials worth keeping, send them to sd33@txstate.edu.\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nThe Training DesignWorkshop 2026\n",
-    "section": "",
-    "text": "ALERRT Center / Texas State University\n\n\nA small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.\n\n\n\nDates03-06 Dec 2026\n\n\nLocationTBarM Resort, New Braunfels TX\n\n\nSeats~60\n\n\nFormatSingle track\n\n\n\nPlan your attendance See who’s coming"
-  },
-  {
-    "objectID": "index.html#not-a-lecture-hall",
-    "href": "index.html#not-a-lecture-hall",
-    "title": "\nThe Training DesignWorkshop 2026\n",
-    "section": "Not a lecture hall",
-    "text": "Not a lecture hall\nThe audience is a mix of working trainers, tactical practitioners, and training-science researchers. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.\n\n\nWatch\nEvery session opens with a hands-on demonstration. Presenters run their method live, with attendees on the mat or close enough to see the details.\n\n\nAsk\nHard questions are the point. Presenters explain what they do and why, then the room pushes on the evidence, the trade-offs, and the edge cases.\n\n\nTake home\nThe goal for every attendee is the same: leave with something you can use in your next training cycle."
-  },
-  {
-    "objectID": "index.html#how-a-session-runs",
-    "href": "index.html#how-a-session-runs",
-    "title": "\nThe Training DesignWorkshop 2026\n",
-    "section": "How a session runs",
-    "text": "How a session runs\nEvery session is 50 minutes, and the clock favors the mat.\n\n\n25 min Hands-on demonstration\n\n\n15 min What and why\n\n\n10 min Audience input\n\n\nOne 50-minute block, single track, no live fire. Sims, scenarios, and mat work."
-  },
-  {
-    "objectID": "index.html#key-dates",
-    "href": "index.html#key-dates",
-    "title": "\nThe Training DesignWorkshop 2026\n",
-    "section": "Key dates",
-    "text": "Key dates\n\n\n05 Jun 2026Presentation proposals dueClosed\n\n\n~12 Jun 2026Presenter notifications sentDone\n\n\nNowRegistration open, $695 room and boardOpen\n\n\n03 Dec 2026Arrival and dinner at TBarMUpcoming\n\n\n04-05 Dec 2026Full session daysUpcoming\n\n\n06 Dec 2026Breakfast, wrap-up, checkoutUpcoming"
-  },
-  {
-    "objectID": "index.html#around-the-workshop",
-    "href": "index.html#around-the-workshop",
-    "title": "\nThe Training DesignWorkshop 2026\n",
-    "section": "Around the workshop",
-    "text": "Around the workshop\n\nWho's comingA live map of where this year's presenters and attendees are traveling from.\nResourcesWhite papers, slides, and readings shared by presenters, past and present.\nPhotosScenes from the mat, the scenarios, and the debriefs."
-  },
-  {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Materials from the workshop and its presenters\nThe workshop exists so people go home with something useful. This page is where the useful things live: white papers and publications that come out of the workshop, presenters’ slides and handouts, and readings that presenters want the room to have.\nPresenters: to share materials here, email them (or a link) to sd33@txstate.edu.\n\n\n\n\n\n\n\n\n\nWhat lives on this page\n\n\n\nAnnouncement\n\n\n\nHow workshop materials get posted, and what to expect here.\n\n\n\n\n\nJul 24, 2026\n\n\nWorkshop team\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "attend.html",
     "href": "attend.html",
     "title": "Attend",
@@ -74,7 +18,7 @@
     "href": "attend.html#how-to-register",
     "title": "Attend",
     "section": "How to register",
-    "text": "How to register\nTo register, email Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information.\n\nSeats are limited and the room fills with a mix of roles on purpose, so register early."
+    "text": "How to register\nTo register, email Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information.\n\nSeats are limited and the room fills with a mix of roles on purpose, so register early. Most of the 2026 seats are already spoken for."
   },
   {
     "objectID": "attend.html#the-venue",
@@ -91,53 +35,18 @@
     "text": "The rhythm of the week\nArrive Thursday December 3 in time for dinner. Friday and Saturday are full session days, everyone in the same room. Sunday morning is breakfast, an informal wrap-up, and checkout. See the schedule for the day-by-day outline."
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
-    "section": "",
-    "text": "Answers to the questions we get most"
-  },
-  {
-    "objectID": "faq.html#attending",
-    "href": "faq.html#attending",
-    "title": "FAQ",
-    "section": "Attending",
-    "text": "Attending\n\nWho is the workshop for?\nPeople who train law enforcement and tactical professionals, and people who study that training. The room is a deliberate mix: working trainers, tactical practitioners, and training-science researchers, about 60 in total. You do not need to be sworn law enforcement to attend.\n\n\nHow much does it cost, and what does that include?\nAttending costs $695, which covers your room at TBarM Resort for three nights (December 3, 4, and 5) and all meals from dinner Thursday through breakfast Sunday. Travel is on you. Selected presenters attend at no cost, with travel covered.\n\n\nHow do I register?\nEmail Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information. Seats are limited, so register early. Details are on the attend page.\n\n\nHow do I get to TBarM?\nTBarM Resort is in New Braunfels, Texas, between San Antonio and Austin. San Antonio International (SAT) and Austin-Bergstrom (AUS) are both within about an hour’s drive; rent a car or use rideshare from either. Everything during the workshop, including sessions, meals, and lodging, is on site, so you will not need a car once you arrive.\n\n\nWhat should I bring?\nSessions are hands-on, and most include an active participant role. Bring clothes you can move in. Early December in the Hill Country is usually mild, but pack a layer for cool mornings.\n\n\nIs there live fire?\nNo. TBarM has no live-fire range. Demonstrations use sims, scenarios, and mat work."
-  },
-  {
-    "objectID": "faq.html#presenting",
-    "href": "faq.html#presenting",
-    "title": "FAQ",
-    "section": "Presenting",
-    "text": "Presenting\n\nHow do I get a presentation slot?\nThrough the annual call for presentations, usually posted in the spring with proposals due in early June. The present page has the full requirements and a copy of the most recent call. Selected presenters have their conference fee, room, board, and travel covered.\n\n\nCan I bring a co-presenter?\nYes. One presenter per session is covered by the workshop; co-presenters are welcome at their own cost.\n\n\nDo I have to subscribe to a particular training philosophy?\nNo. No particular theoretical school is required. What matters is that you can show your method live and explain why you do it that way."
-  },
-  {
-    "objectID": "faq.html#materials",
-    "href": "faq.html#materials",
-    "title": "FAQ",
-    "section": "Materials",
-    "text": "Materials\n\nWhere do slides, white papers, and readings live?\nOn the resources page. Presenters who want the room to keep their materials email them to sd33@txstate.edu and they get posted there.\n\n\nWill photos from the workshop be available?\nYes, on the photos page after the workshop. If you have shots from past years, send them in."
-  },
-  {
-    "objectID": "faq.html#something-else",
-    "href": "faq.html#something-else",
-    "title": "FAQ",
-    "section": "Something else?",
-    "text": "Something else?\nEmail sd33@txstate.edu. Every question about the workshop goes to the same place."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+    "text": "The Advanced Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions. The 2026 theme is Designing Training That Transfers.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
   },
   {
     "objectID": "about.html#the-workshop",
     "href": "about.html#the-workshop",
     "title": "About",
     "section": "",
-    "text": "The Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
+    "text": "The Advanced Training Design Workshop is a small, annual working conference for people who train law enforcement and tactical professionals. Roughly 60 people attend: working trainers, tactical practitioners, and training-science researchers, all in one room for two full days of hands-on sessions. The 2026 theme is Designing Training That Transfers.\nThe workshop grew out of the ALERRT Center’s ongoing ecological dynamics seminar series, which brings training-science researchers and practitioners together around how people actually learn, perceive, and decide under pressure. The workshop keeps that spirit but widens the door: no particular theoretical school is required. Presenters show their method live, explain why they do it that way, and the room takes it from there."
   },
   {
     "objectID": "about.html#the-host",
@@ -151,7 +60,7 @@
     "href": "about.html#the-venue",
     "title": "About",
     "section": "The venue",
-    "text": "The venue\nThe workshop is held at TBarM Resort in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the attend page for cost and travel details."
+    "text": "The venue\nThe workshop is held at TBarM Resort in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the attend page for cost and travel details, and the schedule for the 2026 program."
   },
   {
     "objectID": "about.html#contact",
@@ -161,25 +70,18 @@
     "text": "Contact\nQuestions about the workshop, registration, proposals, or materials all go to Sarah E. Drennan at sd33@txstate.edu."
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
     "section": "",
-    "text": "03-06 Dec 2026 / All sessions at TBarM\nThe full session lineup will be posted on the sessions page once the 2026 program is finalized. The shape of the week is already set.\n\nThursday, 03 Dec\n\nArrival\nCheck in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an overview of how the two session days will run.\n\n\n\nFriday, 04 Dec\n\nSession day one\nA full day of 50-minute sessions. Each session runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what-and-why, and 10 minutes of audience input. Meals and breaks are on site with the whole group.\n\n\n\nSaturday, 05 Dec\n\nSession day two\nA second full day of sessions in the same format, closing with dinner and time to keep the arguments going informally.\n\n\n\nSunday, 06 Dec\n\nWrap-up\nBreakfast, an informal wrap-up of what the room is taking home, and checkout.\n\n\n\nPresenting this year? Send your session title, a short description, and any materials you want attendees to have to sd33@txstate.edu. Materials get posted to the resources page, and your session will be listed here."
+    "text": "Materials from the workshop and its presenters\nThe workshop exists so people go home with something useful. This page is where the useful things live: white papers and publications that come out of the workshop, presenters’ slides and handouts, and readings that presenters want the room to have.\nPresenters: to share materials here, email them (or a link) to sd33@txstate.edu.\n\n\n\n\n\n\n\n\n\nWhat lives on this page\n\n\n\nAnnouncement\n\n\n\nHow workshop materials get posted, and what to expect here.\n\n\n\n\n\nJul 24, 2026\n\n\nWorkshop team\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "resources/posts/welcome/index.html",
-    "href": "resources/posts/welcome/index.html",
-    "title": "What lives on this page",
+    "objectID": "past/index.html",
+    "href": "past/index.html",
+    "title": "Past Workshops",
     "section": "",
-    "text": "As the 2026 workshop comes together, this page will fill with three kinds of material:\n\nWhite papers and publications that come out of the workshop or the ALERRT Center’s related research.\nSession materials: slides, handouts, drill sheets, and scenario templates from presenters who want the room to keep them.\nReadings that presenters recommend before or after their sessions.\n\nEverything posted here is meant to be used. Take it back to your agency, adapt it, and tell us how it went.\nPresenters: email your materials or links to sd33@txstate.edu and we will post them with your session."
-  },
-  {
-    "objectID": "sessions/index.html",
-    "href": "sessions/index.html",
-    "title": "Sessions",
-    "section": "",
-    "text": "2026 lineup / Dec 4-5\nThe 2026 program is being finalized. Once it is set, every session gets its own page here with the presenter, what the demonstration looks like, what you will take away, and any materials the presenter shares.\nUntil then, the schedule has the shape of the week, and the call for presentations explains how sessions are selected.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The archive grows by one room per year\nEach year of the workshop, and the ecological dynamics seminars that preceded it, gets an archive page here: a short recap, photos, and the materials that came out of it. We are assembling the archive now; past years will appear as they are compiled.\nIf you attended a past seminar and have photos or materials worth keeping, send them to sd33@txstate.edu.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "call-for-presentations.html",
@@ -224,10 +126,444 @@
     "text": "How to submit\nEmail your document to Sarah E. Drennan at sd33@txstate.edu with the subject line Training Design Workshop RFP - [Lead Presenter Last Name]. Questions go to the same address."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "",
+    "text": "ALERRT Center / Texas State University\n\nDesigning Training That Transfers\n\nA small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.\n\n\n\nDates03-06 Dec 2026\n\n\nLocationTBarM Resort, New Braunfels TX\n\n\nSeats~60\n\n\nSessions16\n\n\n\nSee the 2026 program Plan your attendance"
+  },
+  {
+    "objectID": "index.html#not-a-lecture-hall",
+    "href": "index.html#not-a-lecture-hall",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "Not a lecture hall",
+    "text": "Not a lecture hall\nThe audience is a mix of working trainers, tactical practitioners, and training-science researchers. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.\n\n\nWatch\nEvery session opens with a hands-on demonstration. Presenters run their method live, with attendees on the mat or close enough to see the details.\n\n\nAsk\nHard questions are the point. Presenters explain what they do and why, then the room pushes on the evidence, the trade-offs, and the edge cases.\n\n\nTake home\nThe goal for every attendee is the same: leave with something you can use in your next training cycle."
+  },
+  {
+    "objectID": "index.html#the-2026-program",
+    "href": "index.html#the-2026-program",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "The 2026 program",
+    "text": "The 2026 program\nSixteen sessions across Friday and Saturday, from trainers who are putting these ideas to work on the mat, in the scenario, and in the academy.\n\nOpening keynote / Friday 8:00 AM\n\nRob Gray\nAuthor of How We Learn to Move and host of the Perception & Action Podcast, Dr. Gray (Arizona State University) is the leading voice on ecological approaches to skill acquisition. He opens the workshop with The What, Why, and How of Educating Attention.\n\n\nSessions include:\n\n\nActive attacker tactics: constraints-led room entry and hallway movement\nScenario design: turning dead drills into live problems\nUse-of-force decisions: coupling threat recognition with weapon access\nControl tactics: prone restraint and hand extraction under real resistance\nWeapons-based grappling: edged-weapon defense in the clinch\nMicro-dosed training: 15-minute roll-call modules with measured retention gains\nTactical medicine: scenario-first hemorrhage control and limited-resource care\nInstructor development: Socratic feedback, scaffolding, and humor that sticks\n\n\nFull descriptions on the sessions page, running order on the schedule.\n\nPresenting agencies\n\nALERRT Center at Texas State University · Arizona State University · Austin PD · Boise PD · Cary PD (NC) · Cobb County PD · Denver PD · Town of Colonie PD (NY) · Jefferson Parish SO (LA) · Winnebago County SO (IL) · Walworth County SO (WI) · Abbotsford PD (BC) · Royal Canadian Mounted Police · SBG Athens · Raptor Public Safety Coaching · Masaryk University (Czech Republic)"
+  },
+  {
+    "objectID": "index.html#how-a-session-runs",
+    "href": "index.html#how-a-session-runs",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "How a session runs",
+    "text": "How a session runs\nEvery session is 50 minutes, and the clock favors the mat.\n\n\n25 min Hands-on demonstration\n\n\n15 min What and why\n\n\n10 min Audience input\n\n\nOne 50-minute block, single track, no live fire. Sims, scenarios, and mat work."
+  },
+  {
+    "objectID": "index.html#key-dates",
+    "href": "index.html#key-dates",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "Key dates",
+    "text": "Key dates\n\n\n05 Jun 2026Presentation proposals dueClosed\n\n\n~12 Jun 2026Presenter notifications sentDone\n\n\nSep 2026Draft program posted, 16 sessionsDone\n\n\nNowRegistration open, $695 room and board, most seats takenFilling\n\n\n03 Dec 2026Arrival and dinner at TBarMUpcoming\n\n\n04-05 Dec 2026Full session daysUpcoming\n\n\n06 Dec 2026Breakfast, wrap-up, checkoutUpcoming"
+  },
+  {
+    "objectID": "index.html#around-the-workshop",
+    "href": "index.html#around-the-workshop",
+    "title": "\nThe Advanced TrainingDesign Workshop 2026\n",
+    "section": "Around the workshop",
+    "text": "Around the workshop\n\nSessionsAll sixteen sessions, with what each one demonstrates and who is running it.\nWho's comingA live map of where this year's presenters and attendees are traveling from.\nResourcesWhite papers, slides, and readings shared by presenters, past and present."
+  },
+  {
+    "objectID": "sessions/posts/butler-socratic-feedback/index.html",
+    "href": "sessions/posts/butler-socratic-feedback/index.html",
+    "title": "Empowering Feedback: Enhancing Student Learning Through Socratic Feedback",
+    "section": "",
+    "text": "Friday 04 Dec / 9:00 AM / Raptor Public Safety Coaching"
+  },
+  {
+    "objectID": "sessions/posts/butler-socratic-feedback/index.html#the-session",
+    "href": "sessions/posts/butler-socratic-feedback/index.html#the-session",
+    "title": "Empowering Feedback: Enhancing Student Learning Through Socratic Feedback",
+    "section": "The session",
+    "text": "The session\nA classroom session on feedback: the types available to a coach, what each type does to student motivation and focus of attention, how to avoid building students who depend on the coach for every answer, and the use of video as a feedback tool. Attendees pair up and practice Socratic feedback, first on everyday problems and then on common law enforcement problems."
+  },
+  {
+    "objectID": "sessions/posts/butler-socratic-feedback/index.html#about-the-presenter",
+    "href": "sessions/posts/butler-socratic-feedback/index.html#about-the-presenter",
+    "title": "Empowering Feedback: Enhancing Student Learning Through Socratic Feedback",
+    "section": "About the presenter",
+    "text": "About the presenter\nChris has over 42 years across technical high-angle mountain search and rescue and law enforcement, working with human performance researchers, coaches, and practitioners. He developed the Advanced Methods of Instruction course and was inducted into the National Law Enforcement Officer Hall of Fame in 2025 as Trainer of the Year."
+  },
+  {
+    "objectID": "sessions/posts/gerace-micro-dosing/index.html",
+    "href": "sessions/posts/gerace-micro-dosing/index.html",
+    "title": "Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence",
+    "section": "",
+    "text": "Friday 04 Dec / 4:00 PM / Chief of Police, Town of Colonie, New York"
+  },
+  {
+    "objectID": "sessions/posts/gerace-micro-dosing/index.html#the-session",
+    "href": "sessions/posts/gerace-micro-dosing/index.html#the-session",
+    "title": "Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence",
+    "section": "The session",
+    "text": "The session\nIn September 2025, the Colonie Police Department replaced conventional roll call with a 13-week micro-dosing program: 15-to-20-minute training modules delivered inside daily patrol briefings. Chief Gerace runs the room through a live micro-dose exactly as delivered at roll call, including a rapid tactical decision game with volunteers in the hot seat. He then presents the Finn Institute’s evaluation findings: measured gains in knowledge retention, movement from needs-improvement to mastery in life-saving procedures, and increased decision-making confidence among less-experienced officers. Attendees leave with the program schedule and implementation suggestions."
+  },
+  {
+    "objectID": "sessions/posts/gerace-micro-dosing/index.html#about-the-presenter",
+    "href": "sessions/posts/gerace-micro-dosing/index.html#about-the-presenter",
+    "title": "Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence",
+    "section": "About the presenter",
+    "text": "About the presenter\nChief Gerace leads the Town of Colonie Police Department with over 27 years in law enforcement. An FBI National Academy graduate, he holds a gubernatorial appointment to the New York State Municipal Police Training Council and has spoken before the National Academy of Sciences on behavioral health emergencies and modern restraint. His work appears in the FBI Law Enforcement Bulletin, Police Chief Magazine, Police1, and Translational Criminology."
+  },
+  {
+    "objectID": "sessions/posts/gray-educating-attention/index.html",
+    "href": "sessions/posts/gray-educating-attention/index.html",
+    "title": "The What, Why, and How of Educating Attention",
+    "section": "",
+    "text": "Friday 04 Dec / 8:00 AM / Arizona State University"
+  },
+  {
+    "objectID": "sessions/posts/gray-educating-attention/index.html#the-session",
+    "href": "sessions/posts/gray-educating-attention/index.html#the-session",
+    "title": "The What, Why, and How of Educating Attention",
+    "section": "The session",
+    "text": "The session\nOpening keynote. Rob’s full session description will be posted here as soon as it lands."
+  },
+  {
+    "objectID": "sessions/posts/gray-educating-attention/index.html#about-the-presenter",
+    "href": "sessions/posts/gray-educating-attention/index.html#about-the-presenter",
+    "title": "The What, Why, and How of Educating Attention",
+    "section": "About the presenter",
+    "text": "About the presenter\nAuthor of How We Learn to Move and host of the Perception & Action Podcast, Dr. Gray is the leading voice on ecological approaches to skill acquisition. He teaches in Human Systems Engineering at Arizona State University."
+  },
+  {
+    "objectID": "sessions/posts/alerrt-session/index.html",
+    "href": "sessions/posts/alerrt-session/index.html",
+    "title": "To be announced",
+    "section": "",
+    "text": "Saturday 05 Dec / 4:00 PM / ALERRT Center"
+  },
+  {
+    "objectID": "sessions/posts/alerrt-session/index.html#the-session",
+    "href": "sessions/posts/alerrt-session/index.html#the-session",
+    "title": "To be announced",
+    "section": "The session",
+    "text": "The session\nThe final slot of the workshop goes to the ALERRT Center’s own training staff. Topic and presenter are being confirmed and will be posted here."
+  },
+  {
+    "objectID": "sessions/posts/murray-tri-axial-scaffolding/index.html",
+    "href": "sessions/posts/murray-tri-axial-scaffolding/index.html",
+    "title": "The Tri-Axial Scaffolding Framework for Task Learning",
+    "section": "",
+    "text": "Friday 04 Dec / 3:00 PM / Jefferson Parish Sheriff’s Office / Clemson University"
+  },
+  {
+    "objectID": "sessions/posts/murray-tri-axial-scaffolding/index.html#the-session",
+    "href": "sessions/posts/murray-tri-axial-scaffolding/index.html#the-session",
+    "title": "The Tri-Axial Scaffolding Framework for Task Learning",
+    "section": "The session",
+    "text": "The session\nScaffolding, any assistance that lets a student perform beyond current unassisted capability, is among the best-supported concepts in the learning sciences. The open question is where to put it. The tri-axial framework specifies whether a scaffold should be located, faded, or embedded based on learner expertise, task complexity, and environmental dependence. Three demonstrations run in one session (a threshold evaluation, hand control on the mats, and a criminal statute in the classroom) with the presenters explaining what is being scaffolded, how, and why as each unfolds.\nCo-presenting with David Dalton and David Short."
+  },
+  {
+    "objectID": "sessions/posts/murray-tri-axial-scaffolding/index.html#about-the-presenter",
+    "href": "sessions/posts/murray-tri-axial-scaffolding/index.html#about-the-presenter",
+    "title": "The Tri-Axial Scaffolding Framework for Task Learning",
+    "section": "About the presenter",
+    "text": "About the presenter\nCollin is a Sergeant at the Jefferson Parish Sheriff’s Office Training Academy and a Learning Sciences Ph.D. student at Clemson. His work develops pedagogies for physical skills that must be deployed under stress, drawing on cognitive load theory, dual-process theory, and ecological dynamics. He has an extensive combat sports coaching background with athletes successful at national and international level."
+  },
+  {
+    "objectID": "sessions/posts/fraser-humor-workshop/index.html",
+    "href": "sessions/posts/fraser-humor-workshop/index.html",
+    "title": "You’ve Got To Be Joking! A Humor Workshop for Trainers",
+    "section": "",
+    "text": "Saturday 05 Dec / 11:00 AM / Royal Canadian Mounted Police / Fraser Training Solutions"
+  },
+  {
+    "objectID": "sessions/posts/fraser-humor-workshop/index.html#the-session",
+    "href": "sessions/posts/fraser-humor-workshop/index.html#the-session",
+    "title": "You’ve Got To Be Joking! A Humor Workshop for Trainers",
+    "section": "The session",
+    "text": "The session\nBefore students can retain anything, the trainer has to win their attention, and humor is a reliable way to get it. This classroom session covers why humor makes training engaging and memorable, basic joke structure and joke-writing technique, and how to add humor to a slide deck with images. Participants run improv exercises to build the mindset, then write and immediately deliver their own material."
+  },
+  {
+    "objectID": "sessions/posts/fraser-humor-workshop/index.html#about-the-presenter",
+    "href": "sessions/posts/fraser-humor-workshop/index.html#about-the-presenter",
+    "title": "You’ve Got To Be Joking! A Humor Workshop for Trainers",
+    "section": "About the presenter",
+    "text": "About the presenter\nDan is a police officer from Alberta with over 25 years building and delivering presentations in government and the private sector. He has trained thousands of officers and now speaks and coaches internationally as an instructor development specialist, drawing on his experience as a standup comedian. He is the author of Kickass Presentations."
+  },
+  {
+    "objectID": "sessions/posts/odintsov-scenario-first/index.html",
+    "href": "sessions/posts/odintsov-scenario-first/index.html",
+    "title": "Scenario First: Training Adaptable Responders for Uncertain Environments",
+    "section": "",
+    "text": "Saturday 05 Dec / 1:00 PM / Abbotsford Police Department / Wolf Training Systems"
+  },
+  {
+    "objectID": "sessions/posts/odintsov-scenario-first/index.html#the-session",
+    "href": "sessions/posts/odintsov-scenario-first/index.html#the-session",
+    "title": "Scenario First: Training Adaptable Responders for Uncertain Environments",
+    "section": "The session",
+    "text": "The session\nMassive hemorrhage control is the working example; scenario design is the subject. Two officers respond to a shots-fired scene with an officer down and bleeding out. Rather than teaching every intervention first, the session starts with the problem and shapes performance with short pauses, focused teaching, Socratic questioning, and immediate rewinds. Complexity builds one layer at a time, from extremity bleeding through tourniquet transition, junctional bleeding, wound packing, and neck bleeding, while the learner stays inside a meaningful tactical problem. Attendees leave with a repeatable structure that transfers to use of force, de-escalation, arrest and control, vehicle stops, and room clearing."
+  },
+  {
+    "objectID": "sessions/posts/odintsov-scenario-first/index.html#about-the-presenter",
+    "href": "sessions/posts/odintsov-scenario-first/index.html#about-the-presenter",
+    "title": "Scenario First: Training Adaptable Responders for Uncertain Environments",
+    "section": "About the presenter",
+    "text": "About the presenter\nAlex is a Training Officer with the Abbotsford Police Department, where he designs and delivers training in use of force, police tactics, firearms, simulation, tactical medicine, de-escalation, vehicle stops, and rapid deployment. He is founder of Wolf Training Systems and Chief Operating Officer and Lead Instructor for the Joint Tactical Medical Program, which delivers tactical medical training to agencies across Canada."
+  },
+  {
+    "objectID": "sessions/posts/pospisil-low-resource-medical/index.html",
+    "href": "sessions/posts/pospisil-low-resource-medical/index.html",
+    "title": "Training Medical Care in Low-Resource Environments",
+    "section": "",
+    "text": "Saturday 05 Dec / 2:00 PM / Masaryk University Faculty of Medicine, Brno, Czech Republic"
+  },
+  {
+    "objectID": "sessions/posts/pospisil-low-resource-medical/index.html#the-session",
+    "href": "sessions/posts/pospisil-low-resource-medical/index.html#the-session",
+    "title": "Training Medical Care in Low-Resource Environments",
+    "section": "The session",
+    "text": "The session\nMedical training designed for the case where the equipment, the personnel, and the evacuation are not there: what to teach, what to cut, and how to train it."
+  },
+  {
+    "objectID": "sessions/posts/pospisil-low-resource-medical/index.html#about-the-presenter",
+    "href": "sessions/posts/pospisil-low-resource-medical/index.html#about-the-presenter",
+    "title": "Training Medical Care in Low-Resource Environments",
+    "section": "About the presenter",
+    "text": "About the presenter\nMichal is an Assistant Professor in the Department of Health Sciences at Masaryk University and sits on the paramedic program board. He came up as an ICU nurse at University Hospital Brno and has worked in the field with Médecins Sans Frontières France."
+  },
+  {
+    "objectID": "sessions/index.html",
+    "href": "sessions/index.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "2026 lineup / Dec 4-5 / Sixteen sessions\nSixteen sessions across two days, all in the same room. Every one of them runs the same way: about 25 minutes of hands-on demonstration, 15 minutes of what and why, and 10 minutes of the room pushing back.\nFilter by category below, or see the running order on the schedule.\n\nA few details are still being confirmed with presenters, and the Saturday 4:00 slot is an ALERRT Center session with the topic to come. Presenters: send materials you want attendees to have to sd33@txstate.edu and they will be linked from your session page.\n\n\n\n\n\n\n\n\n\n\nThe What, Why, and How of Educating Attention\n\n\n\nKeynote\n\nSkill acquisition\n\n\n\nOpening keynote. Full session description to come.\n\n\n\n\n\nFriday 4 Dec, 8:00 AM\n\n\nRob Gray, Arizona State University\n\n\n\n\n\n\n\nEmpowering Feedback: Enhancing Student Learning Through Socratic Feedback\n\n\n\nInstructor development\n\n\n\nFeedback types, what each one does to motivation and attention, and hands-on practice running a Socratic debrief.\n\n\n\n\n\nFriday 4 Dec, 9:00 AM\n\n\nChris Butler, Raptor Public Safety Coaching\n\n\n\n\n\n\n\nThe Problem-First Approach to Control Tactics Training\n\n\n\nControl tactics\n\n\n\nControl tactics organised around problem spaces rather than technique progressions, using the 3Ms model.\n\n\n\n\n\nFriday 4 Dec, 10:00 AM\n\n\nBob Duffey, Walworth County Sheriff’s Office / C4C Police Jiu-Jitsu\n\n\n\n\n\n\n\nProne Restraint Through a Constraints-Led Approach\n\n\n\nControl tactics\n\n\n\nProne control taught as constraint manipulation, working backward from the controlled end state.\n\n\n\n\n\nFriday 4 Dec, 11:00 AM\n\n\nBryce Franck, Winnebago County Sheriff’s Office, Rockford, Illinois\n\n\n\n\n\n\n\nConstraints-Led Instruction for Room Entry and Hallway Movement\n\n\n\nActive attacker\n\n\n\nA constraints-led build of active attacker tactics, run in hallway and room space.\n\n\n\n\n\nFriday 4 Dec, 1:00 PM\n\n\nChris Barawed, Boise Police Department\n\n\n\n\n\n\n\nBeyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance\n\n\n\nControl tactics\n\n\n\nGrappling-based methods for the prone subject who tucks his hands and will not give them up.\n\n\n\n\n\nFriday 4 Dec, 2:00 PM\n\n\nWilliam Moore, Austin Police Department\n\n\n\n\n\n\n\nThe Tri-Axial Scaffolding Framework for Task Learning\n\n\n\nInstructor development\n\nSkill acquisition\n\n\n\nWhere to put a scaffold: a framework keyed to learner expertise, task complexity, and environmental dependence.\n\n\n\n\n\nFriday 4 Dec, 3:00 PM\n\n\nCollin Murray, Jefferson Parish Sheriff’s Office / Clemson University\n\n\n\n\n\n\n\nMicro Doses = Massive Impact: Roll Call Training for Patrol Excellence\n\n\n\nInstructor development\n\nDecision-making\n\n\n\nColonie PD’s 13-week roll-call micro-dosing program, run live, with the evaluation findings.\n\n\n\n\n\nFriday 4 Dec, 4:00 PM\n\n\nJay Gerace, Chief of Police, Town of Colonie, New York\n\n\n\n\n\n\n\nTraining the Decision, Not Just the Skill: Improving Threat Recognition and Response\n\n\n\nWeapons\n\nDecision-making\n\n\n\nThreat perception and firearm access trained together, with suspect movement as the stimulus.\n\n\n\n\n\nSaturday 5 Dec, 8:00 AM\n\n\nKevin Giesler, Lieutenant, Cobb County Police Department, Marietta, Georgia\n\n\n\n\n\n\n\nFrom Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics\n\n\n\nWeapons\n\nControl tactics\n\n\n\nSmall-sided games and designed constraints across handfighting, clinch, grounded, and transitional ranges.\n\n\n\n\n\nSaturday 5 Dec, 9:00 AM\n\n\nRandy Wark, Cary Police Department, North Carolina\n\n\n\n\n\n\n\nWhen They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters\n\n\n\nWeapons\n\nControl tactics\n\n\n\nEdged-weapon defense built into standing grappling rather than taught as a separate system.\n\n\n\n\n\nSaturday 5 Dec, 10:00 AM\n\n\nAdam Singer, Head Coach, SBG Athens\n\n\n\n\n\n\n\nYou’ve Got To Be Joking! A Humor Workshop for Trainers\n\n\n\nInstructor development\n\n\n\nWhy humor buys attention, how jokes are built, and writing and delivering your own material.\n\n\n\n\n\nSaturday 5 Dec, 11:00 AM\n\n\nDan Fraser, Royal Canadian Mounted Police / Fraser Training Solutions\n\n\n\n\n\n\n\nScenario First: Training Adaptable Responders for Uncertain Environments\n\n\n\nScenario design\n\nTactical medicine\n\n\n\nHemorrhage control is the working example; scenario design is the subject.\n\n\n\n\n\nSaturday 5 Dec, 1:00 PM\n\n\nAlex Odintsov, Abbotsford Police Department / Wolf Training Systems\n\n\n\n\n\n\n\nTraining Medical Care in Low-Resource Environments\n\n\n\nTactical medicine\n\n\n\nWhat to teach, what to cut, and how to train it when the equipment and the evacuation are not there.\n\n\n\n\n\nSaturday 5 Dec, 2:00 PM\n\n\nMichal Pospíšil, Masaryk University Faculty of Medicine, Brno, Czech Republic\n\n\n\n\n\n\n\nFrom Dead Drills to Alive Problems: Designing and Scaling Scenarios\n\n\n\nScenario design\n\n\n\nTurning a familiar TASER drill into an alive problem, and scaling it across experience levels.\n\n\n\n\n\nSaturday 5 Dec, 3:00 PM\n\n\nJesse Campion, Lieutenant, Director of Training, Denver Police Department\n\n\n\n\n\n\n\nTo be announced\n\n\nSession topic and presenter to be confirmed.\n\n\n\n\n\nSaturday 5 Dec, 4:00 PM\n\n\nALERRT Center\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/posts/franck-prone-restraint/index.html",
+    "href": "sessions/posts/franck-prone-restraint/index.html",
+    "title": "Prone Restraint Through a Constraints-Led Approach",
+    "section": "",
+    "text": "Friday 04 Dec / 11:00 AM / Winnebago County Sheriff’s Office, Rockford, Illinois"
+  },
+  {
+    "objectID": "sessions/posts/franck-prone-restraint/index.html#the-session",
+    "href": "sessions/posts/franck-prone-restraint/index.html#the-session",
+    "title": "Prone Restraint Through a Constraints-Led Approach",
+    "section": "The session",
+    "text": "The session\nA mat session that teaches prone control as constraint manipulation rather than memorized technique, built on three control intentions: maximizing the subject’s body-to-ground contact, separating the knees and elbows to deny a base, and clear officer-to-officer communication. Instruction begins at the end state, a subject already controlled prone, and works backward through representative tasks at varying levels of resistance, team configuration, and environment."
+  },
+  {
+    "objectID": "sessions/posts/franck-prone-restraint/index.html#about-the-presenter",
+    "href": "sessions/posts/franck-prone-restraint/index.html#about-the-presenter",
+    "title": "Prone Restraint Through a Constraints-Led Approach",
+    "section": "About the presenter",
+    "text": "About the presenter\nBryce has served with the Winnebago County Sheriff’s Office for over 27 years and has supervised the Training Division for 12. He holds instructor certifications in firearms, defensive tactics, less-lethal weapons, active shooter response, de-escalation, and tactical medicine, has authored several state-certified curricula, and is a former world-ranked professional fighter."
+  },
+  {
+    "objectID": "sessions/posts/giesler-threat-recognition/index.html",
+    "href": "sessions/posts/giesler-threat-recognition/index.html",
+    "title": "Training the Decision, Not Just the Skill: Improving Threat Recognition and Response",
+    "section": "",
+    "text": "Saturday 05 Dec / 8:00 AM / Lieutenant, Cobb County Police Department, Marietta, Georgia"
+  },
+  {
+    "objectID": "sessions/posts/giesler-threat-recognition/index.html#the-session",
+    "href": "sessions/posts/giesler-threat-recognition/index.html#the-session",
+    "title": "Training the Decision, Not Just the Skill: Improving Threat Recognition and Response",
+    "section": "The session",
+    "text": "The session\nPre-assault indicators are usually taught in a classroom as isolated cues, and weapon presentation is trained statically off an audible stimulus, so officers never learn to couple the two. Using blank-firing simulation pistols, this session trains threat perception and firearm access together, treating suspect movement as actionable rather than descriptive. The approach draws on Left of Bang and recognition-primed decision making, and scaffolds out to cover, team movement, and crossfire considerations."
+  },
+  {
+    "objectID": "sessions/posts/giesler-threat-recognition/index.html#about-the-presenter",
+    "href": "sessions/posts/giesler-threat-recognition/index.html#about-the-presenter",
+    "title": "Training the Decision, Not Just the Skill: Improving Threat Recognition and Response",
+    "section": "About the presenter",
+    "text": "About the presenter\nLt. Giesler has served with Cobb County PD since 2007 across patrol, the violent street crimes unit, and a narcotics task force, and served as Range Master at the county Public Safety Training Center. He reviews departmental use of force incidents and teaches use of force to all recruits. He is a Force Science Advanced Specialist, a Georgia POST use of force and defensive tactics instructor, and a Master PepperBall Instructor."
+  },
+  {
+    "objectID": "sessions/posts/moore-hand-extraction/index.html",
+    "href": "sessions/posts/moore-hand-extraction/index.html",
+    "title": "Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance",
+    "section": "",
+    "text": "Friday 04 Dec / 2:00 PM / Austin Police Department"
+  },
+  {
+    "objectID": "sessions/posts/moore-hand-extraction/index.html#the-session",
+    "href": "sessions/posts/moore-hand-extraction/index.html#the-session",
+    "title": "Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance",
+    "section": "The session",
+    "text": "The session\nA mat session, mostly demonstration, on the prone subject who tucks his hands under his torso and will not give them up. It opens by recreating the scenario and showing why direct pulling fails and how some officer actions strengthen the subject’s defensive structure. It then works positional dominance, leverage, and structural manipulation to weaken resistance before attempting extraction, reducing the need to escalate with strikes or tools.\nCo-presenting with Adam Kaufman (Austin Police Department), a Senior Police Officer, FTO, Mental Health Officer, and Special Response Team member who supports Austin Police Jiu-Jitsu through curriculum development and program evaluation, and previously worked with the National Policing Institute."
+  },
+  {
+    "objectID": "sessions/posts/moore-hand-extraction/index.html#about-the-presenter",
+    "href": "sessions/posts/moore-hand-extraction/index.html#about-the-presenter",
+    "title": "Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance",
+    "section": "About the presenter",
+    "text": "About the presenter\nWilliam Moore, M.S., is a Senior Police Officer and Adjunct Training Instructor with APD, with 19 years of service and 29 years of instructional experience. He co-founded the Austin Police Jiu-Jitsu program and the Austin Police Marksmanship Team, and has helped redesign APD’s firearms and defensive tactics training."
+  },
+  {
+    "objectID": "sessions/posts/campion-alive-problems/index.html",
+    "href": "sessions/posts/campion-alive-problems/index.html",
+    "title": "From Dead Drills to Alive Problems: Designing and Scaling Scenarios",
+    "section": "",
+    "text": "Saturday 05 Dec / 3:00 PM / Lieutenant, Director of Training, Denver Police Department"
+  },
+  {
+    "objectID": "sessions/posts/campion-alive-problems/index.html#the-session",
+    "href": "sessions/posts/campion-alive-problems/index.html#the-session",
+    "title": "From Dead Drills to Alive Problems: Designing and Scaling Scenarios",
+    "section": "The session",
+    "text": "The session\nHow to move away from dead drills and build alive problems. The session works from a basic Axon TASER scenario that most attendees will already know and shows how Denver scales it for learners at different experience levels: bringing the drill to life, manipulating constraints, and applying the feedback models the department uses with both trainers and trainees."
+  },
+  {
+    "objectID": "sessions/posts/campion-alive-problems/index.html#about-the-presenter",
+    "href": "sessions/posts/campion-alive-problems/index.html#about-the-presenter",
+    "title": "From Dead Drills to Alive Problems: Designing and Scaling Scenarios",
+    "section": "About the presenter",
+    "text": "About the presenter\nJesse is a Lieutenant with the Denver Police Department and serves as its Director of Training. Scenario design was among the first places Denver applied ecological dynamics, and the department has built the constraints-led approach and representative learning design into its academy scenarios."
+  },
+  {
+    "objectID": "sessions/posts/singer-edged-weapons/index.html",
+    "href": "sessions/posts/singer-edged-weapons/index.html",
+    "title": "When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters",
+    "section": "",
+    "text": "Saturday 05 Dec / 10:00 AM / Head Coach, SBG Athens"
+  },
+  {
+    "objectID": "sessions/posts/singer-edged-weapons/index.html#the-session",
+    "href": "sessions/posts/singer-edged-weapons/index.html#the-session",
+    "title": "When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters",
+    "section": "The session",
+    "text": "The session\nMost counter-edged-weapon systems teach scripted slash-and-block sequences and choreographed disarms that collapse under live pressure. This mat session, with the whole room working in pairs, integrates weapon management into existing standing grappling and hand-fighting frameworks instead of isolating it. A live, unscripted knife enters the clinch, and the defender manages control, weapon suppression, and the transition to cuffing at once, under a strict safety commitment. Attendees leave with a scalable framework for introducing live decision-making and variable complexity into an agency defensive tactics program."
+  },
+  {
+    "objectID": "sessions/posts/singer-edged-weapons/index.html#about-the-presenter",
+    "href": "sessions/posts/singer-edged-weapons/index.html#about-the-presenter",
+    "title": "When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters",
+    "section": "About the presenter",
+    "text": "About the presenter\nAdam is Head Coach at SBG Athens and a 4th-degree Brazilian Jiu-Jitsu black belt who has trained multiple MMA world champions and consults for professional, collegiate, law enforcement, and military programs. He is co-author of “Applying an ecological dynamics framework to mixed martial arts training.”"
+  },
+  {
+    "objectID": "sessions/posts/barawed-constraints-led-entry/index.html",
+    "href": "sessions/posts/barawed-constraints-led-entry/index.html",
+    "title": "Constraints-Led Instruction for Room Entry and Hallway Movement",
+    "section": "",
+    "text": "Friday 04 Dec / 1:00 PM / Boise Police Department"
+  },
+  {
+    "objectID": "sessions/posts/barawed-constraints-led-entry/index.html#the-session",
+    "href": "sessions/posts/barawed-constraints-led-entry/index.html#the-session",
+    "title": "Constraints-Led Instruction for Room Entry and Hallway Movement",
+    "section": "The session",
+    "text": "The session\nA constraints-led build of active attacker tactics, run in hallway and room space. Role players wearing colored pennies (suspect, officer, innocent, unknown) stage at varying depths in rooms off a hallway while solo officers work the hall. Early repetitions hold officers close to or far from doorways so they feel distance and angle; the restrictions then come off, and officers self-organize toward the serpentine pattern. Room entries run under spacing constraints rather than scripted assignments. The trade: less explicit instruction, more active engagement per training hour."
+  },
+  {
+    "objectID": "sessions/posts/barawed-constraints-led-entry/index.html#about-the-presenter",
+    "href": "sessions/posts/barawed-constraints-led-entry/index.html#about-the-presenter",
+    "title": "Constraints-Led Instruction for Room Entry and Hallway Movement",
+    "section": "About the presenter",
+    "text": "About the presenter\nChris is the Lead Defensive Tactics and Use of Force Instructor for the Boise Police Department, responsible for all DT content at the academy and in-service levels. He is the lead Taser instructor, an Idaho Master Instructor for Defensive Tactics, and a BJJ black belt, with prior service as a SWAT operator, FTO, detective, and supervisor across 22 years in law enforcement."
+  },
+  {
+    "objectID": "sessions/posts/wark-weapons-based-dt/index.html",
+    "href": "sessions/posts/wark-weapons-based-dt/index.html",
+    "title": "From Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics",
+    "section": "",
+    "text": "Saturday 05 Dec / 9:00 AM / Cary Police Department, North Carolina"
+  },
+  {
+    "objectID": "sessions/posts/wark-weapons-based-dt/index.html#the-session",
+    "href": "sessions/posts/wark-weapons-based-dt/index.html#the-session",
+    "title": "From Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics",
+    "section": "The session",
+    "text": "The session\nA practical introduction to weapons-based defensive tactics on the mats with training weapons, aimed at developing officers who perceive opportunities and act rather than officers who apply prescribed solutions to predetermined problems. Small-sided games and designed constraints work across the operational ranges: handfighting, clinch and wall-pin, grounded encounters, and the transitions between them. Covers representative learning design, implementation inside an existing defensive tactics program, and the common misconceptions and lessons learned along the way."
+  },
+  {
+    "objectID": "sessions/posts/wark-weapons-based-dt/index.html#about-the-presenter",
+    "href": "sessions/posts/wark-weapons-based-dt/index.html#about-the-presenter",
+    "title": "From Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics",
+    "section": "About the presenter",
+    "text": "About the presenter\nRandy serves with the Cary Police Department."
+  },
+  {
+    "objectID": "sessions/posts/duffey-problem-first/index.html",
+    "href": "sessions/posts/duffey-problem-first/index.html",
+    "title": "The Problem-First Approach to Control Tactics Training",
+    "section": "",
+    "text": "Friday 04 Dec / 10:00 AM / Walworth County Sheriff’s Office / C4C Police Jiu-Jitsu"
+  },
+  {
+    "objectID": "sessions/posts/duffey-problem-first/index.html#the-session",
+    "href": "sessions/posts/duffey-problem-first/index.html#the-session",
+    "title": "The Problem-First Approach to Control Tactics Training",
+    "section": "The session",
+    "text": "The session\nA mat session that organizes control tactics training around problem spaces rather than prescribed technique progressions, using the 3Ms model: maintaining control, modifying control, and making control. Participants work in groups of four (two officers, one subject, one safety officer) through three rounds, one per problem space. Each round runs the same cycle: minimum instruction, hands-on exposure with no directed solutions, discussion of what broke down and why, then re-engagement."
+  },
+  {
+    "objectID": "sessions/posts/duffey-problem-first/index.html#about-the-presenter",
+    "href": "sessions/posts/duffey-problem-first/index.html#about-the-presenter",
+    "title": "The Problem-First Approach to Control Tactics Training",
+    "section": "About the presenter",
+    "text": "About the presenter\nBob is a Wisconsin Certified Law Enforcement Instructor, Corrections Superintendent, Brazilian Jiu-Jitsu black belt, and co-owner of three BJJ academies, with over 20 years in law enforcement and defensive tactics instruction. He has implemented modernized training approaches across multiple agencies and within the Wisconsin statewide curriculum."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Who’s Coming",
+    "section": "",
+    "text": "Updated as registrations come in\nSixty seats, one room, and people converging on the Texas Hill Country from all over. The fifteen presenters on the 2026 program are travelling in from ten states, two Canadian provinces, and the Czech Republic. The map below grows as the rest of the registrations come in, so check back.\nHover a blue dot to see who is presenting from there, or open the sessions page for the full lineup.\n\nLoading registrations…\n\n\n\n\n\nPresenter Attendee Staff TBarM Resort (venue)"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Answers to the questions we get most"
+  },
+  {
+    "objectID": "faq.html#attending",
+    "href": "faq.html#attending",
+    "title": "FAQ",
+    "section": "Attending",
+    "text": "Attending\n\nWho is the workshop for?\nPeople who train law enforcement and tactical professionals, and people who study that training. The room is a deliberate mix: working trainers, tactical practitioners, and training-science researchers, about 60 in total. You do not need to be sworn law enforcement to attend.\n\n\nHow much does it cost, and what does that include?\nAttending costs $695, which covers your room at TBarM Resort for three nights (December 3, 4, and 5) and all meals from dinner Thursday through breakfast Sunday. Travel is on you. Selected presenters attend at no cost, with travel covered.\n\n\nHow do I register?\nEmail Sarah E. Drennan at sd33@txstate.edu with your name, agency or affiliation, and contact information. Seats are limited and most of the 2026 room is already spoken for, so register early. Details are on the attend page.\n\n\nHow do I get to TBarM?\nTBarM Resort is in New Braunfels, Texas, between San Antonio and Austin. San Antonio International (SAT) and Austin-Bergstrom (AUS) are both within about an hour’s drive; rent a car or use rideshare from either. Everything during the workshop, including sessions, meals, and lodging, is on site, so you will not need a car once you arrive.\n\n\nWhat should I bring?\nSessions are hands-on, and most include an active participant role. Bring clothes you can move in. Early December in the Hill Country is usually mild, but pack a layer for cool mornings.\n\n\nIs there live fire?\nNo. TBarM has no live-fire range. Demonstrations use sims, scenarios, and mat work."
+  },
+  {
+    "objectID": "faq.html#presenting",
+    "href": "faq.html#presenting",
+    "title": "FAQ",
+    "section": "Presenting",
+    "text": "Presenting\n\nHow do I get a presentation slot?\nThrough the annual call for presentations, usually posted in the spring with proposals due in early June. The present page has the full requirements and a copy of the most recent call. Selected presenters have their conference fee, room, board, and travel covered.\n\n\nCan I bring a co-presenter?\nYes. One presenter per session is covered by the workshop; co-presenters are welcome at their own cost.\n\n\nDo I have to subscribe to a particular training philosophy?\nNo. No particular theoretical school is required. What matters is that you can show your method live and explain why you do it that way.\n\n\nWhat is on the program this year?\nSixteen sessions across Friday and Saturday, opening with a keynote from Rob Gray. The sessions page has a page per session with the full description and the presenter’s bio; the schedule has the running order."
+  },
+  {
+    "objectID": "faq.html#materials",
+    "href": "faq.html#materials",
+    "title": "FAQ",
+    "section": "Materials",
+    "text": "Materials\n\nWhere do slides, white papers, and readings live?\nOn the resources page. Presenters who want the room to keep their materials email them to sd33@txstate.edu and they get posted there.\n\n\nWill photos from the workshop be available?\nYes, on the photos page after the workshop. If you have shots from past years, send them in."
+  },
+  {
+    "objectID": "faq.html#something-else",
+    "href": "faq.html#something-else",
+    "title": "FAQ",
+    "section": "Something else?",
+    "text": "Something else?\nEmail sd33@txstate.edu. Every question about the workshop goes to the same place."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "03-06 Dec 2026 / All sessions at TBarM\nSixteen hour-long slots across two days, everyone in the same room. Sessions run 50 minutes (about 25 minutes of hands-on demonstration, 15 of what-and-why, and 10 of audience input) with a 10-minute turnover. Click any session for the full description and the presenter’s bio, or browse them all on the sessions page.\n\nThursday, 03 Dec\n\nArrival\nCheck in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an informal meet-and-greet afterward.\n\n\n\nFriday, 04 Dec\n\nSession day one\nFoundations and control tactics.\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n8:00\nThe What, Why, and How of Educating Attention (opening keynote)\nRob Gray\n\n\n9:00\nEmpowering Feedback: Enhancing Student Learning Through Socratic Feedback\nChris Butler\n\n\n10:00\nThe Problem-First Approach to Control Tactics Training\nBob Duffey\n\n\n11:00\nProne Restraint Through a Constraints-Led Approach\nBryce Franck\n\n\n12:00\nLunch\n\n\n1:00\nConstraints-Led Instruction for Room Entry and Hallway Movement\nChris Barawed\n\n\n2:00\nBeyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance\nWilliam Moore\n\n\n3:00\nThe Tri-Axial Scaffolding Framework for Task Learning\nCollin Murray\n\n\n4:00\nMicro Doses = Massive Impact: Roll Call Training for Patrol Excellence\nJay Gerace\n\n\n5:00\nAdjourn, then dinner\n\n\n\n\n\n\nSaturday, 05 Dec\n\nSession day two\nWeapons, scenario design, and delivery.\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n8:00\nTraining the Decision, Not Just the Skill: Improving Threat Recognition and Response\nKevin Giesler\n\n\n9:00\nFrom Techniques to Adaptability: An Ecological Approach to Weapons-Based Defensive Tactics\nRandy Wark\n\n\n10:00\nWhen They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters\nAdam Singer\n\n\n11:00\nYou've Got To Be Joking! A Humor Workshop for Trainers\nDan Fraser\n\n\n12:00\nLunch\n\n\n1:00\nScenario First: Training Adaptable Responders for Uncertain Environments\nAlex Odintsov\n\n\n2:00\nTraining Medical Care in Low-Resource Environments\nMichal Pospíšil\n\n\n3:00\nFrom Dead Drills to Alive Problems: Designing and Scaling Scenarios\nJesse Campion\n\n\n4:00\nTo be announced\nALERRT staff\n\n\n5:00\nAdjourn, then dinner\n\n\n\n\n\n\nSunday, 06 Dec\n\nWrap-up\nBreakfast, an informal wrap-up of what the room is taking home, and checkout.\n\n\n\nThis schedule is a working draft. Times and running order are set, but a few details are still being confirmed with presenters, and the Saturday 4:00 slot is an ALERRT Center session with the topic still to come. Questions or corrections go to sd33@txstate.edu.\n\n\nPresenting this year? Send any materials you want attendees to have to sd33@txstate.edu. They get posted to the resources page and linked from your session page."
+  },
+  {
+    "objectID": "resources/posts/welcome/index.html",
+    "href": "resources/posts/welcome/index.html",
+    "title": "What lives on this page",
+    "section": "",
+    "text": "As the 2026 workshop comes together, this page will fill with three kinds of material:\n\nWhite papers and publications that come out of the workshop or the ALERRT Center’s related research.\nSession materials: slides, handouts, drill sheets, and scenario templates from presenters who want the room to keep them.\nReadings that presenters recommend before or after their sessions.\n\nEverything posted here is meant to be used. Take it back to your agency, adapt it, and tell us how it went.\nPresenters: email your materials or links to sd33@txstate.edu and we will post them with your session."
+  },
+  {
     "objectID": "photos.html",
     "href": "photos.html",
     "title": "Photos",
     "section": "",
-    "text": "From the mat, the scenarios, and the debriefs\nPhotos from the workshop will be posted here. Check back after December, or send us your shots from past years at sd33@txstate.edu.\n\nFor the workshop team: drop image files into images/gallery/ in the site repository and commit. The grid above rebuilds itself automatically, no editing required."
+    "text": "From the mat, the scenarios, and the debriefs\nPhotos from the workshop will be posted here. Check back after December, or send us your shots from past years at sd33@txstate.edu."
   }
 ]
