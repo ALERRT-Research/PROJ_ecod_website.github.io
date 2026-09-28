@@ -6,10 +6,6 @@
     ]
   },
   {
-    "listing": "/past/index.html",
-    "items": []
-  },
-  {
     "listing": "/sessions/index.html",
     "items": [
       "/sessions/posts/gray-educating-attention/index.html",
@@ -29,5 +25,9 @@
       "/sessions/posts/campion-alive-problems/index.html",
       "/sessions/posts/alerrt-session/index.html"
     ]
+  },
+  {
+    "listing": "/past/index.html",
+    "items": []
   }
 ]
