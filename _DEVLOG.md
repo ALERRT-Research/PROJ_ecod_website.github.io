@@ -155,6 +155,45 @@ If the exact old look is ever wanted back, CARTO has a free API key tier; the
 alternative with no account at all is plain OpenStreetMap tiles, which are busier
 and make the role colors harder to read.
 
+## 2026-09-28: custom domain live
+
+The site now serves from **https://advancedtrainingdesignworkshop.org**, with HTTPS.
+The old `alerrt-research.github.io/PROJ_ecod_website.github.io/` address redirects
+to it. The domain was bought through GoDaddy, and the IT director manages its DNS.
+
+**In the repo:**
+
+- `CNAME` at the repo root holds the bare domain and is listed under
+  `project.resources` in `_quarto.yml`, so every render copies it into the output.
+  This matters because the publish workflow force-pushes to gh-pages. A domain set
+  only in the Pages settings UI would be wiped by the next deploy, and the site
+  would fall back to the github.io address.
+- `website.site-url` is now `https://advancedtrainingdesignworkshop.org/`, which
+  feeds the sitemap, canonical URLs, and search.
+
+**DNS (GoDaddy):**
+
+- Apex: GitHub Pages A records `185.199.108.153` through `185.199.111.153`, plus
+  AAAA records `2606:50c0:8000::153` through `2606:50c0:8003::153`
+- `www`: CNAME to the apex. GitHub recommends pointing it at
+  `alerrt-research.github.io` instead, but pointing at the apex resolves to the same
+  addresses and the certificate covers both.
+- No CAA records, so nothing stops GitHub's certificate provider (Let's Encrypt)
+  from issuing one.
+
+**What went wrong first.** The Pages DNS check failed with `NotServedByPagesError`
+because GoDaddy's parking A records (`15.197.148.33`, `3.33.130.190`) were still
+there alongside GitHub's. After the IT director deleted them, the check passed.
+Next, "Enforce HTTPS" said no certificate had been issued yet, which is normal for a
+short while after the DNS check passes. The certificate appeared later the same day.
+
+**If the certificate ever gets stuck:** in Settings > Pages, clear the custom domain
+and save, then enter it again and save. That makes GitHub request the certificate
+again. Afterwards, check that `CNAME` is still in the repo.
+
+The repo name `PROJ_ecod_website.github.io` has nothing to do with the domain and
+does not need to change.
+
 ## Open items
 
 - Add attendee rows to `data/attendees.csv` as registrations come in (presenters and staff are in)
