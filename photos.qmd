@@ -15,9 +15,7 @@ imgs <- list.files("images/gallery",
                    full.names = TRUE)
 
 if (length(imgs) == 0) {
-  cat("Photos from the workshop will be posted here. Check back after December,",
-      "or send us your shots from past years at",
-      "[sd33@txstate.edu](mailto:sd33@txstate.edu).")
+  cat("Photos from the workshop will be posted here when they are available.")
 } else {
   cat("Click any photo to view it full size.\n\n")
   cat("::: {.photo-grid}\n")
