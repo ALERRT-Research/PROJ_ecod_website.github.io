@@ -19,9 +19,19 @@ Selected presenters attend at no cost: conference fee waived, room and board cov
 
 ## How to register
 
-To register, email **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu) with your name, agency or affiliation, and contact information.
+To register, fill out the registration form and email it to **Sarah E. Drennan** at [sd33@txstate.edu](mailto:sd33@txstate.edu). Sarah will send you an invoice once she has your form.
 
-<!-- When an online registration form exists, replace the paragraph above with a button linking to it. -->
+::: {.hero-ctas}
+<a class="btn btn-blue" href="assets/2026-registration-form.pdf" download>Download the registration form (PDF)</a>
+:::
+
+The form is a fillable PDF, so you can type straight into it, save it, and attach it to your email.
+
+Payment of **$695** is due by **December 1, 2026**, by check or credit card; mark your preference on the form. Checks are payable to **Texas State University** and mailed to:
+
+Texas State University - ALERRT Center\
+601 University Dr\
+San Marcos, TX 78666
 
 Seats are limited and the room fills with a mix of roles on purpose, so register early. Most of the 2026 seats are already spoken for.
 

@@ -204,4 +204,4 @@ does not need to change.
 - Archive 2026 into `past/2026/` after December
 - Update the Present page when the 2027 call opens
 - Consider bumping `actions/checkout@v4` to `@v5` in the publish workflow (deprecation warning, not a failure)
-- If an online registration form is created, swap it into the marked spot in `attend.qmd`
+- Registration form PDF lives at `assets/2026-registration-form.pdf` (from Sarah, 2026-10-27); replace it there if she sends a new version
