@@ -1,0 +1,20 @@
+---
+title: "Active Attack in the Workplace: Now, Survive"
+description: "Stress-based training that prepares civilians to survive an active attack by reading and using their real-world environment."
+author: "John Cantarella, Northeast Regional Manager, ALERRT Center, Texas State University"
+date: "2026-12-05T16:00:00"
+categories: [Active attacker, Scenario design]
+---
+
+[Saturday 05 Dec / 4:00 PM / Northeast Regional Manager, ALERRT Center, Texas State University]{.eyebrow}
+
+## The session
+
+In an active attack, civilians are the true immediate responders, and their survival depends on whether they can avoid the threat, deny the attacker access, defend themselves if necessary, and stop life-threatening bleeding when it is tactically feasible. This session shows how first responders, especially law enforcement, can engage their communities by putting civilians through stress-based Active Attack and Stop the Bleed training. Rather than drilling a rehearsed response, participants work through representative tasks shaped by environmental and individual constraints, using a real-world setting to recognize and act on what their surroundings offer. The result is adaptive, perception-driven decision making under stress.
+
+## About the presenter
+
+John Cantarella is the Northeast Regional Manager for the ALERRT Center at Texas State University. Before joining the full-time staff, he served as an ALERRT instructor. He is a U.S. Navy veteran and spent 29 years in the fire service. He has also served as a Training Officer and holds an advanced, executive-level certification focused on curriculum development, organizational needs analysis, and training program management.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

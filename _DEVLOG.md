@@ -199,7 +199,7 @@ does not need to change.
 - Add attendee rows to `data/attendees.csv` as registrations come in (presenters and staff are in)
 - Confirm Dan Fraser's agency (proposal says RCMP; his public bio says Calgary Police Service)
 - Add Scott Seivewright and David Gilbert to the map once their attendance and locations are settled
-- Fill in Rob Gray's session description and the ALERRT Saturday 4:00 slot once they land
+- Fill in Rob Gray's session description once it lands
 - Add quotes to `data/quotes.csv` after the workshop
 - Archive 2026 into `past/2026/` after December
 - Update the Present page when the 2027 call opens

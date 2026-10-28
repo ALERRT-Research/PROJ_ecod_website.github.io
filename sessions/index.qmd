@@ -18,5 +18,5 @@ Sixteen sessions across two days, all in the same room. Every one of them runs t
 Filter by category below, or see the running order on the [schedule](../schedule.qmd).
 
 ::: {.note-panel}
-A few details are still being confirmed with presenters, and the Saturday 4:00 slot is an ALERRT Center session with the topic to come. Presenters: send materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu) and they will be linked from your session page.
+A few details are still being confirmed with presenters. Presenters: send materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu) and they will be linked from your session page.
 :::
