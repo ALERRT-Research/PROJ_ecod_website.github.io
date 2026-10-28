@@ -53,7 +53,7 @@ Sixteen sessions across Friday and Saturday, opening with a keynote from Rob Gra
 
 ### Where do slides, white papers, and readings live?
 
-On the [resources page](resources/index.qmd). Presenters who want the room to keep their materials email them to [sd33@txstate.edu](mailto:sd33@txstate.edu) and they get posted there.
+On the [resources page](resources/index.qmd).
 
 ### Will photos from the workshop be available?
 
