@@ -77,9 +77,5 @@ Breakfast, an informal wrap-up of what the room is taking home, and checkout.
 :::
 
 ::: {.note-panel}
-**This schedule is a working draft.** Times and running order are set, but a few details are still being confirmed with presenters. Questions or corrections go to [sd33@txstate.edu](mailto:sd33@txstate.edu).
-:::
-
-::: {.note-panel}
 **Presenting this year?** Send any materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu). They get posted to the [resources page](resources/index.qmd) and linked from your session page.
 :::
