@@ -75,7 +75,3 @@ Weapons, scenario design, and delivery.
 
 Breakfast, an informal wrap-up of what the room is taking home, and checkout.
 :::
-
-::: {.note-panel}
-**Presenting this year?** Send any materials you want attendees to have to [sd33@txstate.edu](mailto:sd33@txstate.edu). They get posted to the [resources page](resources/index.qmd) and linked from your session page.
-:::
