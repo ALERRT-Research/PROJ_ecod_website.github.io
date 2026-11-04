@@ -1,0 +1,20 @@
+---
+title: "Racing to the Warm Zone: Adaptive TECC Trauma Lane"
+description: "A three-person trauma lane: lifesaving interventions in the hot zone, then extraction to the warm zone under shifting constraints."
+author: "John Cantarella, Northeast Regional Manager, ALERRT Center, Texas State University"
+date: "2026-12-05T16:00:00"
+categories: [Tactical medicine, Decision-making]
+---
+
+[Saturday 05 Dec / 4:00 PM / Northeast Regional Manager, ALERRT Center, Texas State University]{.eyebrow}
+
+## The session
+
+A downed casualty has sustained multiple injuries and requires immediate medical intervention to survive. The area is an active hot zone, and time is critical. This trauma lane places teams of three in a fluid, dynamic environment where they must perform lifesaving interventions, then extract the casualty from the hot zone to the warm zone, where assessment and care can continue. Teams will rotate through three iterations of lifts, carries, drags, trauma assessment, and the application of Tactical Emergency Casualty Care (TECC) techniques. Throughout each iteration, participants will face representative task, environmental, and individual constraints designed to elicit adaptive, perception-driven behavior rather than rehearsed responses.
+
+## About the presenter
+
+John Cantarella is full-time staff as the Northeast Regional Manager at the ALERRT Center. Before becoming a regional manager, he was an ALERRT instructor. He spent 29 years in the fire service and is a U.S. Navy veteran. He served as a Training Officer and holds an advanced, executive-level certification focused on curriculum development, organizational needs analysis, and training program management.
+
+<!-- Materials: drop slides/handouts in this folder and list them under a
+     '## Materials' heading here, e.g. - [Slides (PDF)](slides.pdf) -->

@@ -61,7 +61,7 @@ Weapons, scenario design, and delivery.
 <tr><td>1:00</td><td><a href="sessions/posts/odintsov-scenario-first/">Scenario First: Training Adaptable Responders for Uncertain Environments</a></td><td class="who">Alex Odintsov</td></tr>
 <tr><td>2:00</td><td><a href="sessions/posts/pospisil-low-resource-medical/">Training Medical Care in Low-Resource Environments</a></td><td class="who">Michal Pospíšil</td></tr>
 <tr><td>3:00</td><td><a href="sessions/posts/campion-alive-problems/">From Dead Drills to Alive Problems: Designing and Scaling Scenarios</a></td><td class="who">Jesse Campion</td></tr>
-<tr><td>4:00</td><td><a href="sessions/posts/cantarella-active-attack/">Active Attack in the Workplace: Now, Survive</a></td><td class="who">John Cantarella</td></tr>
+<tr><td>4:00</td><td><a href="sessions/posts/cantarella-tecc-trauma-lane/">Racing to the Warm Zone: Adaptive TECC Trauma Lane</a></td><td class="who">John Cantarella</td></tr>
 <tr class="break"><td>5:00</td><td colspan="2">Adjourn, then dinner</td></tr>
 </tbody>
 </table>
