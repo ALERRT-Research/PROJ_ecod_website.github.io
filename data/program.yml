@@ -1,0 +1,39 @@
+# The days of the workshop, in order. The Program page, the home page grid,
+# and every session page read this file together with the session folders in
+# sessions/posts/. Sessions are placed by their own `day` and `time` fields;
+# this file only holds what is not a session: the days, their notes, and breaks.
+#
+# For a new year: change the dates, notes, and breaks here. Nothing else.
+
+year: "2026"
+
+days:
+  - day: Thursday
+    date: "2026-12-03"
+    title: "Arrival"
+    note: "Check in at TBarM through the afternoon. The workshop opens with dinner, introductions, and an informal meet-and-greet afterward."
+
+  - day: Friday
+    date: "2026-12-04"
+    title: "Session day one"
+    note: "Foundations and control tactics."
+    breaks:
+      - time: "12:00 PM"
+        label: "Lunch"
+      - time: "5:00 PM"
+        label: "Adjourn, then dinner"
+
+  - day: Saturday
+    date: "2026-12-05"
+    title: "Session day two"
+    note: "Weapons, scenario design, and delivery."
+    breaks:
+      - time: "12:00 PM"
+        label: "Lunch"
+      - time: "5:00 PM"
+        label: "Adjourn, then dinner"
+
+  - day: Sunday
+    date: "2026-12-06"
+    title: "Wrap-up"
+    note: "Breakfast, an informal wrap-up of what the room is taking home, and checkout."
