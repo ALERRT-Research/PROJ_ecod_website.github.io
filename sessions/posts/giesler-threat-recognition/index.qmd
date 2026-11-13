@@ -1,12 +1,13 @@
 ---
 title: "Training the Decision, Not Just the Skill: Improving Threat Recognition and Response"
 description: "Threat perception and firearm access trained together, with suspect movement as the stimulus."
-author: "Kevin Giesler, Lieutenant, Cobb County Police Department, Marietta, Georgia"
-date: "2026-12-05T08:00:00"
-categories: [Weapons, Decision-making]
+presenter: "Kevin Giesler"
+role: "Lieutenant"
+affiliation: "Cobb County Police Department, Marietta, Georgia"
+day: Saturday
+time: "8:00 AM"
+topics: [Weapons, Decision-making]
 ---
-
-[Saturday 05 Dec / 8:00 AM / Lieutenant, Cobb County Police Department, Marietta, Georgia]{.eyebrow}
 
 ## The session
 

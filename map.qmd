@@ -1,7 +1,6 @@
 ---
-title: "Who's Coming"
-description: "Where this year's presenters and attendees are traveling from."
-toc: false
+title: "Who's coming"
+description: "Sixty seats, one room, and people converging on the Texas Hill Country from all over."
 format:
   html:
     include-in-header:
@@ -10,11 +9,9 @@ format:
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 ---
 
-[Updated as registrations come in]{.eyebrow}
+The presenters on the 2026 program are travelling in from ten states, two Canadian provinces, and the Czech Republic. The map below grows as the rest of the registrations come in, so check back.
 
-Sixty seats, one room, and people converging on the Texas Hill Country from all over. The fifteen presenters on the 2026 program are travelling in from ten states, two Canadian provinces, and the Czech Republic. The map below grows as the rest of the registrations come in, so check back.
-
-Hover a blue dot to see who is presenting from there, or open the [sessions page](sessions/index.qmd) for the full lineup.
+Hover or tap a blue dot to see who is presenting from there.
 
 <div class="map-summary" id="map-summary">Loading registrations...</div>
 
@@ -24,8 +21,15 @@ Hover a blue dot to see who is presenting from there, or open the [sessions page
 <span><span class="dot" style="background:#2456C4"></span>Presenter</span>
 <span><span class="dot" style="background:#C05621"></span>Attendee</span>
 <span><span class="dot" style="background:#009186"></span>Staff</span>
-<span><span class="dot" style="background:#20262B; border-radius:0"></span>TBarM Resort (venue)</span>
+<span><span class="dot" style="background:#121A33; border-radius:0"></span>TBarM Resort (venue)</span>
 </div>
+
+## Presenters
+
+Each name links to that presenter's session.
+
+::: {.presenter-roster}
+:::
 
 ```{=html}
 <script>
@@ -81,7 +85,7 @@ Hover a blue dot to see who is presenting from there, or open the [sessions page
     L.marker([VENUE.lat, VENUE.lng], {
       icon: L.divIcon({
         className: "",
-        html: '<div style="width:12px;height:12px;background:#20262B;border:2px solid #fff;box-shadow:0 0 0 1px #20262B;"></div>',
+        html: '<div style="width:12px;height:12px;background:#121A33;border:2px solid #fff;box-shadow:0 0 0 1px #121A33;"></div>',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
       })

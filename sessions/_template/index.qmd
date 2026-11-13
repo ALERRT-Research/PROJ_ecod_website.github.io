@@ -1,22 +1,22 @@
 ---
 # TEMPLATE: copy this folder to sessions/posts/<short-session-name>/ and fill it in.
 # Folders starting with _ are not rendered, so this template never appears on the site.
+#
+# The Program page, the home page grid, and the previous/next links on every
+# session page are built from these fields. There is nothing else to update.
 title: "Session title here"
 description: "One sentence: what this session demonstrates."
-author: "Presenter Name, Agency or Affiliation"
-date: 2026-12-04
-categories: [Scenario design]
+presenter: "Presenter Name"
+role: "Rank or job title (optional, delete this line if not needed)"
+affiliation: "Agency or affiliation"
+day: Friday            # must match a day in data/program.yml
+time: "8:00 AM"
+topics: [Scenario design]
 ---
 
-[Friday 04 Dec / Session N]{.eyebrow}
-
-## What you'll see
+## The session
 
 Two or three sentences describing the hands-on demonstration: what happens on the mat, and what the active vs. observer split looks like.
-
-## Why this method
-
-A short version of the presenter's rationale: the experience or evidence behind the method, and the trade-offs they will discuss.
 
 ## About the presenter
 
@@ -24,5 +24,5 @@ The presenter's 100-word bio from their proposal.
 
 ## Materials
 
-- [Slides (PDF)](#) <!-- put files in this folder and link them here -->
+- [Slides (PDF)](#) <!-- put files in this folder and list them here -->
 - [Handout (PDF)](#)

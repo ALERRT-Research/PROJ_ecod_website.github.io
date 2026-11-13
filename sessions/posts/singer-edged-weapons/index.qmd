@@ -1,12 +1,13 @@
 ---
 title: "When They Bring a Knife to a Gunfight: Training for Real-World Weapon Encounters"
 description: "Edged-weapon defense built into standing grappling rather than taught as a separate system."
-author: "Adam Singer, Head Coach, SBG Athens"
-date: "2026-12-05T10:00:00"
-categories: [Weapons, Control tactics]
+presenter: "Adam Singer"
+role: "Head Coach"
+affiliation: "SBG Athens"
+day: Saturday
+time: "10:00 AM"
+topics: [Weapons, Control tactics]
 ---
-
-[Saturday 05 Dec / 10:00 AM / Head Coach, SBG Athens]{.eyebrow}
 
 ## The session
 

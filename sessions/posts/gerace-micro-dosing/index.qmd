@@ -1,12 +1,13 @@
 ---
 title: "Micro Doses = Massive Impact: Roll Call Training for Patrol Excellence"
 description: "Colonie PD's 13-week roll-call micro-dosing program, run live, with the evaluation findings."
-author: "Jay Gerace, Chief of Police, Town of Colonie, New York"
-date: "2026-12-04T16:00:00"
-categories: [Instructor development, Decision-making]
+presenter: "Jay Gerace"
+role: "Chief of Police"
+affiliation: "Town of Colonie, New York"
+day: Friday
+time: "4:00 PM"
+topics: [Instructor development, Decision-making]
 ---
-
-[Friday 04 Dec / 4:00 PM / Chief of Police, Town of Colonie, New York]{.eyebrow}
 
 ## The session
 

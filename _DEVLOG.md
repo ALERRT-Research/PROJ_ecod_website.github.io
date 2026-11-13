@@ -194,6 +194,59 @@ again. Afterwards, check that `CNAME` is still in the repo.
 The repo name `PROJ_ecod_website.github.io` has nothing to do with the domain and
 does not need to change.
 
+## 2026-11-13: full redesign (branch `redesign`)
+
+Built on the `redesign` branch. Nothing is live until the branch is merged into
+`main`, which triggers the publish workflow.
+
+**Navigation.** Nine tabs became five plus a Register button: Program, Attend,
+Who's coming, Resources, About. Schedule and Sessions merged into Program. The FAQ
+moved to the bottom of Attend. Photos and Past workshops are linked from Resources
+and the footer. The call for presentations is linked from About and the footer as
+"Presenting". Old addresses (`schedule.html`, `sessions/`, `faq.html`) redirect
+through `aliases` in the front matter of `program.qmd` and `attend.qmd`.
+
+**One source for the program.** `_filters/program.lua` reads `data/program.yml`
+(the days, their notes, and breaks) and the front matter of every folder in
+`sessions/posts/`, then builds:
+
+- the tile grid on the home page (`::: {.program-mat}`)
+- the running order and topic filter on the Program page (`::: {.program-full}`)
+- the presenter list on Who's coming (`::: {.presenter-roster}`)
+- the date, presenter, and topic strip under each session title, and the
+  previous/next links at the bottom of each session page
+- the session count in prose (`[x]{.session-count}` gives "sixteen")
+
+To add, move, or drop a session, edit only its folder in `sessions/posts/`. There
+is no schedule table to keep in step any more.
+
+**Session front matter changed.** `author`, `date`, and `categories` are gone.
+Sessions now use `presenter`, `role` (optional), `affiliation`, `day` (must match
+a day in `data/program.yml`), `time` (such as "8:00 AM"), and `topics`. The
+template in `sessions/_template/` shows all of them. A wrong `day` or `time` stops
+the build with a message naming the folder.
+
+**During the workshop.** `_includes/site-js.html` marks the session that is on now
+and the next one, on the home grid and the Program page, using Central time. To
+preview any moment, add `?now=2026-12-04T10:20:00-06:00` to a page address.
+
+**For a new year.** Change the dates, notes, and breaks in `data/program.yml`,
+replace the session folders, and update the dated copy in `index.qmd` and
+`attend.qmd`.
+
+**Look.** One typeface, Archivo, used wide for headings and normal for text. Mat
+blue `#2456C4` is the field color, tape amber `#F4B73A` is reserved for Register
+and for what is on now, ink is `#121A33`, paper is `#F5F6F9`. Inner pages get a
+blue title band (`title-block-banner`).
+
+**Gotchas found while building.**
+
+- Quarto sets `#quarto-content > * { padding-top }`, so top padding on home page
+  bands needs the id in the selector to win.
+- Quarto pins the banner title's bottom margin to 0. Space under it is padding.
+- A local `quarto render` fails if a preview server is running from inside
+  `docs/`. Serve it from the repo root instead: `npx http-server docs -p 8765`.
+
 ## Open items
 
 - Add attendee rows to `data/attendees.csv` as registrations come in (presenters and staff are in)

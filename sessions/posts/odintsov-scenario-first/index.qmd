@@ -1,12 +1,12 @@
 ---
 title: "Scenario First: Training Adaptable Responders for Uncertain Environments"
 description: "Hemorrhage control is the working example; scenario design is the subject."
-author: "Alex Odintsov, Abbotsford Police Department / Wolf Training Systems"
-date: "2026-12-05T13:00:00"
-categories: [Scenario design, Tactical medicine]
+presenter: "Alex Odintsov"
+affiliation: "Abbotsford Police Department / Wolf Training Systems"
+day: Saturday
+time: "1:00 PM"
+topics: [Scenario design, Tactical medicine]
 ---
-
-[Saturday 05 Dec / 1:00 PM / Abbotsford Police Department / Wolf Training Systems]{.eyebrow}
 
 ## The session
 

@@ -1,37 +1,42 @@
 ---
 pagetitle: "The Advanced Training Design Workshop 2026"
-toc: false
+page-layout: custom
 ---
 
-::: {.column-screen .hero}
-::: {.hero-inner}
-[ALERRT Center / Texas State University]{.eyebrow}
+::: {.hero}
+::: {.wrap}
 
-<h1>The Advanced Training<br>Design Workshop [2026]{.year}</h1>
+```{=html}
+<h1 class="hero-title">The Advanced Training Design Workshop</h1>
+```
 
-[Designing Training That Transfers]{.tagline}
+::: {.hero-side}
+[Designing training that transfers]{.hero-tag}
 
-::: {.lede}
-A small, working conference for people who train law enforcement and tactical professionals. Sixty seats, a single track, and a simple rule: show the method, explain why you do it that way.
-:::
-
-::: {.data-strip}
-<div><span class="k">Dates</span><span class="v">03-06 Dec 2026</span></div>
-<div><span class="k">Location</span><span class="v">TBarM Resort, New Braunfels TX</span></div>
-<div><span class="k">Seats</span><span class="v">~60</span></div>
-<div><span class="k">Sessions</span><span class="v">16</span></div>
+::: {.hero-facts}
+December 3 to 6, 2026, at TBarM Resort in New Braunfels, Texas. Sixty seats, [x]{.session-count} sessions, one room.
 :::
 
 ::: {.hero-ctas}
-<a class="btn btn-blue" href="schedule.html">See the 2026 program</a>
-<a class="btn btn-ghost" href="attend.html">Plan your attendance</a>
+<a class="btn-reg" href="attend.html#register">Register</a>
+<a class="btn-line" href="program.html">Read the full program</a>
 :::
 :::
+
+::: {.program-mat}
 :::
+
+:::
+:::
+
+::: {.band .band-intro}
+::: {.wrap}
 
 ## Not a lecture hall
 
-The audience is a mix of working trainers, tactical practitioners, and training-science researchers. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.
+::: {.statement}
+A small, working conference for people who train law enforcement and tactical professionals. The point of the room is not to sit through talks. It is to put methods on the mat, in front of people who train for a living, and take them apart together.
+:::
 
 ::: {.triad}
 ::: {}
@@ -48,42 +53,15 @@ The goal for every attendee is the same: leave with something you can use in you
 :::
 :::
 
-## The 2026 program
-
-Sixteen sessions across Friday and Saturday, from trainers who are putting these ideas to work on the mat, in the scenario, and in the academy.
-
-::: {.featured}
-[Opening keynote / Friday 8:00 AM]{.eyebrow}
-
-### Rob Gray
-
-Author of *How We Learn to Move* and host of the Perception & Action Podcast, Dr. Gray (Arizona State University) is the leading voice on ecological approaches to skill acquisition. He opens the workshop with **The What, Why, and How of Educating Attention**.
+:::
 :::
 
-Sessions include:
+::: {.band .band-format}
+::: {.wrap}
 
-::: {.theme-list}
-- **Active attacker tactics**: constraints-led room entry and hallway movement
-- **Scenario design**: turning dead drills into live problems
-- **Use-of-force decisions**: coupling threat recognition with weapon access
-- **Control tactics**: prone restraint and hand extraction under real resistance
-- **Weapons-based grappling**: edged-weapon defense in the clinch
-- **Micro-dosed training**: 15-minute roll-call modules with measured retention gains
-- **Tactical medicine**: scenario-first hemorrhage control and limited-resource care
-- **Instructor development**: Socratic feedback, scaffolding, and humor that sticks
-:::
+## Fifty minutes, and the clock favors the mat
 
-[Full descriptions on the [sessions page](sessions/index.qmd), running order on the [schedule](schedule.qmd).]{.format-caption}
-
-### Presenting agencies
-
-::: {.agency-strip}
-ALERRT Center at Texas State University · Arizona State University · Austin PD · Boise PD · Cary PD (NC) · Cobb County PD · Denver PD · Town of Colonie PD (NY) · Jefferson Parish SO (LA) · Winnebago County SO (IL) · Walworth County SO (WI) · Abbotsford PD (BC) · Royal Canadian Mounted Police · SBG Athens · Raptor Public Safety Coaching · Masaryk University (Czech Republic)
-:::
-
-## How a session runs
-
-Every session is 50 minutes, and the clock favors the mat.
+Every session runs the same way, in front of the whole room.
 
 ::: {.format-bar}
 ::: {.seg-demo}
@@ -93,23 +71,86 @@ Every session is 50 minutes, and the clock favors the mat.
 [15 min]{.seg-min} [What and why]{.seg-label}
 :::
 ::: {.seg-qa}
-[10 min]{.seg-min} [Audience input]{.seg-label}
+[10 min]{.seg-min} [The room pushes back]{.seg-label}
 :::
 :::
 
-[One 50-minute block, single track, no live fire. Sims, scenarios, and mat work.]{.format-caption}
+[Single track, no live fire. Sims, scenarios, and mat work.]{.format-caption}
 
-## Key dates
+:::
+:::
 
-<ul class="datelist">
-<li class="done"><span class="d">05 Jun 2026</span><span class="what">Presentation proposals due</span><span class="status-chip">Closed</span></li>
-<li class="done"><span class="d">~12 Jun 2026</span><span class="what">Presenter notifications sent</span><span class="status-chip">Done</span></li>
-<li class="done"><span class="d">Sep 2026</span><span class="what">Draft program posted, 16 sessions</span><span class="status-chip">Done</span></li>
-<li class="now"><span class="d">Now</span><span class="what">Registration open, $695 room and board, most seats taken</span><span class="status-chip">Filling</span></li>
-<li><span class="d">03 Dec 2026</span><span class="what">Arrival and dinner at TBarM</span><span class="status-chip">Upcoming</span></li>
-<li><span class="d">04-05 Dec 2026</span><span class="what">Full session days</span><span class="status-chip">Upcoming</span></li>
-<li><span class="d">06 Dec 2026</span><span class="what">Breakfast, wrap-up, checkout</span><span class="status-chip">Upcoming</span></li>
-</ul>
+::: {.band .band-program}
+::: {.wrap .split}
+
+::: {.keynote}
+## Opening keynote
+
+### Rob Gray
+
+Friday, 8:00 AM
+
+Author of *How We Learn to Move* and host of the Perception & Action Podcast, Dr. Gray (Arizona State University) is the leading voice on ecological approaches to skill acquisition. He opens the workshop with **The What, Why, and How of Educating Attention**.
+
+[Read about the keynote](sessions/posts/gray-educating-attention/index.qmd)
+:::
+
+::: {.covers}
+## What the sessions cover
+
+- **Active attacker tactics**: constraints-led room entry and hallway movement
+- **Scenario design**: turning dead drills into live problems
+- **Use-of-force decisions**: coupling threat recognition with weapon access
+- **Control tactics**: prone restraint and hand extraction under real resistance
+- **Weapons-based grappling**: edged-weapon defense in the clinch
+- **Micro-dosed training**: 15-minute roll-call modules with measured retention gains
+- **Tactical medicine**: scenario-first hemorrhage control and limited-resource care
+- **Instructor development**: Socratic feedback, scaffolding, and humor that sticks
+
+[See all [x]{.session-count} sessions](program.qmd)
+:::
+
+:::
+:::
+
+::: {.band .band-attend}
+::: {.wrap}
+
+## Coming to New Braunfels
+
+::: {.facts}
+::: {}
+### $695
+Covers your room at TBarM for three nights and every meal, from dinner Thursday through breakfast Sunday.
+:::
+::: {}
+### One place
+Sessions, meals, and lodging are all on site, on the Guadalupe River between San Antonio and Austin.
+:::
+::: {}
+### December 1
+Payment is due. Seats are limited, and most of the 2026 room is already taken.
+:::
+:::
+
+::: {.hero-ctas}
+<a class="btn-reg" href="attend.html#register">Register</a>
+<a class="btn-line" href="attend.html">Cost, travel, and what to bring</a>
+:::
+
+:::
+:::
+
+::: {.band .band-who}
+::: {.wrap}
+
+## Who is presenting
+
+::: {.agencies}
+ALERRT Center at Texas State University, Arizona State University, Austin PD, Boise PD, Cary PD (NC), Cobb County PD, Denver PD, Town of Colonie PD (NY), Jefferson Parish SO (LA), Winnebago County SO (IL), Walworth County SO (WI), Abbotsford PD (BC), Royal Canadian Mounted Police, SBG Athens, Raptor Public Safety Coaching, and Masaryk University (Czech Republic).
+:::
+
+[See where everyone is travelling from](map.qmd)
 
 ```{r}
 #| echo: false
@@ -129,12 +170,5 @@ if (!is.null(q) && nrow(q) > 0) {
 }
 ```
 
-## Around the workshop
-
-```{=html}
-<div class="card-row">
-<a class="qcard" href="sessions/"><h3>Sessions</h3><p>All sixteen sessions, with what each one demonstrates and who is running it.</p></a>
-<a class="qcard" href="map.html"><h3>Who's coming</h3><p>A live map of where this year's presenters and attendees are traveling from.</p></a>
-<a class="qcard" href="resources/index.html"><h3>Resources</h3><p>White papers, slides, and readings shared by presenters, past and present.</p></a>
-</div>
-```
+:::
+:::

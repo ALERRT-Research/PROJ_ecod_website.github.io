@@ -1,12 +1,12 @@
 ---
 title: "The What, Why, and How of Educating Attention"
 description: "Opening keynote. Full session description to come."
-author: "Rob Gray, Arizona State University"
-date: "2026-12-04T08:00:00"
-categories: [Keynote, Skill acquisition]
+presenter: "Rob Gray"
+affiliation: "Arizona State University"
+day: Friday
+time: "8:00 AM"
+topics: [Keynote, Skill acquisition]
 ---
-
-[Friday 04 Dec / 8:00 AM / Arizona State University]{.eyebrow}
 
 ## The session
 

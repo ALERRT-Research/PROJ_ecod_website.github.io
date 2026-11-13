@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About the Advanced Training Design Workshop and the ALERRT Center at Texas State University."
+description: "A small, annual working conference for people who train law enforcement and tactical professionals, hosted by the ALERRT Center at Texas State University."
 ---
 
 ## The workshop
@@ -15,7 +15,11 @@ The workshop is hosted by the [ALERRT Center](https://alerrt.org) (Advanced Law 
 
 ## The venue
 
-The workshop is held at [TBarM Resort](https://www.tbarm.com) in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the [attend page](attend.qmd) for cost and travel details, and the [schedule](schedule.qmd) for the 2026 program.
+The workshop is held at [TBarM Resort](https://www.tbarm.com) in New Braunfels, Texas, on the Guadalupe River between San Antonio and Austin. Everything happens on site: sessions, meals, and lodging. See the [attend page](attend.qmd) for cost and travel details, and the [program](program.qmd) for what is on in 2026.
+
+## Presenting
+
+Presenters are selected through an annual call for presentations, usually posted in the spring with proposals due in early June. Selected presenters have their conference fee, room, board, and travel covered. The 2026 call has closed; the [presenting page](call-for-presentations.qmd) explains what a proposal includes, and the 2027 call will be posted there when it opens.
 
 ## Contact
 

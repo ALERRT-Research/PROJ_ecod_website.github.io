@@ -1,12 +1,13 @@
 ---
 title: "Racing to the Warm Zone: Adaptive TECC Trauma Lane"
 description: "A three-person trauma lane: lifesaving interventions in the hot zone, then extraction to the warm zone under shifting constraints."
-author: "John Cantarella, Northeast Regional Manager, ALERRT Center, Texas State University"
-date: "2026-12-05T16:00:00"
-categories: [Tactical medicine, Decision-making]
+presenter: "John Cantarella"
+role: "Northeast Regional Manager"
+affiliation: "ALERRT Center, Texas State University"
+day: Saturday
+time: "4:00 PM"
+topics: [Tactical medicine, Decision-making]
 ---
-
-[Saturday 05 Dec / 4:00 PM / Northeast Regional Manager, ALERRT Center, Texas State University]{.eyebrow}
 
 ## The session
 

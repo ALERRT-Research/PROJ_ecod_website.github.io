@@ -1,12 +1,12 @@
 ---
 title: "Beyond the Tug-of-War: Grappling-Based Methods for Safe Hand Extraction During Prone Resistance"
 description: "Grappling-based methods for the prone subject who tucks his hands and will not give them up."
-author: "William Moore, Austin Police Department"
-date: "2026-12-04T14:00:00"
-categories: [Control tactics]
+presenter: "William Moore"
+affiliation: "Austin Police Department"
+day: Friday
+time: "2:00 PM"
+topics: [Control tactics]
 ---
-
-[Friday 04 Dec / 2:00 PM / Austin Police Department]{.eyebrow}
 
 ## The session
 

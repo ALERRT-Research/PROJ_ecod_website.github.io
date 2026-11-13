@@ -1,463 +1,857 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-
-// Palette
-// Ink: near-black with a cool cast, for text and the hero field
-// Paper: warm gray-white, quieter than pure white
-// Training blue: cobalt, the color of designated training gear; the single accent
-// Field tan: muted khaki for secondary labels and rules
-$ink:        #20262B;
-$ink-deep:   #171C20;
-$paper:      #FAFAF7;
-$panel:      #EFEEE9;
-$tan:        #8C7F63;
-$tan-light:  #C9C2B2;
+// Palette, taken from the training floor
+// Mat blue:  the cobalt of training mats and inert training gear. The site's field color.
+// Tape:      the amber of floor tape. Used for one thing only: where to act (Register) and what is on now.
+// Ink:       deep navy for text and the dark bands.
+// Paper:     a cool off-white, so the blue stays clean next to it.
 $blue:       #2456C4;
 $blue-deep:  #16337A;
+$field:      #1E4AB0;
+$tile-a:     #2C61D6;
+$tile-b:     #2657C8;
+$tape:       #F4B73A;
+$ink:        #121A33;
+$slate:      #56607A;
+$line:       #D6DBE8;
+$paper:      #F5F6F9;
+$white:      #FFFFFF;
 
 $body-bg: $paper;
 $body-color: $ink;
 $link-color: $blue;
 $primary: $blue;
 
-$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
-$font-family-monospace: "IBM Plex Mono", ui-monospace, monospace;
-$headings-font-family: "Barlow Condensed", "Source Sans 3", sans-serif;
-$headings-font-weight: 600;
+// One family, used at three widths: wide for display, normal for reading
+$font-family-sans-serif: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-weight: 800;
+$font-size-root: 17px;
+$line-height-base: 1.6;
 
-$navbar-bg: $ink-deep;
-$navbar-fg: #E9E7E0;
-$navbar-hl: #FFFFFF;
+$navbar-bg: $white;
+$navbar-fg: $ink;
+$navbar-hl: $blue;
 
-$footer-bg: $ink-deep;
-$footer-fg: #B8B4A9;
-
-$code-block-bg: $panel;
+$footer-bg: $ink;
+$footer-fg: #C5CCE0;
 
 /*-- scss:rules --*/
 
-// ---------- Base type ----------
+// ---------- Base ----------
 
-h1, h2, h3 {
-  letter-spacing: 0.01em;
+body {
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-stretch: 112%;
+  letter-spacing: -0.012em;
+  line-height: 1.15;
+  text-wrap: balance;
 }
 
 h2 {
+  font-size: 1.6rem;
   border-bottom: none;
-  text-transform: uppercase;
-  font-size: 1.9rem;
-  margin-top: 2.5rem;
+  padding-bottom: 0;
+  margin-top: 2.75rem;
+  margin-bottom: 0.75rem;
 }
 
-h2::after {
-  content: "";
-  display: block;
-  width: 3.5rem;
-  height: 3px;
-  background: $blue;
-  margin-top: 0.35rem;
+h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
 }
+
+main a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+main a:hover { text-decoration-thickness: 2px; }
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid $tape;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+// ---------- Buttons ----------
+
+.btn-reg,
+.btn-line {
+  display: inline-block;
+  font-weight: 700;
+  font-stretch: 108%;
+  line-height: 1.2;
+  padding: 0.75rem 1.4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.btn-reg {
+  background: $tape;
+  color: $ink;
+  &:hover { background: #FFCB5C; color: $ink; }
+}
+
+.btn-line {
+  border-color: rgba(255, 255, 255, 0.55);
+  color: $white;
+  &:hover { border-color: $white; color: $white; }
+}
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+// ---------- Navbar ----------
 
 .navbar {
-  font-family: "Barlow Condensed", sans-serif;
+  border-bottom: 1px solid $line;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.navbar-brand,
+.navbar-title {
+  font-stretch: 118%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
   font-size: 1.05rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  color: $ink;
 }
 
 .navbar .nav-link { white-space: nowrap; }
 
-.navbar-title {
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-
-.nav-footer {
-  font-size: 0.9rem;
-  a { color: $tan-light; }
-}
-
-// Mono eyebrow label used across pages
-.eyebrow {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: $tan;
-}
-
-// ---------- Hero ----------
-
-.hero {
-  background: $ink-deep;
-  color: #F2F0EA;
-  padding: 4.5rem 1.5rem 3.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.hero-inner {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.hero .eyebrow {
-  color: $tan-light;
-}
-
-.hero h1 {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 700;
-  font-size: clamp(3rem, 8vw, 5.5rem);
-  line-height: 0.95;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin: 0.5rem 0 0.25rem;
-}
-
-.hero h1 .year {
+.navbar .navbar-nav .nav-link.active {
   color: $blue;
-  -webkit-text-stroke: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.45em;
 }
 
-.hero .lede {
-  font-size: 1.25rem;
-  max-width: 42rem;
-  color: #CFCCC2;
-  margin: 1rem 0 2rem;
+// The Register link is the only item on the right side of the bar
+.navbar .navbar-nav.ms-auto .nav-link {
+  background: $tape;
+  color: $ink;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  &:hover { background: #FFCB5C; color: $ink; }
 }
 
-// The range-card data strip: mono facts in ruled cells
-.data-strip {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid #3A424A;
-  font-family: $font-family-monospace;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
+.navbar #quarto-search { margin-left: 0.75rem; }
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav.ms-auto .nav-link {
+    display: inline-block;
+    margin: 0.5rem 0 0.75rem;
+  }
 }
 
-.data-strip > div {
-  flex: 1 1 auto;
-  padding: 0.7rem 1rem;
-  border-right: 1px solid #3A424A;
-  white-space: nowrap;
+// ---------- Home: hero ----------
+
+#quarto-content > .hero {
+  background: $field;
+  color: $white;
+  padding: clamp(2.5rem, 6vw, 4.75rem) 0 clamp(2rem, 4vw, 3rem);
 }
 
-.data-strip > div:last-child { border-right: none; }
+.hero .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+  column-gap: 2.5rem;
+  align-items: end;
+}
 
-.data-strip .k {
+.hero-title {
+  font-stretch: 125%;
+  font-weight: 800;
+  font-size: clamp(2.1rem, 4.7vw, 3.7rem);
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  max-width: 11.5em;
+  margin: 0;
+  color: $white;
+}
+
+.hero-tag {
   display: block;
-  color: $tan-light;
-  font-size: 0.68rem;
-  margin-bottom: 0.15rem;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 700;
+  font-stretch: 112%;
+  line-height: 1.2;
 }
 
-.data-strip .v { color: #FFFFFF; }
+.hero-side p { margin: 0; }
 
-.hero-ctas .btn {
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 1.1rem;
-  padding: 0.55rem 1.4rem;
-  border-radius: 2px;
-  margin-right: 0.75rem;
-  margin-bottom: 0.5rem;
+.hero-facts {
+  color: #D4DEF7;
+  margin: 0.6rem 0 1.5rem;
+  max-width: 30rem;
 }
 
-.btn-blue {
-  background: $blue;
-  border: 1px solid $blue;
-  color: #fff;
-  &:hover { background: $blue-deep; border-color: $blue-deep; color: #fff; }
+.hero .mat { grid-column: 1 / -1; }
+
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: 1fr; row-gap: 1.5rem; }
 }
 
-.btn-ghost {
-  background: transparent;
-  border: 1px solid #5A636C;
-  color: #E9E7E0;
-  &:hover { border-color: #fff; color: #fff; background: transparent; }
+// ---------- Home: the mat (the whole program as floor tiles) ----------
+
+.mat { margin-top: clamp(2rem, 5vw, 3.25rem); }
+
+.mat-day {
+  display: grid;
+  grid-template-columns: 5.75rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  margin-bottom: 3px;
 }
 
-// ---------- Session format bar ----------
-
-.format-bar {
-  display: flex;
-  width: 100%;
-  height: 4.25rem;
-  margin: 1.25rem 0 0.5rem;
-  font-family: $font-family-monospace;
-  border: 1px solid $ink;
-}
-
-.format-bar > div {
+.mat-daylabel {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 0.9rem;
-  border-right: 1px solid $paper;
-  overflow: hidden;
+  line-height: 1.25;
+  strong { font-stretch: 112%; font-weight: 800; }
+  span { font-size: 0.82rem; color: #C3D0F3; }
 }
 
-.format-bar > div:last-child { border-right: none; }
+.mat-tiles {
+  display: flex;
+  gap: 3px;
+}
 
-.format-bar .seg-label {
+.tile {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 5.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.55rem 0.6rem 0.65rem;
+  border-radius: 3px;
+  background: $tile-a;
+  color: $white;
+  text-decoration: none;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+
+// Alternate the two blues like a checkered mat floor
+.mat-day:nth-child(odd) .tile:nth-child(even),
+.mat-day:nth-child(even) .tile:nth-child(odd) { background: $tile-b; }
+
+.tile-time {
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: #D4DEF7;
+}
+
+.tile-name {
+  line-height: 1.15;
+  span { display: block; font-size: 0.78rem; }
+  strong {
+    display: block;
+    font-weight: 700;
+    font-size: clamp(0.78rem, 1.22vw, 0.98rem);
+    overflow-wrap: anywhere;
+  }
+}
+
+.tile:hover,
+.tile:focus-visible {
+  background: $white !important;
+  color: $blue-deep;
+  .tile-time { color: $blue; }
+}
+
+.tile.is-next { box-shadow: inset 0 0 0 2px $tape; }
+
+.tile.is-now {
+  background: $tape !important;
+  color: $ink;
+  .tile-time { color: $ink; }
+}
+
+.tile-gap {
+  flex: 0 0 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  white-space: nowrap;
+  color: #C3D0F3;
 }
 
-.format-bar .seg-min {
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.1;
+.mat-line {
+  margin: 1rem 0 0 6.5rem;
+  min-height: 1.6em;
+  color: #D4DEF7;
+  strong { color: $white; margin-right: 0.4rem; }
 }
 
-.seg-demo    { flex: 0 0 50%; background: $blue; color: #fff; }
-.seg-why     { flex: 0 0 30%; background: $ink; color: #fff; }
-.seg-qa      { flex: 0 0 20%; background: $panel; color: $ink; }
+.mat-line.is-live .mat-line-text,
+.mat-line.is-detail .mat-line-text { color: $white; }
 
-@media (max-width: 600px) {
-  .format-bar {
-    flex-direction: column;
-    height: auto;
+// Phones: the two days stand side by side and run top to bottom
+@media (max-width: 760px) {
+  .mat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.6rem;
   }
-  .format-bar > div {
-    flex: 1 1 auto;
-    padding: 0.7rem 0.9rem;
-    border-right: none;
-    border-bottom: 1px solid $paper;
+  .mat-day { display: block; margin: 0; }
+  .mat-daylabel {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 0.4rem;
+    margin-bottom: 0.4rem;
   }
-  .format-bar > div:last-child { border-bottom: none; }
-  // Keep the proportions readable as relative heights
-  .seg-demo { padding-top: 1.4rem; padding-bottom: 1.4rem; }
+  .mat-tiles { flex-direction: column; }
+  .tile {
+    flex: 0 0 auto;
+    min-height: 3.5rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.45rem 0.6rem;
+  }
+  .tile-time { flex: 0 0 2.4rem; }
+  .tile-name strong { font-size: 0.95rem; }
+  .tile-gap { flex: 0 0 1.7rem; }
+  .mat-line { grid-column: 1 / -1; margin-left: 0; }
 }
 
-.format-caption {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  color: $tan;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+// ---------- Home: bands ----------
+
+// Quarto sets `#quarto-content > * { padding-top }`, so the id is needed to win
+#quarto-content > .band { padding: clamp(3rem, 7vw, 5.25rem) 0; }
+
+.band h2 {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  font-stretch: 118%;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
 }
 
-// ---------- Triad (watch / ask / take home) ----------
+.band-format { background: $white; }
+
+.statement {
+  font-size: clamp(1.2rem, 2.1vw, 1.6rem);
+  line-height: 1.4;
+  font-weight: 500;
+  max-width: 46rem;
+  p { margin: 0; }
+}
 
 .triad {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+  gap: 2rem;
+  margin-top: clamp(2rem, 4vw, 3.25rem);
+
+  > div {
+    border-top: 3px solid $ink;
+    padding-top: 0.9rem;
+  }
+
+  h3 { font-size: 1.25rem; font-weight: 800; margin: 0 0 0.4rem; }
+  p { margin: 0; color: #2E3754; }
 }
 
-.triad > div {
-  border-top: 3px solid $ink;
-  padding-top: 0.75rem;
+// The 50-minute session, drawn to scale
+.format-bar {
+  display: flex;
+  width: 100%;
+  min-height: 6.5rem;
+  margin: 1.5rem 0 0.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.9rem 1rem;
+    min-width: 0;
+  }
+
+  p { margin: 0; }
+
+  .seg-min {
+    display: block;
+    font-stretch: 118%;
+    font-weight: 800;
+    font-size: clamp(1.2rem, 2.4vw, 1.9rem);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .seg-label { display: block; font-size: 0.9rem; line-height: 1.25; }
 }
 
-.triad h3 {
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.35rem;
-  margin: 0 0 0.35rem;
+.seg-demo { flex: 0 0 50%; background: $blue; color: $white; }
+.seg-why  { flex: 0 0 30%; background: $ink; color: $white; }
+.seg-qa   { flex: 0 0 20%; background: #DCE2F0; color: $ink; }
+
+.format-caption { color: $slate; }
+
+@media (max-width: 600px) {
+  .format-bar {
+    flex-direction: column;
+    min-height: 0;
+    > div { padding: 0.8rem 1rem; }
+  }
+  // Keep the proportions readable as relative heights
+  .seg-demo { min-height: 7.5rem; }
+  .seg-why  { min-height: 4.5rem; }
+  .seg-qa   { min-height: 3rem; }
 }
 
-@media (max-width: 720px) {
-  .triad { grid-template-columns: 1fr; }
-  .data-strip > div { flex-basis: 50%; white-space: normal; }
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: start;
 }
 
-// ---------- Key dates ----------
+// The keynote is one mat tile, enlarged
+.keynote {
+  background: $blue;
+  color: $white;
+  border-radius: 6px;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
 
-.datelist {
+  h2 { font-size: 1rem; font-stretch: 108%; font-weight: 700; letter-spacing: 0; margin: 0; color: #D4DEF7; }
+  h3 { font-size: clamp(2rem, 4vw, 2.9rem); font-stretch: 125%; font-weight: 800; letter-spacing: -0.025em; margin: 0.35rem 0 0.2rem; }
+  h3 + p { font-weight: 700; margin-bottom: 1rem; }
+  a { color: $white; font-weight: 700; }
+  p:last-child { margin-bottom: 0; }
+}
+
+.covers ul {
   list-style: none;
   padding: 0;
-  margin: 1.25rem 0;
-  border-top: 1px solid $tan-light;
+  margin: 0 0 1.25rem;
+  border-top: 2px solid $ink;
 }
 
-.datelist li {
+.covers li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid $line;
+}
+
+.covers > section > p a,
+.band-who .wrap > section > p a { font-weight: 700; }
+
+.band-attend {
+  background: $ink;
+  color: $white;
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 1.75rem 0 2.25rem;
+
+    > div { border-top: 3px solid $blue; padding-top: 0.9rem; }
+    h3 { font-size: clamp(1.5rem, 2.8vw, 2.1rem); font-stretch: 122%; font-weight: 800; margin: 0 0 0.4rem; }
+    p { margin: 0; color: #C5CCE0; }
+  }
+}
+
+.agencies {
+  font-size: 1.1rem;
+  max-width: 52rem;
+  color: #2E3754;
+}
+
+@media (max-width: 760px) {
+  .triad, .split, .band-attend .facts { grid-template-columns: 1fr; }
+  .triad { gap: 1.5rem; }
+}
+
+// ---------- Inner pages: title band ----------
+
+.quarto-title-banner {
+  background: $field;
+  color: $white;
+  padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(1.75rem, 4vw, 2.75rem);
+  margin-bottom: 1rem;
+
+  h1.title {
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: clamp(2rem, 4.6vw, 3.3rem);
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    color: $white;
+    margin: 0;
+    padding-bottom: 0.9rem; // Quarto pins this heading's bottom margin to 0
+  }
+
+  .description {
+    font-size: 1.15rem;
+    line-height: 1.45;
+    color: #D4DEF7;
+    margin-top: 0;
+    max-width: 40rem;
+    p { margin: 0; }
+  }
+}
+
+#quarto-content main > p,
+#quarto-content main > section > p,
+#quarto-content main li { max-width: 44rem; }
+
+#TOC {
+  font-size: 0.88rem;
+  #toc-title { font-size: 0.88rem; font-weight: 700; font-stretch: 100%; letter-spacing: 0; }
+  .nav-link.active { color: $blue; border-left-color: $blue; }
+}
+
+// ---------- Program page ----------
+
+.prog-days ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+}
+
+.prog-days li { max-width: none !important; }
+
+.prog-days a {
   display: flex;
-  align-items: baseline;
-  gap: 1.25rem;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid $tan-light;
+  flex-direction: column;
+  padding: 0.6rem 0.75rem;
+  background: $tile-b;
+  color: $white;
+  text-decoration: none;
+  border-radius: 3px;
+  line-height: 1.25;
+  strong { font-stretch: 110%; }
+  span { font-size: 0.82rem; color: #D4DEF7; }
+  &:hover { background: $blue-deep; color: $white; }
 }
 
-.datelist .d {
-  font-family: $font-family-monospace;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  flex: 0 0 11rem;
+.prog-days li:nth-child(odd) a { background: $tile-a; &:hover { background: $blue-deep; } }
+
+.prog-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.chip {
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid #B9C1D6;
+  background: $white;
+  color: $ink;
+  cursor: pointer;
+  span { color: $slate; font-weight: 500; margin-left: 0.15rem; }
+  &:hover { border-color: $ink; }
+  &[aria-pressed="true"] {
+    background: $ink;
+    border-color: $ink;
+    color: $white;
+    span { color: #C5CCE0; }
+  }
+}
+
+.prog-count { color: $slate; margin: 0.5rem 0 0; }
+
+.prog-day {
+  margin-top: 3rem;
+  scroll-margin-top: 5rem;
+}
+
+.prog-day-head {
+  h2 {
+    margin: 0 0 0.3rem;
+    font-size: 1.75rem;
+    font-stretch: 120%;
+    span { font-weight: 500; font-stretch: 100%; color: $slate; font-size: 1.1rem; margin-left: 0.35rem; letter-spacing: 0; }
+  }
+  p { color: #2E3754; margin: 0 0 1rem; }
+}
+
+.prog-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid $ink;
+}
+
+.prog-row {
+  display: grid;
+  grid-template-columns: 5.25rem minmax(0, 1fr);
+  column-gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid $line;
+  max-width: none !important;
+}
+
+.prog-row[hidden] { display: none; }
+
+.prog-time {
+  font-weight: 800;
+  font-size: 1.15rem;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+  small { font-size: 0.7rem; font-weight: 600; color: $slate; }
+}
+
+.prog-body {
+  h3 {
+    font-size: 1.2rem;
+    font-stretch: 106%;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 0.3rem;
+    a { color: $ink; font-weight: inherit; text-decoration: none; }
+    a:hover { color: $blue; text-decoration: underline; }
+  }
+  p { margin: 0; }
+}
+
+.prog-who {
+  font-weight: 700;
+  font-size: 0.95rem;
+  span { font-weight: 400; color: $slate; }
+}
+
+.prog-desc { font-size: 0.95rem; color: #2E3754; margin-top: 0.35rem !important; }
+
+.prog-topics { font-size: 0.8rem; color: $slate; margin-top: 0.4rem !important; }
+
+.prog-break {
+  padding: 0.6rem 0;
+  align-items: baseline;
+  color: $slate;
+  .prog-time { font-size: 1rem; font-weight: 600; color: $slate; }
+}
+
+.prog-filtered .prog-break { display: none; }
+
+.prog-row.is-now {
+  background: #FFF4D6;
+  box-shadow: -0.75rem 0 0 #FFF4D6, 0.75rem 0 0 #FFF4D6;
+}
+
+.prog-badge {
+  display: block;
+  width: fit-content;
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0.15rem 0.45rem;
+  border-radius: 3px;
+  border: 1.5px solid $tape;
   color: $ink;
 }
 
-.datelist .done .d,
-.datelist .done .what { color: $tan; }
+.is-now .prog-badge { background: $tape; }
 
-.datelist .now .d { color: $blue; font-weight: 500; }
-
-.status-chip {
-  font-family: $font-family-monospace;
-  font-size: 0.68rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.1rem 0.5rem;
-  border: 1px solid $tan-light;
-  color: $tan;
-  margin-left: auto;
-  white-space: nowrap;
+@media (max-width: 600px) {
+  .prog-days ul { grid-template-columns: repeat(2, 1fr); }
+  .prog-row { grid-template-columns: 3.9rem minmax(0, 1fr); column-gap: 0.6rem; }
+  .prog-time { font-size: 1rem; }
+  .prog-time small { display: block; }
+  .prog-break .prog-time small { display: inline; }
 }
 
-.datelist .now .status-chip {
-  border-color: $blue;
-  color: $blue;
+// ---------- Session pages ----------
+
+.session-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 0 0 2.25rem;
+
+  p {
+    margin: 0;
+    border-top: 3px solid $ink;
+    padding-top: 0.7rem;
+    line-height: 1.35;
+  }
+
+  strong, span { display: block; }
+  span { color: $slate; font-size: 0.95rem; }
+  .session-topics { color: $slate; font-size: 0.95rem; }
+}
+
+.session-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+
+  a { text-decoration: none; }
+
+  .session-prev,
+  .session-next {
+    display: block;
+    border-top: 3px solid $ink;
+    padding-top: 0.7rem;
+    color: $ink;
+    line-height: 1.3;
+    span { display: block; font-size: 0.85rem; color: $slate; margin-bottom: 0.2rem; }
+    strong { font-stretch: 106%; }
+    &:hover strong { color: $blue; text-decoration: underline; }
+  }
+
+  .session-next { text-align: right; }
+
+  .session-all {
+    grid-column: 1 / -1;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
 }
 
 @media (max-width: 600px) {
-  .datelist li { flex-wrap: wrap; row-gap: 0.2rem; }
-  .datelist .d { flex: 0 0 auto; }
-  .datelist .what { order: 3; flex: 1 1 100%; }
+  .session-meta, .session-nav { grid-template-columns: 1fr; gap: 1rem; }
+  .session-nav .session-next { text-align: left; }
 }
 
-// ---------- Schedule ----------
+// ---------- Attend ----------
 
-.day-block {
-  border-left: 3px solid $ink;
-  padding: 0.25rem 0 0.25rem 1.25rem;
-  margin: 1.75rem 0;
-}
-
-.day-block .day-date {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: $tan;
-}
-
-.day-block h3 {
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  margin: 0.15rem 0 0.5rem;
-}
-
-// ---------- Photo gallery ----------
-
-.photo-grid {
+.fact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.6rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 0 0 3rem;
+
+  > div { border-top: 3px solid $ink; padding-top: 0.7rem; }
+  p { margin: 0; line-height: 1.3; }
+  .fact-k { display: block; font-size: 0.85rem; color: $slate; margin-bottom: 0.15rem; }
+  .fact-v { display: block; font-weight: 700; }
+}
+
+@media (max-width: 700px) {
+  .fact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+// The three registration steps are a real sequence, so they are numbered
+.steps ol {
+  list-style: none;
+  counter-reset: step;
+  padding: 0;
   margin: 1.5rem 0;
+  border-top: 2px solid $ink;
 }
 
-.photo-grid p { margin: 0; }
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding: 1.1rem 0 1.1rem 3.5rem;
+  border-bottom: 1px solid $line;
+  max-width: none !important;
 
-.photo-grid img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  filter: saturate(0.95);
-  transition: filter 0.15s ease;
+  &::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0.85rem;
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: 1.9rem;
+    line-height: 1;
+    color: $blue;
+  }
+
+  p { margin: 0 0 0.75rem; }
+  p:last-child { margin-bottom: 0; }
 }
 
-.photo-grid img:hover { filter: saturate(1.1); }
+details {
+  border-top: 1px solid $line;
+  max-width: 44rem;
 
-// ---------- Map page ----------
+  &:last-of-type { border-bottom: 1px solid $line; margin-bottom: 1.5rem; }
+
+  > summary {
+    color: $ink;
+    font-weight: 700;
+    padding: 0.85rem 2rem 0.85rem 0;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    &::-webkit-details-marker { display: none; }
+    &::after {
+      content: "+";
+      position: absolute;
+      right: 0.25rem;
+      top: 0.6rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: $blue;
+    }
+    &:hover { color: $blue; }
+  }
+
+  &[open] summary::after { content: "\2212"; }
+  > p { margin: 0 0 1rem; }
+}
+
+// ---------- Who's coming ----------
 
 #attendee-map {
   height: 560px;
   width: 100%;
-  border: 1px solid $ink;
-  background: $panel;
+  border: 1px solid $line;
+  border-radius: 6px;
+  background: #E9ECF3;
+  z-index: 0;
 }
 
 .map-summary {
-  font-family: $font-family-monospace;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  font-weight: 700;
   margin-bottom: 0.75rem;
 }
 
 .map-summary-note {
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 0.8rem;
-  color: $tan;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: $slate;
   margin-top: 0.2rem;
 }
 
-// ---------- Schedule grid ----------
-
-table.sched {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0.75rem 0 0.25rem;
-  font-size: 0.95rem;
-}
-
-table.sched th {
-  font-family: $font-family-monospace;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: $tan;
-  font-weight: 400;
-  text-align: left;
-  border-bottom: 1px solid $tan-light;
-  padding: 0 0.6rem 0.35rem 0;
-}
-
-table.sched td {
-  border-bottom: 1px solid $panel;
-  padding: 0.55rem 0.6rem 0.55rem 0;
-  vertical-align: top;
-}
-
-table.sched td:first-child {
-  font-family: $font-family-monospace;
-  font-size: 0.85rem;
-  color: $ink;
-  white-space: nowrap;
-  width: 4.5rem;
-}
-
-table.sched td.who {
-  white-space: nowrap;
-  color: $tan;
-  font-size: 0.9rem;
-}
-
-table.sched tr.break td {
-  font-family: $font-family-monospace;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: $tan;
-}
-
-table.sched tr.keynote td:nth-child(2) { font-weight: 600; }
-
-@media (max-width: 600px) {
-  table.sched td.who { white-space: normal; }
-  table.sched { font-size: 0.9rem; }
-}
-
 .map-legend {
-  font-family: $font-family-monospace;
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-top: 0.6rem;
+  font-size: 0.88rem;
+  margin-top: 0.7rem;
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
@@ -472,7 +866,98 @@ table.sched tr.keynote td:nth-child(2) { font-weight: 600; }
   vertical-align: baseline;
 }
 
-// ---------- Attendee quotes ----------
+.roster {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  border-top: 2px solid $ink;
+
+  li { border-bottom: 1px solid $line; max-width: none !important; }
+
+  a {
+    display: block;
+    padding: 0.8rem 0;
+    color: $ink;
+    text-decoration: none;
+    line-height: 1.35;
+    &:hover strong { color: $blue; text-decoration: underline; }
+  }
+
+  strong { display: block; }
+  .roster-org { display: block; font-size: 0.92rem; }
+  .roster-session { display: block; font-size: 0.85rem; color: $slate; margin-top: 0.2rem; }
+}
+
+@media (max-width: 600px) {
+  .roster { grid-template-columns: 1fr; }
+}
+
+// ---------- Resources, photos, past years ----------
+
+.link-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.25rem 0;
+
+  a {
+    display: block;
+    background: $white;
+    border: 1px solid $line;
+    border-radius: 6px;
+    padding: 1.1rem 1.25rem;
+    color: $ink;
+    text-decoration: none;
+    &:hover { border-color: $blue; }
+    &:hover strong { color: $blue; }
+  }
+
+  strong { display: block; font-stretch: 112%; font-size: 1.15rem; margin-bottom: 0.25rem; }
+  span { display: block; font-size: 0.95rem; color: #2E3754; }
+}
+
+@media (max-width: 600px) {
+  .link-panels { grid-template-columns: 1fr; }
+}
+
+.quarto-listing-default .quarto-post {
+  border-bottom: 1px solid $line;
+  .listing-title { font-stretch: 106%; font-weight: 700; }
+  .listing-title a, a.title { color: $ink; }
+  .metadata { color: $slate; }
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
+  margin: 1.5rem 0;
+}
+
+.photo-grid p { margin: 0; max-width: none !important; }
+
+.photo-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 3px;
+}
+
+.note-panel {
+  background: $white;
+  border-left: 4px solid $tape;
+  border-radius: 0 6px 6px 0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.5rem 0;
+  max-width: 44rem;
+  p:last-child { margin-bottom: 0; }
+}
+
+// ---------- Attendee quotes (home, once data/quotes.csv has rows) ----------
 
 .quote-row {
   display: grid;
@@ -482,130 +967,59 @@ table.sched tr.keynote td:nth-child(2) { font-weight: 600; }
 }
 
 .quote-card {
-  border-left: 3px solid $blue;
-  background: #fff;
-  padding: 1.1rem 1.3rem;
-  font-size: 1.05rem;
-  font-style: italic;
+  border-top: 3px solid $blue;
+  padding-top: 0.9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  p { margin-bottom: 0.6rem; }
 }
-
-.quote-card p { margin-bottom: 0.6rem; }
 
 .quote-attr {
   display: block;
-  font-family: $font-family-monospace;
-  font-style: normal;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: $tan;
+  font-size: 0.88rem;
+  font-weight: 400;
+  color: $slate;
 }
 
-// ---------- Quick-link cards ----------
+// ---------- Footer ----------
 
-.card-row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin: 1.5rem 0;
+.nav-footer {
+  padding: 2.5rem 1.25rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  align-items: flex-start;
+  border-top: none;
+
+  a { color: $white; }
+  strong { color: $white; font-stretch: 112%; }
+  p { margin: 0; }
+
+  .nav-footer-left,
+  .nav-footer-right,
+  .nav-footer-center { text-align: left; }
+
+  .nav-footer-center p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.1rem;
+    justify-content: center;
+  }
 }
 
-.card-row a.qcard {
-  display: block;
-  border: 1px solid $tan-light;
-  background: #fff;
-  padding: 1.1rem 1.2rem;
-  text-decoration: none;
-  color: $ink;
-  transition: border-color 0.15s ease;
-}
-
-.card-row a.qcard:hover { border-color: $blue; }
-
-.card-row a.qcard h3 {
-  font-family: "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  margin: 0 0 0.3rem;
-  color: $blue;
-}
-
-.card-row a.qcard p { margin: 0; font-size: 0.95rem; }
-
-@media (max-width: 720px) {
-  .card-row { grid-template-columns: 1fr; }
-}
-
-// ---------- Misc ----------
-
-.note-panel {
-  background: $panel;
-  border-left: 3px solid $tan;
-  padding: 0.9rem 1.2rem;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
+@media (max-width: 991.98px) {
+  .nav-footer { flex-direction: column; gap: 1.25rem; }
+  .nav-footer .nav-footer-center p { justify-content: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; }
+  * { transition: none !important; scroll-behavior: auto !important; }
 }
 
-// ---------- Home: tagline, featured presenter, themes, agencies ----------
-
-.hero .tagline {
-  display: block;
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 500;
-  font-size: clamp(1.1rem, 2.4vw, 1.5rem);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: $tan-light;
-  margin-top: 0.35rem;
-}
-
-.featured {
-  border-left: 3px solid $blue;
-  background: $panel;
-  padding: 1.1rem 1.35rem;
-  margin: 1.5rem 0;
-
-  h3 {
-    font-family: "Barlow Condensed", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    margin: 0.15rem 0 0.5rem;
+// Keep the full workshop name visible in the bar on phones
+@media (max-width: 500px) {
+  .navbar-brand,
+  .navbar-title {
+    font-size: 0.82rem;
+    font-stretch: 100%;
   }
-
-  p:last-child { margin-bottom: 0; }
-}
-
-.theme-list ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0.75rem 0 0.5rem;
-  columns: 2;
-  column-gap: 2.5rem;
-}
-
-.theme-list li {
-  break-inside: avoid;
-  padding-left: 1rem;
-  margin-bottom: 0.55rem;
-  border-left: 2px solid $tan-light;
-  font-size: 0.97rem;
-}
-
-@media (max-width: 700px) {
-  .theme-list ul { columns: 1; }
-}
-
-.agency-strip {
-  font-family: $font-family-monospace;
-  font-size: 0.78rem;
-  line-height: 1.9;
-  color: $tan;
-  border-top: 1px solid $tan-light;
-  border-bottom: 1px solid $tan-light;
-  padding: 0.75rem 0;
-  margin: 0.5rem 0 1.5rem;
 }

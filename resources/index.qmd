@@ -1,15 +1,27 @@
 ---
 title: "Resources"
-description: "White papers, slides, readings, and other materials from the Training Design Workshop."
-toc: false
+description: "The workshop exists so people go home with something useful. This is where the useful things live."
 listing:
+  id: materials-list
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
-  fields: [date, title, description, categories, author]
+  categories: false
+  fields: [date, title, description, author]
 ---
 
-[Materials from the workshop and its presenters]{.eyebrow}
+## Materials
 
-The workshop exists so people go home with something useful. This page is where the useful things live: white papers and publications that come out of the workshop, presenters' slides and handouts, and readings that presenters want the room to have.
+White papers and publications that come out of the workshop, presenters' slides and handouts, and readings that presenters want the room to have.
+
+::: {#materials-list}
+:::
+
+## Photos and past years
+
+```{=html}
+<div class="link-panels">
+<a href="../photos.html"><strong>Photos</strong><span>From the mat, the scenarios, and the debriefs. The first set goes up after the 2026 workshop.</span></a>
+<a href="../past/index.html"><strong>Past workshops</strong><span>A recap, photos, and materials for each year, added as each workshop wraps.</span></a>
+</div>
+```

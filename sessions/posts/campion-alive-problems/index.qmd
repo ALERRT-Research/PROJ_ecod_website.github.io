@@ -1,12 +1,13 @@
 ---
 title: "From Dead Drills to Alive Problems: Designing and Scaling Scenarios"
 description: "Turning a familiar TASER drill into an alive problem, and scaling it across experience levels."
-author: "Jesse Campion, Lieutenant, Director of Training, Denver Police Department"
-date: "2026-12-05T15:00:00"
-categories: [Scenario design]
+presenter: "Jesse Campion"
+role: "Lieutenant, Director of Training"
+affiliation: "Denver Police Department"
+day: Saturday
+time: "3:00 PM"
+topics: [Scenario design]
 ---
-
-[Saturday 05 Dec / 3:00 PM / Lieutenant, Director of Training, Denver Police Department]{.eyebrow}
 
 ## The session
 

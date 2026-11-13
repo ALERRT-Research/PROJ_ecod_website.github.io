@@ -1,12 +1,12 @@
 ---
 title: "Prone Restraint Through a Constraints-Led Approach"
 description: "Prone control taught as constraint manipulation, working backward from the controlled end state."
-author: "Bryce Franck, Winnebago County Sheriff's Office, Rockford, Illinois"
-date: "2026-12-04T11:00:00"
-categories: [Control tactics]
+presenter: "Bryce Franck"
+affiliation: "Winnebago County Sheriff's Office, Rockford, Illinois"
+day: Friday
+time: "11:00 AM"
+topics: [Control tactics]
 ---
-
-[Friday 04 Dec / 11:00 AM / Winnebago County Sheriff's Office, Rockford, Illinois]{.eyebrow}
 
 ## The session
 

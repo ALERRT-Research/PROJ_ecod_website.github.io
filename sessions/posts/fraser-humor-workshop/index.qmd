@@ -1,12 +1,12 @@
 ---
 title: "You've Got To Be Joking! A Humor Workshop for Trainers"
 description: "Why humor buys attention, how jokes are built, and writing and delivering your own material."
-author: "Dan Fraser, Royal Canadian Mounted Police / Fraser Training Solutions"
-date: "2026-12-05T11:00:00"
-categories: [Instructor development]
+presenter: "Dan Fraser"
+affiliation: "Royal Canadian Mounted Police / Fraser Training Solutions"
+day: Saturday
+time: "11:00 AM"
+topics: [Instructor development]
 ---
-
-[Saturday 05 Dec / 11:00 AM / Royal Canadian Mounted Police / Fraser Training Solutions]{.eyebrow}
 
 ## The session
 

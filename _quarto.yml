@@ -14,38 +14,48 @@ website:
     title: "Training Design Workshop"
     pinned: true
     left:
+      - text: "Program"
+        href: program.qmd
       - text: "Attend"
         href: attend.qmd
-      - text: "Present"
-        href: call-for-presentations.qmd
-      - text: "Schedule"
-        href: schedule.qmd
-      - text: "Sessions"
-        href: sessions/index.qmd
-      - text: "Who's Coming"
+      - text: "Who's coming"
         href: map.qmd
-      - text: "FAQ"
-        href: faq.qmd
       - text: "Resources"
         href: resources/index.qmd
-      - text: "Archive"
-        menu:
-          - text: "Photos"
-            href: photos.qmd
-          - text: "Past Workshops"
-            href: past/index.qmd
       - text: "About"
         href: about.qmd
+    right:
+      - text: "Register"
+        href: attend.qmd#register
   page-footer:
-    left: "Hosted by the [ALERRT Center](https://alerrt.org) at Texas State University"
-    right: "Questions: [sd33@txstate.edu](mailto:sd33@txstate.edu)"
+    left: |
+      **The Advanced Training Design Workshop**\
+      Hosted by the [ALERRT Center](https://alerrt.org) at Texas State University
+    center: |
+      [Program](/program.qmd) [Attend](/attend.qmd) [Who's coming](/map.qmd) [Resources](/resources/index.qmd) [Photos](/photos.qmd) [Past workshops](/past/index.qmd) [Presenting](/call-for-presentations.qmd) [About](/about.qmd)
+    right: |
+      Questions go to Sarah E. Drennan\
+      [sd33@txstate.edu](mailto:sd33@txstate.edu)
+
+# Builds the program grid, the running order, and the session page headers
+# from data/program.yml and the folders in sessions/posts/.
+filters:
+  - _filters/program.lua
 
 format:
   html:
     theme:
       - cosmo
       - theme.scss
-    toc: true
+    toc: false
+    title-block-banner: true
     link-external-newwindow: true
+    anchor-sections: false
+    include-in-header: _includes/head.html
+    include-after-body: _includes/site-js.html
+    grid:
+      body-width: 760px
+      margin-width: 200px
+      sidebar-width: 200px
 
 editor: source

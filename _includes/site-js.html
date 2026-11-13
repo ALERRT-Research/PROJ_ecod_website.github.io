@@ -1,0 +1,117 @@
+<script>
+// Small behaviors for the program: marks what is on now and next during the
+// workshop, describes a session when you point at its tile on the home page,
+// and filters the Program page by topic. The pages read fine without it.
+(function () {
+  var now = new Date();
+  // Add ?now=2026-12-04T10:20:00-06:00 to any address to preview a moment
+  var forced = new URLSearchParams(window.location.search).get("now");
+  if (forced) {
+    var d = new Date(forced);
+    if (!isNaN(d)) now = d;
+  }
+
+  var slots = Array.prototype.slice.call(document.querySelectorAll("[data-start]"));
+  var current = null, next = null;
+  slots.forEach(function (el) {
+    var start = new Date(el.getAttribute("data-start"));
+    var end = new Date(el.getAttribute("data-end"));
+    if (now >= start && now < end) { el.classList.add("is-now"); current = current || el; }
+    else if (now < start && (!next || start < new Date(next.getAttribute("data-start")))) next = el;
+  });
+  var started = slots.some(function (el) { return now >= new Date(el.getAttribute("data-start")); });
+  if (next && started) {
+    var nextStart = next.getAttribute("data-start");
+    slots.forEach(function (el) {
+      if (el.getAttribute("data-start") === nextStart) el.classList.add("is-next");
+    });
+  }
+  // Label the rows on the Program page
+  slots.forEach(function (el) {
+    if (!el.classList.contains("prog-row")) return;
+    var word = el.classList.contains("is-now") ? "On now" : el.classList.contains("is-next") ? "Next" : "";
+    if (!word) return;
+    var badge = document.createElement("span");
+    badge.className = "prog-badge";
+    badge.textContent = word;
+    el.querySelector(".prog-time").appendChild(badge);
+  });
+
+  // ----- Home page: the line under the mat -----
+  var line = document.getElementById("mat-line");
+  if (line) {
+    var textEl = line.querySelector(".mat-line-text");
+    var first = new Date(line.getAttribute("data-first") + "T00:00:00-06:00");
+    var last = new Date(line.getAttribute("data-last") + "T23:59:59-06:00");
+    var status = textEl.textContent;
+    var tiles = Array.prototype.slice.call(document.querySelectorAll(".tile"));
+    var nowTile = tiles.filter(function (t) { return t.classList.contains("is-now"); })[0];
+    var nextTile = tiles.filter(function (t) { return t.classList.contains("is-next"); })[0];
+
+    if (now < first) {
+      var days = Math.ceil((first - now) / 86400000);
+      status = (days === 1 ? "One day" : days + " days") + " until dinner on " +
+        line.getAttribute("data-first-label") + ". Pick a session to read about it.";
+    } else if (nowTile) {
+      status = "On now: " + nowTile.getAttribute("data-title");
+      line.classList.add("is-live");
+    } else if (nextTile) {
+      status = "Next, " + nextTile.getAttribute("data-when") + ": " + nextTile.getAttribute("data-title");
+      line.classList.add("is-live");
+    } else if (!started) {
+      status = "Arrival day. Check in at TBarM, then dinner. Sessions start in the morning.";
+    } else if (now <= last) {
+      status = "That is every session. Breakfast and wrap-up are still to come.";
+    } else {
+      status = "The " + line.getAttribute("data-year") + " workshop has wrapped. Thank you for being in the room.";
+    }
+    textEl.textContent = status;
+
+    function show(tile) {
+      textEl.innerHTML = "";
+      var when = document.createElement("strong");
+      when.textContent = tile.getAttribute("data-when");
+      textEl.appendChild(when);
+      textEl.appendChild(document.createTextNode(" " + tile.getAttribute("data-title")));
+      line.classList.add("is-detail");
+    }
+    function reset() {
+      textEl.textContent = status;
+      line.classList.remove("is-detail");
+    }
+    tiles.forEach(function (tile) {
+      tile.addEventListener("mouseenter", function () { show(tile); });
+      tile.addEventListener("focus", function () { show(tile); });
+      tile.addEventListener("mouseleave", reset);
+      tile.addEventListener("blur", reset);
+    });
+  }
+
+  // ----- Program page: topic filter -----
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".prog-filter .chip"));
+  if (chips.length) {
+    var rows = Array.prototype.slice.call(document.querySelectorAll(".prog-session"));
+    var count = document.getElementById("prog-count");
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var topic = chip.getAttribute("data-topic");
+        chips.forEach(function (c) { c.setAttribute("aria-pressed", c === chip ? "true" : "false"); });
+        var shown = 0;
+        rows.forEach(function (row) {
+          var match = !topic || (" " + row.getAttribute("data-topics") + " ").indexOf(" " + topic + " ") > -1;
+          row.hidden = !match;
+          if (match) shown++;
+        });
+        document.body.classList.toggle("prog-filtered", !!topic);
+        if (topic) {
+          count.textContent = (shown === 1 ? "1 session" : shown + " sessions") + " on " +
+            chip.getAttribute("data-label") + ".";
+          count.hidden = false;
+        } else {
+          count.hidden = true;
+        }
+      });
+    });
+  }
+})();
+</script>

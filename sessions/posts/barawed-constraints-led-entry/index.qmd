@@ -1,12 +1,12 @@
 ---
 title: "Constraints-Led Instruction for Room Entry and Hallway Movement"
 description: "A constraints-led build of active attacker tactics, run in hallway and room space."
-author: "Chris Barawed, Boise Police Department"
-date: "2026-12-04T13:00:00"
-categories: [Active attacker]
+presenter: "Chris Barawed"
+affiliation: "Boise Police Department"
+day: Friday
+time: "1:00 PM"
+topics: [Active attacker]
 ---
-
-[Friday 04 Dec / 1:00 PM / Boise Police Department]{.eyebrow}
 
 ## The session
 

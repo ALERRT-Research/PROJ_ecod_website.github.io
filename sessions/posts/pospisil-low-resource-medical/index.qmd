@@ -1,12 +1,12 @@
 ---
 title: "Training Medical Care in Low-Resource Environments"
 description: "What to teach, what to cut, and how to train it when the equipment and the evacuation are not there."
-author: "Michal Pospíšil, Masaryk University Faculty of Medicine, Brno, Czech Republic"
-date: "2026-12-05T14:00:00"
-categories: [Tactical medicine]
+presenter: "Michal Pospíšil"
+affiliation: "Masaryk University Faculty of Medicine, Brno, Czech Republic"
+day: Saturday
+time: "2:00 PM"
+topics: [Tactical medicine]
 ---
-
-[Saturday 05 Dec / 2:00 PM / Masaryk University Faculty of Medicine, Brno, Czech Republic]{.eyebrow}
 
 ## The session
 

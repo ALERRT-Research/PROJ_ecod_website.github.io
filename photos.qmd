@@ -1,11 +1,9 @@
 ---
 title: "Photos"
-description: "Scenes from the Training Design Workshop."
+description: "From the mat, the scenarios, and the debriefs."
 toc: false
 lightbox: true
 ---
-
-[From the mat, the scenarios, and the debriefs]{.eyebrow}
 
 ```{r}
 #| echo: false
@@ -15,7 +13,10 @@ imgs <- list.files("images/gallery",
                    full.names = TRUE)
 
 if (length(imgs) == 0) {
-  cat("Photos from the workshop will be posted here when they are available.")
+  cat("::: {.note-panel}
+The first photos will be posted here after the 2026 workshop in December.
+:::
+")
 } else {
   cat("Click any photo to view it full size.\n\n")
   cat("::: {.photo-grid}\n")

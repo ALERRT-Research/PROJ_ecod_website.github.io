@@ -1,12 +1,12 @@
 ---
 title: "The Problem-First Approach to Control Tactics Training"
 description: "Control tactics organised around problem spaces rather than technique progressions, using the 3Ms model."
-author: "Bob Duffey, Walworth County Sheriff's Office / C4C Police Jiu-Jitsu"
-date: "2026-12-04T10:00:00"
-categories: [Control tactics]
+presenter: "Bob Duffey"
+affiliation: "Walworth County Sheriff's Office / C4C Police Jiu-Jitsu"
+day: Friday
+time: "10:00 AM"
+topics: [Control tactics]
 ---
-
-[Friday 04 Dec / 10:00 AM / Walworth County Sheriff's Office / C4C Police Jiu-Jitsu]{.eyebrow}
 
 ## The session
 

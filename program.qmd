@@ -1,0 +1,12 @@
+---
+title: "Program"
+description: "Four days at TBarM Resort, December 3 to 6, 2026. Every session is in the same room, so nobody has to choose."
+aliases:
+  - schedule.html
+  - sessions/index.html
+---
+
+Sessions run 50 minutes: about 25 of hands-on demonstration, 15 of what and why, and 10 of the room pushing back, then a 10-minute turnover. Pick any session for the full description and the presenter's bio.
+
+::: {.program-full}
+:::

@@ -1,12 +1,12 @@
 ---
 title: "Empowering Feedback: Enhancing Student Learning Through Socratic Feedback"
 description: "Feedback types, what each one does to motivation and attention, and hands-on practice running a Socratic debrief."
-author: "Chris Butler, Raptor Public Safety Coaching"
-date: "2026-12-04T09:00:00"
-categories: [Instructor development]
+presenter: "Chris Butler"
+affiliation: "Raptor Public Safety Coaching"
+day: Friday
+time: "9:00 AM"
+topics: [Instructor development]
 ---
-
-[Friday 04 Dec / 9:00 AM / Raptor Public Safety Coaching]{.eyebrow}
 
 ## The session
 
